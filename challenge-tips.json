@@ -4,7 +4,7 @@
     {
       "id": "단백질_보양_떡국",
       "title": "단백질 보양 떡국",
-      "type": "recipe",
+      "tag": "레시피",
       "displayUntil": null,
       "slides": [
         {
@@ -40,7 +40,7 @@
     {
       "id": "260917",
       "title": "9월 17일 시황 안내",
-      "type": "stock_report",
+      "tag": "시황",
       "displayUntil": "2026-12-31",
       "slides": [
         {
