@@ -1,54 +1,4 @@
-[
-  {
-    "id": "tofu",
-    "name": "두부",
-    "aliases": [
-      "모두부",
-      "물두부"
-    ],
-    "group": "가공",
-    "room": null,
-    "fridge": {
-      "span": "2–3일",
-      "note": "뜯은 뒤, 물에 담가"
-    },
-    "freezer": {
-      "span": "1개월",
-      "note": "식감이 단단해져요"
-    },
-    "best": "fridge",
-    "tips": [
-      "남은 두부는 밀폐 용기에 물을 붓고 담가요. 물은 매일 갈아주세요.",
-      "얼릴 때는 물기를 빼고 한 번 먹을 만큼 잘라두면 편해요."
-    ],
-    "discard": [
-      "시큼한 냄새가 나거나 겉이 미끈거릴 때"
-    ],
-    "draft": true
-  },
-  {
-    "id": "leek",
-    "name": "대파",
-    "aliases": [
-      "파"
-    ],
-    "group": "채소",
-    "fridge": {
-      "span": "1–2주",
-      "note": "뿌리 쪽을 키친타월로"
-    },
-    "freezer": {
-      "span": "1–2개월",
-      "note": "썰어서"
-    },
-    "best": "freezer",
-    "tips": [
-      "씻어서 물기를 완전히 말린 뒤 썰어 얼리면 바로 넣어 쓸 수 있어요."
-    ],
-    "discard": [
-      "물러지고 끈적한 진액이 나올 때"
-    ],
-    "draft": true
+    "credit": "식품안전나라·USDA FoodKeeper"
   },
   {
     "id": "egg",
@@ -70,7 +20,7 @@
     "discard": [
       "깼을 때 흰자가 묽게 퍼지고 냄새가 날 때"
     ],
-    "draft": true
+    "credit": "식품안전나라·USDA FoodKeeper"
   },
   {
     "id": "carrot",
@@ -91,19 +41,19 @@
     "discard": [
       "겉이 물러지고 곰팡이가 보일 때"
     ],
-    "draft": true
+    "credit": "식품안전나라·USDA FoodKeeper"
   },
   {
     "id": "onion",
     "name": "양파",
     "group": "채소",
     "room": {
-      "span": "1–2개월",
+      "span": "1개월",
       "note": "서늘하고 바람 잘 통하는 곳"
     },
     "fridge": {
-      "span": "1주",
-      "note": "껍질 벗긴 것"
+      "span": "7–10일",
+      "note": "껍질 벗기거나 자른 것"
     },
     "best": "room",
     "tips": [
@@ -112,7 +62,7 @@
     "discard": [
       "눌렀을 때 물렁하고 즙이 나올 때"
     ],
-    "draft": true
+    "credit": "식품안전나라·USDA FoodKeeper"
   },
   {
     "id": "rice",
@@ -120,7 +70,8 @@
     "group": "가공",
     "room": null,
     "fridge": {
-      "span": "1–2일"
+      "span": "1–2일",
+      "note": "식혀서 바로"
     },
     "freezer": {
       "span": "1개월",
@@ -133,7 +84,7 @@
     "discard": [
       "쉰내가 나거나 실처럼 늘어질 때"
     ],
-    "draft": true
+    "credit": "식품안전나라·USDA FoodKeeper"
   },
   {
     "id": "bread",
@@ -154,6 +105,6 @@
     "discard": [
       "곰팡이가 한 점이라도 보일 때 — 보이지 않는 곳까지 퍼져 있어요"
     ],
-    "draft": true
+    "credit": "식품안전나라·USDA FoodKeeper"
   }
 ]
