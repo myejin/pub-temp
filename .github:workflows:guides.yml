@@ -1,0 +1,52 @@
+# myejin/pub-temp 의 .github/workflows/guides.yml 로 넣는다.
+# 매일 새벽 5시(서울)에 develop·main 두 갈래의 guides.json 을 새로 만든다. 바뀐 게 있을 때만 커밋한다.
+name: guides.json
+
+on:
+  schedule:
+    - cron: "0 20 * * *" # 05:00 KST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: guides
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        branch: [develop, main]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ matrix.branch }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: guides.json 만들기
+        env:
+          SEOUL_API_KEY: ${{ secrets.SEOUL_API_KEY }}
+          TARGET_BRANCH: ${{ matrix.branch }}
+        run: node scripts/guides/collect.mjs
+      - name: 바뀌었으면 커밋
+        run: |
+          if git diff --quiet -- guides.json; then
+            echo "바뀐 게 없어요"
+            exit 0
+          fi
+          # generatedAt 만 바뀐 날은 커밋하지 않는다 — 앱이 같은 내용을 다시 받을 까닭이 없다.
+          if git diff -U0 -- guides.json | grep '^[+-] ' | grep -v '"generatedAt"' | grep -q .; then
+            git config user.name "guides-bot"
+            git config user.email "guides-bot@users.noreply.github.com"
+            git add guides.json
+            git commit -m "guides.json 갱신 $(TZ=Asia/Seoul date +%F)"
+            git push
+          else
+            echo "생성 시각만 바뀌었어요"
+          fi

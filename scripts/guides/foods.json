@@ -1,0 +1,159 @@
+[
+  {
+    "id": "tofu",
+    "name": "두부",
+    "aliases": [
+      "모두부",
+      "물두부"
+    ],
+    "group": "가공",
+    "room": null,
+    "fridge": {
+      "span": "2–3일",
+      "note": "뜯은 뒤, 물에 담가"
+    },
+    "freezer": {
+      "span": "1개월",
+      "note": "식감이 단단해져요"
+    },
+    "best": "fridge",
+    "tips": [
+      "남은 두부는 밀폐 용기에 물을 붓고 담가요. 물은 매일 갈아주세요.",
+      "얼릴 때는 물기를 빼고 한 번 먹을 만큼 잘라두면 편해요."
+    ],
+    "discard": [
+      "시큼한 냄새가 나거나 겉이 미끈거릴 때"
+    ],
+    "draft": true
+  },
+  {
+    "id": "leek",
+    "name": "대파",
+    "aliases": [
+      "파"
+    ],
+    "group": "채소",
+    "fridge": {
+      "span": "1–2주",
+      "note": "뿌리 쪽을 키친타월로"
+    },
+    "freezer": {
+      "span": "1–2개월",
+      "note": "썰어서"
+    },
+    "best": "freezer",
+    "tips": [
+      "씻어서 물기를 완전히 말린 뒤 썰어 얼리면 바로 넣어 쓸 수 있어요."
+    ],
+    "discard": [
+      "물러지고 끈적한 진액이 나올 때"
+    ],
+    "draft": true
+  },
+  {
+    "id": "egg",
+    "name": "계란",
+    "aliases": [
+      "달걀"
+    ],
+    "group": "알·유제품",
+    "room": null,
+    "fridge": {
+      "span": "3–5주",
+      "note": "뾰족한 쪽을 아래로"
+    },
+    "freezer": null,
+    "best": "fridge",
+    "tips": [
+      "냉장고 문 칸보다 안쪽이 온도가 고르게 유지돼요."
+    ],
+    "discard": [
+      "깼을 때 흰자가 묽게 퍼지고 냄새가 날 때"
+    ],
+    "draft": true
+  },
+  {
+    "id": "carrot",
+    "name": "당근",
+    "group": "채소",
+    "fridge": {
+      "span": "2–3주",
+      "note": "물기 닦고 키친타월로"
+    },
+    "freezer": {
+      "span": "1개월",
+      "note": "데쳐서"
+    },
+    "best": "fridge",
+    "tips": [
+      "흙당근은 씻지 않은 채로 두면 더 오래가요."
+    ],
+    "discard": [
+      "겉이 물러지고 곰팡이가 보일 때"
+    ],
+    "draft": true
+  },
+  {
+    "id": "onion",
+    "name": "양파",
+    "group": "채소",
+    "room": {
+      "span": "1–2개월",
+      "note": "서늘하고 바람 잘 통하는 곳"
+    },
+    "fridge": {
+      "span": "1주",
+      "note": "껍질 벗긴 것"
+    },
+    "best": "room",
+    "tips": [
+      "감자와 같이 두면 서로 빨리 상해요. 떨어뜨려 두세요."
+    ],
+    "discard": [
+      "눌렀을 때 물렁하고 즙이 나올 때"
+    ],
+    "draft": true
+  },
+  {
+    "id": "rice",
+    "name": "밥",
+    "group": "가공",
+    "room": null,
+    "fridge": {
+      "span": "1–2일"
+    },
+    "freezer": {
+      "span": "1개월",
+      "note": "뜨거울 때 한 공기씩"
+    },
+    "best": "freezer",
+    "tips": [
+      "뜨거울 때 담아 얼려야 김이 같이 갇혀 데웠을 때 촉촉해요."
+    ],
+    "discard": [
+      "쉰내가 나거나 실처럼 늘어질 때"
+    ],
+    "draft": true
+  },
+  {
+    "id": "bread",
+    "name": "식빵",
+    "group": "가공",
+    "room": {
+      "span": "2–3일"
+    },
+    "fridge": null,
+    "freezer": {
+      "span": "1개월",
+      "note": "한 장씩 나눠"
+    },
+    "best": "freezer",
+    "tips": [
+      "냉장고에 두면 오히려 빨리 굳어요. 바로 못 먹을 건 얼려 두세요."
+    ],
+    "discard": [
+      "곰팡이가 한 점이라도 보일 때 — 보이지 않는 곳까지 퍼져 있어요"
+    ],
+    "draft": true
+  }
+]
