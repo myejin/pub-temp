@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "generatedAt": "2026-10-05T15:30:12.289Z",
+  "generatedAt": "2026-10-06T13:03:54.154Z",
   "events": [
     {
       "id": "seoul-d71050f45bb5",
@@ -2171,6 +2171,20 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-4e07b196eecc",
+      "title": "[구립증산도서관] 2026년 10월 자녀교육 특성화 온라인 북큐레이션 [부모의 한 장이 아이의 한 걸음으로…",
+      "region": "서울",
+      "place": "구립증산도서관 홈페이지",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-31",
+      "fee": "무료",
+      "target": "누구나",
+      "source": {
+        "url": "https://www.eplib.or.kr/jslib/menu/10486/program/30113/curationDetail.do?currentPageNo=1&curationIdx=229910&manageCd=MB"
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-31db9df14a0e",
       "title": "[구산동도서관마을] 서로의 마음과 마음을 잇는 [책 한 권 사이에]",
       "region": "서울",
@@ -2195,6 +2209,34 @@
       "target": "마포구립도서관 정회원, 해봄이로 등록한 초등학생",
       "source": {
         "url": "https://mplib.mapo.go.kr/sglib/PGM3028/eventDetail.do?eventSn=13429"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-1f12179c8cfb",
+      "title": "[마포구립서강도서관] 10월/팟캐스트 서강도서관 피셜 72회 [우리 세희]",
+      "region": "서울",
+      "place": "온라인 팟빵",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-31",
+      "fee": "무료",
+      "target": "누구나",
+      "source": {
+        "url": "https://mplib.mapo.go.kr/sglib/MENU1199/PGM3028/eventDetail.do?currentPageNo=1&eventSn=13467"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-b357c558a6ab",
+      "title": "[마포구립서강도서관] 4분기/어린이갤러리 [단어수집가]",
+      "region": "서울",
+      "place": "마포구립서강도서관 4층 어린이자료실",
+      "startDate": "2026-10-01",
+      "endDate": "2026-12-31",
+      "fee": "무료",
+      "target": "어린이",
+      "source": {
+        "url": "https://mplib.mapo.go.kr/sglib/PGM3028/eventDetail.do?eventSn=13448"
       },
       "credit": "서울문화포털"
     },
@@ -2326,6 +2368,22 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-41a1d5db5c86",
+      "title": "[서울도서관] 10월 작가힙톡(Hip-Talk) - (지웅배) 화성에 도시를 세운다면",
+      "region": "서울",
+      "place": "서울도서관 생각마루",
+      "startDate": "2026-10-02",
+      "endDate": "2026-10-23",
+      "fee": "무료",
+      "performers": "김초엽, 지웅배, Scalmani/Passera",
+      "target": "누구나",
+      "text": "트렌드를 반영하는 독자와 작가가 한 자리에 모여 이야기를 듣고 소통하는 시간",
+      "source": {
+        "url": "https://lib.seoul.go.kr/lecture/applyDetail/7422"
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-57b1ae1eed52",
       "title": "[서울시청] 2026 서울라이트 한강 빛섬축제",
       "region": "서울",
@@ -2383,6 +2441,20 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-1dc77e1601cf",
+      "title": "[운현궁] 2026 기획전시 [소호랑의 한국호랑이, 사나움과 귀여움 사이_소호랑의 개인전]",
+      "region": "서울",
+      "place": "운현궁 기획전시실",
+      "startDate": "2026-10-05",
+      "endDate": "2026-10-11",
+      "fee": "무료",
+      "target": "누구나",
+      "source": {
+        "url": "https://www.unhyeongung.or.kr/sub/prpgram/exhibition_list.php?abmode=view&no=2001&group=basic&code=B35"
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-e03447bb3a8c",
       "title": "[3기] 서울아트책보고 북클럽 X 현대문학 : 첫 번째 시간 『나미야 잡화점의 기적』 읽기 / 박인곤 교수",
       "region": "서울",
@@ -2407,6 +2479,20 @@
       "target": "누구나",
       "source": {
         "url": "https://www.eplib.or.kr/jslib/menu/10457/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=230163"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-7b36943f6835",
+      "title": "[문화실험공간 호수] 2026 더 임팩트 청년예술인 공모전시 [THE OTHERS]",
+      "region": "서울",
+      "place": "문화실험공간 호수 2F 전시실",
+      "startDate": "2026-10-06",
+      "endDate": "2026-10-18",
+      "fee": "무료",
+      "target": "누구나",
+      "source": {
+        "url": "https://blog.naver.com/exp_space_hosu/224430157183"
       },
       "credit": "서울문화포털"
     },
@@ -2550,6 +2636,21 @@
       "target": "서대문구 주민 및 관내 대학교 재학생",
       "source": {
         "url": "https://go.yonsei.ac.kr/fro_end/html/dep_03/3120.php?smode=view&courseid=15672"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-8fa60c84ec2c",
+      "title": "정미옥 초대전 [In-Between]",
+      "region": "서울",
+      "place": "갤러리제이원 서울 1,2F",
+      "startDate": "2026-10-08",
+      "endDate": "2026-10-25",
+      "fee": "무료",
+      "performers": "정미옥 Miok CHUNG",
+      "target": "전체관람",
+      "source": {
+        "url": "https://www.galleryjone.com/208"
       },
       "credit": "서울문화포털"
     },
@@ -2948,6 +3049,21 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-1a412590ada2",
+      "title": "[영등포문화도시센터] 2026 안양천 문화위크 포럼 [이어지는 수변]",
+      "region": "서울",
+      "place": "하자센터 2층 999홀",
+      "startDate": "2026-10-14",
+      "endDate": "2026-10-14",
+      "fee": "무료",
+      "target": "누구나",
+      "text": "도시수변의 가능성과 지역의 실천을 살피고, 하나의 물길을 공유하는 일곱 도시가 함께 이어갈 문화협력의 방향을 이야기합니다.",
+      "source": {
+        "url": "https://www.ydpcf.or.kr/postview.do?bid=1&pid=2805"
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-a46931d563c4",
       "title": "2026 K컬쳐·공연 글로벌 마케팅 전문인력양성 아카데미 3기",
       "region": "서울",
@@ -2986,6 +3102,34 @@
       "target": "성인",
       "source": {
         "url": "https://lib.guro.go.kr/#/libprg/culture-lecture/detail/7344"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-969d16e8850f",
+      "title": "[갤러리 그라프] 잠시, 다른 것이 되는 (Becoming Otherwise) 이진희, 무아리, 풀림",
+      "region": "서울",
+      "place": "갤러리 그라프 전시실",
+      "startDate": "2026-10-15",
+      "endDate": "2026-11-28",
+      "fee": "무료",
+      "target": "누구나",
+      "source": {
+        "url": "https://ggrappe.com/exhibitions/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=174912615&t=board"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-f8d9b1dc408a",
+      "title": "[서울디자인창업센터] 서울디자인런2026@SUP 5회차 [아트와 공간 ― 쓰레기를 예술로, 제로웨이스트를 …",
+      "region": "서울",
+      "place": "서울새활용프라자 5층 교육실",
+      "startDate": "2026-10-15",
+      "endDate": "2026-10-15",
+      "fee": "무료",
+      "target": "누구나",
+      "source": {
+        "url": "https://event-us.kr/designrun/event/136644"
       },
       "credit": "서울문화포털"
     },
@@ -3234,6 +3378,20 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-14d12295d6d6",
+      "title": "[송파문화재단] 2026 송파 문화예술 활성화 지원사업 선정작 [강가에 서서]",
+      "region": "서울",
+      "place": "송파문화예술회관 송파아트홀",
+      "startDate": "2026-10-17",
+      "endDate": "2026-10-18",
+      "fee": "무료",
+      "target": "초등학생 이상",
+      "source": {
+        "url": "https://www.songpafac.or.kr/notice_view.do?brd_seq=1546&curPage=&searchtype=&keyword="
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-a9629ae491db",
       "title": "[용산역사박물관] 2026 용산역사박물관 [월간 청음회] 10월",
       "region": "서울",
@@ -3338,6 +3496,20 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-e1944a467d06",
+      "title": "제9회 어르니마켓",
+      "region": "서울",
+      "place": "커먼그라운드 야외광장",
+      "startDate": "2026-10-17",
+      "endDate": "2026-10-25",
+      "fee": "무료",
+      "target": "누구나",
+      "source": {
+        "url": "https://blog.naver.com/vuilder/224428079851"
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-1725eec5bbb3",
       "title": "[서울시어울림플라자] 어울림 스테이지(Stage) - '나는 코다입니다.'",
       "region": "서울",
@@ -3418,6 +3590,34 @@
       "target": "초등 고학년 / 중학생 자녀 양육자 각 20명",
       "source": {
         "url": "https://mplib.mapo.go.kr/sglib/PGM3028/eventDetail.do?eventSn=13347"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-2a42f0af40a0",
+      "title": "[성동문화재단] 2026년 골목 바이브 7회차",
+      "region": "서울",
+      "place": "서울북카페 샌버스",
+      "startDate": "2026-10-22",
+      "endDate": "2026-10-22",
+      "fee": "무료",
+      "target": "누구나",
+      "source": {
+        "url": "https://www.sdfac.or.kr/kor/sdfac/culture/plan_view.do?p_idx=1667"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-1a6a94ea1453",
+      "title": "[서울도서관] 10월 작가힙톡(Hip-Talk) - (Scalmani / Passera) 근대수필의 기원,…",
+      "region": "서울",
+      "place": "서울도서관 1층 생각마루",
+      "startDate": "2026-10-23",
+      "endDate": "2026-10-23",
+      "fee": "무료",
+      "target": "서울도서관 회원",
+      "source": {
+        "url": "https://lib.seoul.go.kr/lecture/applyDetail/7441"
       },
       "credit": "서울문화포털"
     },
@@ -3539,6 +3739,21 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-6ca9cf92519c",
+      "title": "[이:음 예술창작 아카데미] 매개자 과정 2026 이음캠프 [알아차림]",
+      "region": "서울",
+      "place": "서울시어울림플라자",
+      "startDate": "2026-10-28",
+      "endDate": "2026-10-30",
+      "fee": "무료",
+      "target": "장애예술 매개자, 신경다양성 시각예술 창작자+보호자",
+      "text": "창작자와 매개자, 보호자가 서로의 세계를 만나는 2박 3일",
+      "source": {
+        "url": "https://ac.ieum.or.kr/program/program.php?ptype=view&idx=1505&category=3"
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-f58b9124d9c5",
       "title": "제10회 2026 서울 문화원 엑스포",
       "region": "서울",
@@ -3563,6 +3778,22 @@
       "target": "누구나",
       "source": {
         "url": "https://www.idfac.or.kr/bbs/board.php?bo_table=gallery_info&wr_id=309"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-6ae468521142",
+      "title": "2026 이북5도민어울림한마당축제",
+      "region": "서울",
+      "place": "석계문화공원",
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-01",
+      "fee": "무료",
+      "performers": "MC 현우·김도경 / 평양설경예술단을 중심으로 여러 예술단이 함께하는 공연 / 초대가수 로미나·희야·하선경 / 가야금 한수애 / 소해금 박성진 / 아코디언 남연미 / 키르기스스탄 무용 / 페루 음악팀 티키타카",
+      "target": "이북5도민 및 서울시민 누구나",
+      "text": "이북5도민과 서울시민이 음악과 춤으로 함께 어울리는 문화예술 축제입니다. 평양설경예술단의 민속무용과 공연, 초대가수 무대, 키르기스스탄·우즈베키스탄 무용, 시민 참여 프로그램을 선보입니다. 2026년 11월 1일(일) 석계문화공원에서 열리며, 식전공연은 오후 1시, 개막식은 오후 2시 30분, 본공연은 오후 3시부터 6시까지 진행됩니다.",
+      "source": {
+        "url": "https://www.facebook.com/share/p/1EgtMekNPw/"
       },
       "credit": "서울문화포털"
     },
@@ -3627,5 +3858,137 @@
       "credit": "서울문화포털"
     }
   ],
-  "foods": []
+  "foods": [
+    {
+      "id": "leek",
+      "name": "대파",
+      "aliases": [
+        "파"
+      ],
+      "group": "채소",
+      "fridge": {
+        "span": "1–2주",
+        "note": "뿌리 쪽을 키친타월로"
+      },
+      "freezer": {
+        "span": "1–2개월",
+        "note": "썰어서"
+      },
+      "best": "freezer",
+      "tips": [
+        "씻어서 물기를 완전히 말린 뒤 썰어 얼리면 바로 넣어 쓸 수 있어요."
+      ],
+      "discard": [
+        "물러지고 끈적한 진액이 나올 때"
+      ],
+      "credit": "식품안전나라·USDA FoodKeeper"
+    },
+    {
+      "id": "egg",
+      "name": "계란",
+      "aliases": [
+        "달걀"
+      ],
+      "group": "알·유제품",
+      "room": null,
+      "fridge": {
+        "span": "3–5주",
+        "note": "뾰족한 쪽을 아래로"
+      },
+      "freezer": null,
+      "best": "fridge",
+      "tips": [
+        "냉장고 문 칸보다 안쪽이 온도가 고르게 유지돼요."
+      ],
+      "discard": [
+        "깼을 때 흰자가 묽게 퍼지고 냄새가 날 때"
+      ],
+      "credit": "식품안전나라·USDA FoodKeeper"
+    },
+    {
+      "id": "carrot",
+      "name": "당근",
+      "group": "채소",
+      "fridge": {
+        "span": "2–3주",
+        "note": "물기 닦고 키친타월로"
+      },
+      "freezer": {
+        "span": "1개월",
+        "note": "데쳐서"
+      },
+      "best": "fridge",
+      "tips": [
+        "흙당근은 씻지 않은 채로 두면 더 오래가요."
+      ],
+      "discard": [
+        "겉이 물러지고 곰팡이가 보일 때"
+      ],
+      "credit": "식품안전나라·USDA FoodKeeper"
+    },
+    {
+      "id": "onion",
+      "name": "양파",
+      "group": "채소",
+      "room": {
+        "span": "1개월",
+        "note": "서늘하고 바람 잘 통하는 곳"
+      },
+      "fridge": {
+        "span": "7–10일",
+        "note": "껍질 벗기거나 자른 것"
+      },
+      "best": "room",
+      "tips": [
+        "감자와 같이 두면 서로 빨리 상해요. 떨어뜨려 두세요."
+      ],
+      "discard": [
+        "눌렀을 때 물렁하고 즙이 나올 때"
+      ],
+      "credit": "식품안전나라·USDA FoodKeeper"
+    },
+    {
+      "id": "rice",
+      "name": "밥",
+      "group": "가공",
+      "room": null,
+      "fridge": {
+        "span": "1–2일",
+        "note": "식혀서 바로"
+      },
+      "freezer": {
+        "span": "1개월",
+        "note": "뜨거울 때 한 공기씩"
+      },
+      "best": "freezer",
+      "tips": [
+        "뜨거울 때 담아 얼려야 김이 같이 갇혀 데웠을 때 촉촉해요."
+      ],
+      "discard": [
+        "쉰내가 나거나 실처럼 늘어질 때"
+      ],
+      "credit": "식품안전나라·USDA FoodKeeper"
+    },
+    {
+      "id": "bread",
+      "name": "식빵",
+      "group": "가공",
+      "room": {
+        "span": "2–3일"
+      },
+      "fridge": null,
+      "freezer": {
+        "span": "1개월",
+        "note": "한 장씩 나눠"
+      },
+      "best": "freezer",
+      "tips": [
+        "냉장고에 두면 오히려 빨리 굳어요. 바로 못 먹을 건 얼려 두세요."
+      ],
+      "discard": [
+        "곰팡이가 한 점이라도 보일 때 — 보이지 않는 곳까지 퍼져 있어요"
+      ],
+      "credit": "식품안전나라·USDA FoodKeeper"
+    }
+  ]
 }
