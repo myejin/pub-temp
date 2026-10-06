@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "generatedAt": "2026-10-06T13:03:54.154Z",
+  "generatedAt": "2026-10-06T23:43:01.016Z",
   "events": [
     {
       "id": "seoul-d71050f45bb5",
@@ -1767,22 +1767,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-b23a6a055ac1",
-      "title": "[영등포아트스퀘어] 2026 현대미술 기획전 [서로를 모르지만 같은 밤을 지난다]",
-      "region": "서울",
-      "place": "영등포아트스퀘어",
-      "startDate": "2026-09-08",
-      "endDate": "2026-10-06",
-      "fee": "무료",
-      "performers": "김유정, 레이지비디오, 솔미 앤드 재엔더플루이드, 신이피, 윤이도, 이은정, 이현우, 조민아, 조혜정, 황귀영",
-      "target": "누구나",
-      "text": "지역의 문화적 기반을 바탕으로 동시대 사회의 변화를 연결하고 이를 시각예술의 언어로 재해석한 현대미술 기획전",
-      "source": {
-        "url": "https://ydpartsquare.com/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-%EB%B0%8F-%EC%98%88%EC%95%BD/view/6263723"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-ec74a3777b10",
       "title": "[서울공예박물관] 공예동행@쇼윈도 #5. [사라진 뒤에도 이어지는 길 The Path that Remain…",
       "region": "서울",
@@ -2099,20 +2083,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-1310b80863ac",
-      "title": "우린 아플 예정이다_다섯 번째, 감각의 모서리에 서다",
-      "region": "서울",
-      "place": "갤러리더씨 (서울시 용산구 임정로35 2층)",
-      "startDate": "2026-09-29",
-      "endDate": "2026-10-06",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://gallerythec.com/index#CURRENT-EXHIBITION"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-baa81ea819eb",
       "title": "판화학교12기 졸업전시 Pt.2 [뚫고 나온 것들 What Came Through]",
       "region": "서울",
@@ -2413,20 +2383,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-f4d0321031f3",
-      "title": "2026 힐링발레축제 Healing Ballet Festival",
-      "region": "서울",
-      "place": "송파문화예술회관 / 씨엠타워 (서초구 효령로 81, 씨엠타워 3층)",
-      "startDate": "2026-10-04",
-      "endDate": "2026-10-06",
-      "fee": "무료",
-      "target": "무용 비전공자 누구나",
-      "source": {
-        "url": "https://www.interballet.co.kr/bbs/bbs_view.php?idx=374&page=1&code=notice&s_opt=All&s_key="
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-93d9c1534ba1",
       "title": "[성동문화재단] 제7회 다양성동 영화제",
       "region": "서울",
@@ -2451,20 +2407,6 @@
       "target": "누구나",
       "source": {
         "url": "https://www.unhyeongung.or.kr/sub/prpgram/exhibition_list.php?abmode=view&no=2001&group=basic&code=B35"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-e03447bb3a8c",
-      "title": "[3기] 서울아트책보고 북클럽 X 현대문학 : 첫 번째 시간 『나미야 잡화점의 기적』 읽기 / 박인곤 교수",
-      "region": "서울",
-      "place": "서울아트책보고 워크숍룸",
-      "startDate": "2026-10-06",
-      "endDate": "2026-10-06",
-      "fee": "무료",
-      "target": "누구나 (일반 시민 25명)",
-      "source": {
-        "url": "https://www.artbookbogo.kr/seoul/menu/10024/program/30009/cultureDetail.do?currentPageNo=1&cultureIdx=27354"
       },
       "credit": "서울문화포털"
     },
@@ -2507,35 +2449,6 @@
       "target": "누구나",
       "source": {
         "url": "https://slw.kr/kor/main.do"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-dab469db5f91",
-      "title": "[서울시립교향악단] 2026 서울시향 작은 음악회 - 서울문화예술교육센터 서초",
-      "region": "서울",
-      "place": "서울문화예술교육센터 서초 서울체임버홀",
-      "startDate": "2026-10-06",
-      "endDate": "2026-10-06",
-      "fee": "무료",
-      "performers": "(연주) 서울시립교향악단",
-      "target": "초등학생 이상",
-      "source": {
-        "url": "https://www.seoulphil.or.kr/perf/view?perfNo=7672"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-d712e3ec0334",
-      "title": "[서초문화재단] 2026심산영화관 [티파니에서 아침을]",
-      "region": "서울",
-      "place": "반포심산아트홀",
-      "startDate": "2026-10-06",
-      "endDate": "2026-10-06",
-      "fee": "전석무료",
-      "target": "15세 이상 관람가",
-      "source": {
-        "url": "https://www.seochocf.or.kr/site/main/seocho/show/view?show_idx=933"
       },
       "credit": "서울문화포털"
     },
