@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "generatedAt": "2026-10-09T00:14:10.979Z",
+  "generatedAt": "2026-10-09T23:56:32.425Z",
   "events": [
     {
       "id": "seoul-d71050f45bb5",
@@ -2568,48 +2568,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-be9c9fe2906d",
-      "title": "[은평역사한옥박물관] 솔이가 사랑한 박물관 - 솔이의 한옥 스케치북",
-      "region": "서울",
-      "place": "은평역사한옥박물관 및 한문화체험시설",
-      "startDate": "2026-10-09",
-      "endDate": "2026-10-09",
-      "fee": "무료(일부 유료)",
-      "target": "누구나",
-      "source": {
-        "url": "https://museum.ep.go.kr/education/education_child.asp?act=view&lec_idx=17940"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-c8e15f83b027",
-      "title": "2026 서울시 마음돌봄 페스티벌 [어서오세요, 마음 정거장입니다.]",
-      "region": "서울",
-      "place": "덕수궁길 차 없는 거리(대한문 앞 ~ 원형분수대)",
-      "startDate": "2026-10-09",
-      "endDate": "2026-10-09",
-      "fee": "무료",
-      "target": "일상 속 마음 돌봄이 궁금한 누구나",
-      "source": {
-        "url": "https://app.notion.com/p/2026-3deecebb36ab800eb372c977f40faa6e?"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-cc0df5528f64",
-      "title": "2026 제3회 여민락 문화교류축제 [인사 in Seoul]",
-      "region": "서울",
-      "place": "인사동 남인사마당 야외무대",
-      "startDate": "2026-10-09",
-      "endDate": "2026-10-09",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://www.newswire.co.kr/newsRead.php?no=1042891"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-673ed067338a",
       "title": "2026 한글문화축제",
       "region": "서울",
@@ -2622,36 +2580,6 @@
       "text": "국내 최초 민간 최초 한글 축제 출범! 한글문화단체모두모임이 다시 100년을 여는 민간 한글 축제가 2026년 시작합니다!",
       "source": {
         "url": "https://www.instagram.com/p/Dd_Kzo_zj8E/"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-d51144d67248",
-      "title": "서울갤러리 가을 맞이 기념 특별 행사",
-      "region": "서울",
-      "place": "서울시청 지하1층 일대",
-      "startDate": "2026-10-09",
-      "endDate": "2026-10-09",
-      "fee": "무료",
-      "target": "서울갤러리를 방문한 시민 누구나",
-      "source": {
-        "url": "https://www.seoul.go.kr/seoulgallery/www/index.do"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-76e084e0a922",
-      "title": "제3회 별빛남문시장 1009 별야별축제 : 벼리가 여는 별별식탁",
-      "region": "서울",
-      "place": "금천구 별빛남문시장 고객지원센터 및 시장 주변 일대",
-      "startDate": "2026-10-09",
-      "endDate": "2026-10-09",
-      "fee": "무료",
-      "performers": "별야별축제 축하공연 17시~20시 MC 이승구, 공연팀은 독산동풍물팀, 상인뮤지컬팀, 한예종 퓨전국악팀 개미, 트롯가수 류하늘, 트롯가수 이아신 등 즉석노래자랑 등 구민참여프로그램 진행",
-      "target": "누구나, 남녀노소 참여 가능",
-      "text": "야간음식문화 활성화 사업으로, 별별식탁 신메뉴 출시 등 새로운 먹거리와 함께 축하공연과 맥주, 막걸리도 준비되어 있으며, 특히 구매고객 850명에게 페이백 행사도 있습니다.",
-      "source": {
-        "url": "https://blog.naver.com/nm_mk/224418962453"
       },
       "credit": "서울문화포털"
     },
