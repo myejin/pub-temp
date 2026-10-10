@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "generatedAt": "2026-10-09T23:56:32.425Z",
+  "generatedAt": "2026-10-10T23:23:24.924Z",
   "events": [
     {
       "id": "seoul-d71050f45bb5",
@@ -876,20 +876,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-0c90e8583f9e",
-      "title": "[강남문화재단] 서울문화예술교육 [개인의 장소 : 공공의 지도]",
-      "region": "서울",
-      "place": "삼성2동복합문화센터 4층 취미교실",
-      "startDate": "2026-07-04",
-      "endDate": "2026-10-10",
-      "fee": "무료",
-      "target": "A반: 초등학교 3학년~6학년 / B반: 중·장년(만40세 이상)",
-      "source": {
-        "url": "https://www.gangnam.go.kr/office/gfac/board/gfac_notice/623/view.do?mid=gfac_notice01"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-29fa5ccc1e13",
       "title": "[서울상상나라] 그림책 작업실: 사소하고 특별한",
       "region": "서울",
@@ -1331,20 +1317,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-b2fb1e8f3812",
-      "title": "[서울시립 사진미술관] 어린이 감상교육 [미술관 탐험]",
-      "region": "서울",
-      "place": "서울시립 사진미술관 전시실 및 1교육실",
-      "startDate": "2026-08-22",
-      "endDate": "2026-10-10",
-      "fee": "무료",
-      "target": "초등학교 3학년~6학년 어린이",
-      "source": {
-        "url": "https://sema.seoul.go.kr/kr/whatson/education/detail?acadmyEeNo=1572801"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-5c7fb337f6db",
       "title": "[서울문화재단] 《PLAY-UP 아카데미》 드라마투르기적 사고와 실전: 창작 현장에서의 드라마투르그 역할과…",
       "region": "서울",
@@ -1697,20 +1669,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-d046b9aeff4d",
-      "title": "[서울시립 서서울미술관] 서서울미술관 플레이 라운지 워크숍",
-      "region": "서울",
-      "place": "서울시립 서서울미술관 1층 전시실3",
-      "startDate": "2026-09-05",
-      "endDate": "2026-10-10",
-      "fee": "무료",
-      "target": "전 연령, 누구나",
-      "source": {
-        "url": "https://sema.seoul.go.kr/kr/whatson/education/detail?acadmyEeNo=1581222"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-df07f5a9350d",
       "title": "[서울아트책보고] 열람실 수장고 큐레이션 [하나의 이야기, 천의 얼굴 One Story, a Thousan…",
       "region": "서울",
@@ -1851,20 +1809,6 @@
       "target": "어린이 초등학생 저학년(1학년~3학년)",
       "source": {
         "url": "https://sema.seoul.go.kr/kr/whatson/education/detail?acadmyEeNo=1576189"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-d9c2e2a48b49",
-      "title": "[서울시립 북서울미술관] 《권병준: 내 마음속에 너는》 연계 프로그램 〈어린이 해설사가 들려주는 작품 이야…",
-      "region": "서울",
-      "place": "서울시립 북서울미술관 B1 전시실 5·6",
-      "startDate": "2026-09-12",
-      "endDate": "2026-10-10",
-      "fee": "무료",
-      "target": "관람객 누구나",
-      "source": {
-        "url": "https://sema.seoul.go.kr/kr/whatson/education/detail?acadmyEeNo=1584125"
       },
       "credit": "서울문화포털"
     },
@@ -2568,22 +2512,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-673ed067338a",
-      "title": "2026 한글문화축제",
-      "region": "서울",
-      "place": "아라아트센터 1~2층",
-      "startDate": "2026-10-09",
-      "endDate": "2026-10-10",
-      "fee": "무료",
-      "performers": "한글문화단체모두모임, 조종숙, 박병천, 한태상, 박종갑, 박정숙, 이경은, 블랙후드, 토케토키, 정슬기 외",
-      "target": "누구나",
-      "text": "국내 최초 민간 최초 한글 축제 출범! 한글문화단체모두모임이 다시 100년을 여는 민간 한글 축제가 2026년 시작합니다!",
-      "source": {
-        "url": "https://www.instagram.com/p/Dd_Kzo_zj8E/"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-59786037c783",
       "title": "TASTE OF GREEN(테이스트 오브 그린) 展",
       "region": "서울",
@@ -2615,64 +2543,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-a7492ecdb584",
-      "title": "[구립증산도서관] 개관 18주년 기념 [김찬용 작가와의 만남: 도서관에 오니, 미술관도 가고 싶어졌습니다]",
-      "region": "서울",
-      "place": "구립증산도서관 2층 강당",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-10",
-      "fee": "무료",
-      "performers": "김찬용",
-      "target": "성인 누구나",
-      "text": "김찬용 도슨트와 북토크",
-      "source": {
-        "url": "https://www.eplib.or.kr/jslib/menu/10457/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=228734"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-ddee3ccefcb7",
-      "title": "[마포문화재단] 마포 공방 작가들과 함께하는 2026년 제 1회 [공방전]",
-      "region": "서울",
-      "place": "마포아트센터 앞 광장",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-10",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://www.mfac.or.kr/communication/notice_all_view.jsp?sc_b_code=BOARD_1207683401&sc_type=1&pk_seq=9180&sc_cond=b_subject&page=1"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-dca077190002",
-      "title": "[서울갤러리] 런치 스테이지 [싱어송라이터 사운드힐즈]",
-      "region": "서울",
-      "place": "서울갤러리 지하 1층 공연장",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-10",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://www.seoul.go.kr/seoulgallery/www/program/view.do?key=2509020016&prgmSn=161"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-b89ea39e5031",
-      "title": "[서울역사박물관] 제33회 백인제가옥 북촌음악회 [정취]",
-      "region": "서울",
-      "place": "백인제가옥 안채마당",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-10",
-      "fee": "무료",
-      "target": "서울시민",
-      "source": {
-        "url": "https://museum.seoul.go.kr/www/board/NR_boardView.do?actionMethod=&sortName=&searchVal=&actionUri=&bbsCd=1018&endDt=&searchKey=TITLE___1002&sso=ok&regPwd=N&pageType=&sortOrder=&startDt=&rssYn=&currentPage=&seq=20260930083150125&ctgCd=&showSummaryYn=N"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-7b12e7e8effe",
       "title": "[서초구 야외도서관] 2026 양재천을 품은 양재도서관 「물길 따라 그림책 여행」",
       "region": "서울",
@@ -2683,79 +2553,6 @@
       "target": "누구나",
       "source": {
         "url": "https://yangjae.seocholib.or.kr/NoticeInfoDetail/26122"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-577b966c246c",
-      "title": "[은평문화재단] 오!마이라이프 무브먼트 씨어터 [과일·악기·그림책]_2026 EEBF",
-      "region": "서울",
-      "place": "은평문화예술회관 숲속극장 (서울특별시 은평구 녹번로 16)",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-10",
-      "fee": "전석 무료",
-      "performers": "오!마이라이프 무브먼트 씨어터",
-      "target": "성인, 어린이",
-      "source": {
-        "url": "https://www.efac.or.kr/page02/sub01.php?type=view&uid=5298"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-dfaf52f1a958",
-      "title": "[중랑문화재단] 2026 중랑용마폭포축제",
-      "region": "서울",
-      "place": "용마폭포공원(중랑구 용마산로 250-12)",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-10",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://www.instagram.com/yongma_fe/"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-077d1a86ba46",
-      "title": "2026 동작 서커스 데이",
-      "region": "서울",
-      "place": "노량진 축구장(서울시 동작구 노들로 688)",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-10",
-      "fee": "무료",
-      "target": "동작구민 및 서울시민 누구나",
-      "source": {
-        "url": "https://www.idfac.or.kr/bbs/board.php?bo_table=gallery_info&wr_id=310"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-3991acdc958a",
-      "title": "2026 어슬렁페스티발",
-      "region": "서울",
-      "place": "마포구 상수동 카페거리일대 (제비다방~그문화다방)",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-10",
-      "fee": "없음",
-      "performers": "곽푸른하늘 · 치기 · 젬베콜라 · 파라솔웨이브 · 한가 · 김마스타 등",
-      "target": "누구나",
-      "text": "상수동 골목 전체가 축제 무대로…‘2026 어슬렁 페스티발@상수’ 10월 10일 개최 - 거리공연·어슬렁 달리기·체험·벼룩시장 등 상수동 일대에서 진행 - “여유 있게 거리를 배회하다 보면 서로가 보입니다” ㈜문화지형연구소 씨티알이 주최·주관하고 서울특별시가 후원하는 ‘2026 어슬렁 페스티발@상수’가 오는 10월 10일(토) 오후 2시부터 9시까지 서울 마포구 상수동 카페거리 일대에서 열린다.",
-      "source": {
-        "url": "https://www.instagram.com/earthrunfestival"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-7c558da49f81",
-      "title": "블루밍 사운드 페스티벌",
-      "region": "서울",
-      "place": "강동아트센터 바람꽃마당",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-10",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159648&menuNo=200010"
       },
       "credit": "서울문화포털"
     },
