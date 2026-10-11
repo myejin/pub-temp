@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "generatedAt": "2026-10-11T00:19:10.851Z",
+  "generatedAt": "2026-10-11T23:33:11.003Z",
   "events": [
     {
       "id": "seoul-d71050f45bb5",
@@ -55,20 +55,6 @@
       "target": "누구나",
       "source": {
         "url": "https://www.seoulchildrensmuseum.org/display/displayExhibition26.do"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-bc59506430a4",
-      "title": "[국립중앙박물관] 이슬람 미술, 찬란한 빛의 여정",
-      "region": "서울",
-      "place": "국립중앙박물관 상설전시관 이슬람실",
-      "startDate": "2025-11-22",
-      "endDate": "2026-10-11",
-      "fee": "무료",
-      "target": "전체관람가",
-      "source": {
-        "url": "https://www.museum.go.kr/MUSEUM/contents/M0201010000.do"
       },
       "credit": "서울문화포털"
     },
@@ -764,20 +750,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-2357369b2277",
-      "title": "[청계천박물관] 청계천의 별이 된 노무라 모토유키",
-      "region": "서울",
-      "place": "청계천박물관 기획전시",
-      "startDate": "2026-06-13",
-      "endDate": "2026-10-11",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://museum.seoul.go.kr/cgcm/board/NR_boardView.do?bbsCd=1002&seq=20260529170246055"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-9b2dac795af3",
       "title": "[서울시립미술관] 2026 찾아가는 미술감상 교실",
       "region": "서울",
@@ -915,20 +887,6 @@
       "text": "[구립증산도서관 2026 지혜학교] 나의 GO백서 - 바둑으로 삶을 기록하고 복기하다 · 기 간 l 2026. 7. 25.(토) ~ 10.31.(토) 총 12회 / 강연 및 실습 10회, 워크숍 2회 · 장 소 l 구립증산도서관 지하1층 문화강좌실 · 대 상 l 성인 누구나 22명 *선착순 무료 접수 · 접수일정 l 7.8(수)~마감 시, 도서관 홈페이지 온라인 접수 · 문 의 l 구립증산도서관 문화홍보팀 02.307.6030(내선205) · 강의일시 ㅣ 7.25.(토)~10.31.(토) (매주 토요일 14:00~17:00, *9.10(목) 디지털동행플라자 은평지점) · 매회차 프로그램 진행 방식 ㅣ 1교시 인문학 강의 ---> 2교시 실습 및 대국 ---> 3 교시 기록과 성찰 · 프로그램 세부 일정 ㅣ *하단 포스터 참조 [강 사] 남치형 명지대학교 바둑학과 교수 ·바둑 경력 - 1990~2020년 한국기원 프로기사 - KBS 바둑왕전, MBC 제왕전, EBS 바둑교실 진행 - 2022 항저우 장애인 아시안 게임 감독(금2, 동1) - 2024년 드라마 《세작》 자문 - (2023~) 국제바둑학회장 ·강의 경력 - (2003~)명지대학교 바둑학과 수업 …",
       "source": {
         "url": "https://www.jsplib.or.kr/culture/event.asp?mode=view&lecture_seq=2355&listname=normal"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-0dcda9d0c212",
-      "title": "[서울아트책보고] 큐레이션 서가 4기 [지구와 나누는 대화]",
-      "region": "서울",
-      "place": "서울아트책보고 예술책방",
-      "startDate": "2026-07-14",
-      "endDate": "2026-10-11",
-      "fee": "무료",
-      "target": "시민 누구나",
-      "source": {
-        "url": "https://artbookbogo.kr/seoul/menu/10045/program/30009/cultureDetail.do?currentPageNo=1&cultureIdx=25342&cultureTypeCdArr=EXHB&searchCultureTypeCd=&searchOperStatusCd=VALID"
       },
       "credit": "서울문화포털"
     },
@@ -1500,20 +1458,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-8e5348976a7c",
-      "title": "[서울공예박물관] 제2회 서울시 유리지공예상 기념전",
-      "region": "서울",
-      "place": "서울공예박물관 전시1동 1층 로비",
-      "startDate": "2026-09-01",
-      "endDate": "2026-10-11",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://craftmuseum.seoul.go.kr/exhibit/plan/view/192"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-5cb92ddb61b0",
       "title": "[서울생활사박물관] 2026년 하반기 변장나들이",
       "region": "서울",
@@ -1524,20 +1468,6 @@
       "target": "유치원 및 어린이집 등 단체 5~7세",
       "source": {
         "url": "https://museum.seoul.go.kr/sulm/board/NR_boardList.do?bbsCd=1005"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-2f2bd31ad170",
-      "title": "[서울시립 서서울미술관] 플레이 라운지 《어쩌면 우리에게 더 멋진 일이 있을지도 몰라》",
-      "region": "서울",
-      "place": "서울시립 서서울미술관 1층 제3전시실",
-      "startDate": "2026-09-01",
-      "endDate": "2026-10-11",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1576627"
       },
       "credit": "서울문화포털"
     },
@@ -1683,20 +1613,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-ec74a3777b10",
-      "title": "[서울공예박물관] 공예동행@쇼윈도 #5. [사라진 뒤에도 이어지는 길 The Path that Remain…",
-      "region": "서울",
-      "place": "전시3동 1층 쇼윈도 갤러리",
-      "startDate": "2026-09-09",
-      "endDate": "2026-10-11",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://craftmuseum.seoul.go.kr/exhibit/plan/view/193"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-a383c94683ac",
       "title": "[서울디자인재단] DDP 협력전시 SPECTRUM (스펙트럼)",
       "region": "서울",
@@ -1809,20 +1725,6 @@
       "target": "어린이 초등학생 저학년(1학년~3학년)",
       "source": {
         "url": "https://sema.seoul.go.kr/kr/whatson/education/detail?acadmyEeNo=1576189"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-76c6e710c992",
-      "title": "[서초문화재단] 서리풀청년아트갤러리 전시 [Fictionally Alibi]",
-      "region": "서울",
-      "place": "서리풀청년아트갤러리",
-      "startDate": "2026-09-12",
-      "endDate": "2026-10-11",
-      "fee": "무료관람",
-      "target": "누구나",
-      "source": {
-        "url": "https://www.instagram.com/p/Dc7ZGyyz2zd/"
       },
       "credit": "서울문화포털"
     },
@@ -2325,21 +2227,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-57b1ae1eed52",
-      "title": "[서울시청] 2026 서울라이트 한강 빛섬축제",
-      "region": "서울",
-      "place": "노들섬",
-      "startDate": "2026-10-02",
-      "endDate": "2026-10-11",
-      "fee": "무료",
-      "target": "누구나",
-      "text": "빛섬 쓰리엘(3L) : 레이저아트(Laser Art), 동행라이트(Light of Companionship), 빛섬렉처(Lecture)",
-      "source": {
-        "url": "https://bitseomfestival.com"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-a3bd94f11e38",
       "title": "[동작문화재단] 2026 동작사육신 충효예술한마당",
       "region": "서울",
@@ -2354,22 +2241,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-86a7b28862df",
-      "title": "[종로문화재단] 2026년 종로구립 궁중무용단 제5회 정기공연 [무애마당]",
-      "region": "서울",
-      "place": "창신아트홀",
-      "startDate": "2026-10-03",
-      "endDate": "2026-10-11",
-      "fee": "무료",
-      "performers": "종로구립 궁중무용단",
-      "target": "누구나",
-      "text": "종로구립 궁중무용단 2026년 제5회 하반기 정기공연입니다.",
-      "source": {
-        "url": "https://www.jfac.or.kr/site/main/program/perf_show_list_view?pgIdx=2845"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-be132311a7c5",
       "title": "땅땅땅-잇있잊 TTang! TTang! TTang! Placed",
       "region": "서울",
@@ -2380,34 +2251,6 @@
       "target": "누구나",
       "source": {
         "url": "https://archivist.kr/exi?m=gov&i=1789439531"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-93d9c1534ba1",
-      "title": "[성동문화재단] 제7회 다양성동 영화제",
-      "region": "서울",
-      "place": "성수아트홀, 서울숲 야외무대",
-      "startDate": "2026-10-05",
-      "endDate": "2026-10-11",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://www.sdfac.or.kr/kor/sdfac/board/noti_view.do?page=1&b_idx=9284"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-1dc77e1601cf",
-      "title": "[운현궁] 2026 기획전시 [소호랑의 한국호랑이, 사나움과 귀여움 사이_소호랑의 개인전]",
-      "region": "서울",
-      "place": "운현궁 기획전시실",
-      "startDate": "2026-10-05",
-      "endDate": "2026-10-11",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://www.unhyeongung.or.kr/sub/prpgram/exhibition_list.php?abmode=view&no=2001&group=basic&code=B35"
       },
       "credit": "서울문화포털"
     },
@@ -2451,20 +2294,6 @@
       "target": "누구나",
       "source": {
         "url": "https://archivist.kr/exi?m=gov&i=1791086082"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-11acc7fab447",
-      "title": "2026 BEER FEST COEX",
-      "region": "서울",
-      "place": "서울 강남구 삼성동 159-9 코엑스 동문광장",
-      "startDate": "2026-10-07",
-      "endDate": "2026-10-11",
-      "fee": "무료",
-      "target": "성인",
-      "source": {
-        "url": "https://www.beerfest.co.kr/"
       },
       "credit": "서울문화포털"
     },
@@ -2528,21 +2357,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-020315eae2af",
-      "title": "[강서구] 제24회 허준축제",
-      "region": "서울",
-      "place": "서울식물원, 마곡광장, 마곡중앙로 일대",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-11",
-      "fee": "무료",
-      "target": "누구나",
-      "text": "- 주요프로그램: 허준·동의보감 전시, 의료·건강체험관 - 체험프로그램: 한방 체험, 멘탈·헬스 케어, 웰빙 레포츠체험 - 참여프로그램: 허준 타임로드 퍼레이드, 어린이 허준 선발대회, 허준 오락실, 의료기업 팝업스토어, 지역 홍보존, 푸드존 - 공연프로그램: 허준콘서트, 허준음악회, 지역문화공연, 버스킹 공연 등",
-      "source": {
-        "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=159221&menuNo=200010"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-7b12e7e8effe",
       "title": "[서초구 야외도서관] 2026 양재천을 품은 양재도서관 「물길 따라 그림책 여행」",
       "region": "서울",
@@ -2567,49 +2381,6 @@
       "target": "누구나",
       "source": {
         "url": "https://www.instagram.com/p/Dd0KQZ6GGPP/?img_index=1"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-988ceba23a2d",
-      "title": "[마포구립서강도서관] 10월/어린이메이킹 [행복맘껏time] (두 번째 일요일은 해봄공간 오픈데이)",
-      "region": "서울",
-      "place": "마포구립서강도서관 4층 어린이자료실 해봄",
-      "startDate": "2026-10-11",
-      "endDate": "2026-10-11",
-      "fee": "무료",
-      "target": "초등1-6학년 해봄이와 양육자",
-      "source": {
-        "url": "https://mplib.mapo.go.kr/sglib/PGM3028/eventDetail.do?eventSn=13428"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-9e08c00fb734",
-      "title": "[서울갤러리] 런치 스테이지 [하모니시스트 이한결]",
-      "region": "서울",
-      "place": "서울갤러리 지하 1층 공연장",
-      "startDate": "2026-10-11",
-      "endDate": "2026-10-11",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://www.seoul.go.kr/seoulgallery/www/program/view.do?key=2509020016&prgmSn=162"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-e6e0de717780",
-      "title": "[은평문화재단] 99아트컴퍼니 [에카(Ekah)& 심연(Abyss)]_2026 EEBF",
-      "region": "서울",
-      "place": "은평문화예술회관 공연장 (서울특별시 은평구 녹번로 16)",
-      "startDate": "2026-10-11",
-      "endDate": "2026-10-11",
-      "fee": "전석무료",
-      "performers": "99아트컴퍼니",
-      "target": "성인, 어린이",
-      "source": {
-        "url": "https://www.efac.or.kr/page02/sub01.php?type=view&uid=5295"
       },
       "credit": "서울문화포털"
     },
