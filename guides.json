@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "generatedAt": "2026-10-11T23:33:11.003Z",
+  "generatedAt": "2026-10-13T01:56:37.065Z",
   "events": [
     {
       "id": "seoul-d71050f45bb5",
@@ -1873,6 +1873,20 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-01285c7c06ca",
+      "title": "[서울상상나라] 양육자 대상 육아동지 캠페인 [이웃하다]",
+      "region": "서울",
+      "place": "서울상상나라 2F 행복정원",
+      "startDate": "2026-09-22",
+      "endDate": "2026-11-29",
+      "fee": "무료(입장료 4,000원 별도)",
+      "target": "아이를 양육하시는 성인 누구나",
+      "source": {
+        "url": "https://www.seoulchildrensmuseum.org/news/boardView.do?id=1260&bbsCnum=100&bbs_id=all&page="
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-41f74628d21e",
       "title": "[서울아트책보고] 영화의 언어 - 이다혜 작가",
       "region": "서울",
@@ -2000,6 +2014,20 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-2a20001783a7",
+      "title": "[구립증산도서관] 테마로 즐기는 도서관 II - 10월 테마전시체험전 [나의 특별한 섬]",
+      "region": "서울",
+      "place": "구립증산도서관 3층 가족열람실",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-24",
+      "fee": "무료",
+      "target": "도서관 이용자 누구나",
+      "source": {
+        "url": "https://www.eplib.or.kr/jslib/menu/10457/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=229833"
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-31db9df14a0e",
       "title": "[구산동도서관마을] 서로의 마음과 마음을 잇는 [책 한 권 사이에]",
       "region": "서울",
@@ -2010,6 +2038,20 @@
       "target": "자립준비청년 및 청년",
       "source": {
         "url": "https://www.eplib.or.kr/gsvlib/bbs/20001/bbsPostDetail.do?bbsPostIdx=228217&manageCd=MI"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-1d86e4e65bfe",
+      "title": "[마포구립서강도서관] 10월 문화프로그램 안내",
+      "region": "서울",
+      "place": "마포구립서강도서관",
+      "startDate": "2026-10-01",
+      "endDate": "2026-10-31",
+      "fee": "무료",
+      "target": "프로그램별 상이",
+      "source": {
+        "url": "https://mplib.mapo.go.kr/sglib/MENU1199/PGM3028/eventDetail.do?currentPageNo=1&eventSn=13487"
       },
       "credit": "서울문화포털"
     },
@@ -2283,6 +2325,20 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-5a311bfd3b40",
+      "title": "[서울상상나라] 사랑하는 사이",
+      "region": "서울",
+      "place": "서울상상나라 2F 서울형키즈카페",
+      "startDate": "2026-10-06",
+      "endDate": "2026-11-27",
+      "fee": "무료(입장료 4,000원 별도)",
+      "target": "36개월 미만 영아, 보호자",
+      "source": {
+        "url": "https://www.seoulchildrensmuseum.org/education/educationView.do?id=3003"
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-3bec223c10d0",
       "title": "최은지 개인전 [지도에 없는 장소에 그림자를 붙이고 있었다]",
       "region": "서울",
@@ -2341,6 +2397,20 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-baa0c93e8158",
+      "title": "[용산문화재단] 릴레이 상영전 [용산 필름 인사이드]",
+      "region": "서울",
+      "place": "용산문화재단 복합문화공간 1층, 2층",
+      "startDate": "2026-10-09",
+      "endDate": "2026-10-18",
+      "fee": "무료",
+      "target": "누구나 (영화별 관람등급 상이)",
+      "source": {
+        "url": "https://yongsanculture.or.kr/site/main/performance/EDUCATION/view/227"
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-59786037c783",
       "title": "TASTE OF GREEN(테이스트 오브 그린) 展",
       "region": "서울",
@@ -2385,18 +2455,16 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-31bb29aa2a24",
-      "title": "[광진정보도서관] 『내가 좋아하는 방향으로』 권화운 작가와의 만남(북토크&러닝)",
+      "id": "seoul-707ab74c50ac",
+      "title": "[구립증산도서관] 그림책을 뜨다 도서관 로비 전시회 & 뜨개 원데이클래스",
       "region": "서울",
-      "place": "광진정보도서관 문화동 지하1층 영화음악감상실",
+      "place": "구립증산도서관 1층 로비 및 지하문화강좌실",
       "startDate": "2026-10-12",
-      "endDate": "2026-10-12",
+      "endDate": "2026-11-02",
       "fee": "무료",
-      "performers": "권화운, 『내가 좋아하는 방향으로』 저자, 배우",
-      "target": "광진구립도서관 회원(청소년, 성인)",
-      "text": "2026년 광진정보도서관 권화운 작가와의 만남",
+      "target": "프로그램별 상이",
       "source": {
-        "url": "https://www.gwangjinlib.seoul.kr/gjinfo/menu/10111/program/30026/lectureDetail.do?currentPageNo=1&lectureIdx=14874&statusCd=&targetTypeCd="
+        "url": "https://www.eplib.or.kr/jslib/menu/10457/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=230757"
       },
       "credit": "서울문화포털"
     },
@@ -2411,6 +2479,20 @@
       "target": "누구나",
       "source": {
         "url": "https://www.sdfac.or.kr/kor/sdfac/performance/plan_view.do?p_idx=1661"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-5556b8ec6c71",
+      "title": "석사학위 청구전 [Our Own Shelter] 한지연 · 박세빈",
+      "region": "서울",
+      "place": "갤러리 지하",
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-15",
+      "fee": "무료",
+      "target": "누구나",
+      "source": {
+        "url": "https://galleryjiha.com/home/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=175009108&t=board"
       },
       "credit": "서울문화포털"
     },
@@ -2439,6 +2521,20 @@
       "target": "초등학생 이상 관람가능",
       "source": {
         "url": "https://www.seochocf.or.kr/site/main/seocho/show/view?show_idx=1012"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-628631c17afb",
+      "title": "[운현궁] 2026 기획전시 [제12회 설경규방공예연구회]",
+      "region": "서울",
+      "place": "운현궁 기획전시실",
+      "startDate": "2026-10-13",
+      "endDate": "2026-10-18",
+      "fee": "무료",
+      "target": "누구나",
+      "source": {
+        "url": "https://www.unhyeongung.or.kr/sub/prpgram/exhibition_list.php?abmode=view&no=2005&group=basic&code=B35"
       },
       "credit": "서울문화포털"
     },
@@ -2714,6 +2810,22 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-43b1a3287b10",
+      "title": "[구로글마루한옥도서관] AI시대, 부모는 무엇을 가르쳐야 할까? (작가힙톡)",
+      "region": "서울",
+      "place": "글마루한옥어린이도서관 2층 지식나눔방",
+      "startDate": "2026-10-16",
+      "endDate": "2026-10-16",
+      "fee": "무료",
+      "performers": "심정섭 작가",
+      "target": "아동 및 성인",
+      "text": "심정섭 작가와의 만남 ▒10월 작가힙톡 (Hip-Talk)▒",
+      "source": {
+        "url": "https://lib.guro.go.kr/#/libprg/culture-lecture/detail/7353"
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-7aac6a517e84",
       "title": "[구로천왕도서관] 미술사학자 최열에게 듣는 이중섭의 삶과 사랑, 예술",
       "region": "서울",
@@ -2816,6 +2928,20 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-56ff2898faff",
+      "title": "[운현궁] 2026 서울 운현궁 한옥콘서트",
+      "region": "서울",
+      "place": "운현궁 노락당",
+      "startDate": "2026-10-16",
+      "endDate": "2026-10-16",
+      "fee": "무료",
+      "target": "누구나",
+      "source": {
+        "url": "https://www.unhyeongung.or.kr/sub/prpgram/total_list.php?sno=0&group=basic&code=B35"
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-3d03dbaed28c",
       "title": "[관악문화재단] '도시의 쉼표 - 관악, 우리들의 해비타트' 2기,3기",
       "region": "서울",
@@ -2885,6 +3011,21 @@
       "target": "누구나",
       "source": {
         "url": "https://m.site.naver.com/2eeRX"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-719345805dc0",
+      "title": "[동작문화재단] 가을의 기록을 한 권의 포토에세이로 엮어가는 시간 [가을 기록실]",
+      "region": "서울",
+      "place": "사당생활문화센터 다목적실 3",
+      "startDate": "2026-10-17",
+      "endDate": "2026-11-14",
+      "fee": "무료",
+      "target": "성인(19세 이상)",
+      "text": "가을의 기록을 한 권의 포토에세이로 엮어가는 시간",
+      "source": {
+        "url": "https://www.idfac.or.kr/bbs/board.php?bo_table=notice&wr_id=475"
       },
       "credit": "서울문화포털"
     },
@@ -3031,6 +3172,20 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-ca032d664b29",
+      "title": "2026 돈화문 야광명월",
+      "region": "서울",
+      "place": "서울돈화문국악당 국악마당",
+      "startDate": "2026-10-17",
+      "endDate": "2026-10-17",
+      "fee": "무료",
+      "target": "전체관람가",
+      "source": {
+        "url": "https://www.sgtt.kr/program/detail/7374"
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-9f9d06ac5832",
       "title": "2026 에코나이트 페스티벌",
       "region": "서울",
@@ -3103,6 +3258,20 @@
       "target": "누구나",
       "source": {
         "url": "https://blog.naver.com/vuilder/224428079851"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-53abee740813",
+      "title": "포개진 지도 - 미시적이지만 거시적인 풍경",
+      "region": "서울",
+      "place": "갤러리 지하",
+      "startDate": "2026-10-17",
+      "endDate": "2026-10-23",
+      "fee": "무료",
+      "target": "누구나",
+      "source": {
+        "url": "https://galleryjiha.com/home/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=175009125&t=board"
       },
       "credit": "서울문화포털"
     },
