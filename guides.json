@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "generatedAt": "2026-10-13T01:56:37.065Z",
+  "generatedAt": "2026-10-13T23:41:38.705Z",
   "events": [
     {
       "id": "seoul-d71050f45bb5",
@@ -2493,34 +2493,6 @@
       "target": "누구나",
       "source": {
         "url": "https://galleryjiha.com/home/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=175009108&t=board"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-d310b218be1c",
-      "title": "[2026 문화다움기획상131 심포지엄] 어린이, 오늘의 시민",
-      "region": "서울",
-      "place": "서울공예박물관 어린이박물관 교육동 1층 강당",
-      "startDate": "2026-10-13",
-      "endDate": "2026-10-13",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "http://www.daumian.org/gnuboard5/bbs/board.php?bo_table=sub401&wr_id=23"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-92d092224617",
-      "title": "[서초문화재단] 제16회 서초구립여성합창단 정기연주회 [첫사랑]",
-      "region": "서울",
-      "place": "반포심산아트홀",
-      "startDate": "2026-10-13",
-      "endDate": "2026-10-13",
-      "fee": "전석무료",
-      "target": "초등학생 이상 관람가능",
-      "source": {
-        "url": "https://www.seochocf.or.kr/site/main/seocho/show/view?show_idx=1012"
       },
       "credit": "서울문화포털"
     },
