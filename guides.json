@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "generatedAt": "2026-10-14T23:06:20.597Z",
+  "generatedAt": "2026-10-15T22:58:56.076Z",
   "events": [
     {
       "id": "seoul-d71050f45bb5",
@@ -1759,20 +1759,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-9ea0403b5270",
-      "title": "[서울백제어린이박물관] 유아~초등 1학년 동반가족 대상 [서울역사생태탐험대3] 가을",
-      "region": "서울",
-      "place": "서울백제어린이박물관 교육실, 전시실, 야외 생태체험장",
-      "startDate": "2026-09-17",
-      "endDate": "2026-10-15",
-      "fee": "무료",
-      "target": "5세 유아~초등 1학년 어린이와 양육자",
-      "source": {
-        "url": "https://baekjemuseum.seoul.go.kr/module/index.jsp?boardid=a&code=ED&mmode=content&mpid=SBM0402000000&pid=23532"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-97cf860a7754",
       "title": "2026 가을 기획전 [아름다운 기증, 소중한 모음Ⅴ]",
       "region": "서울",
@@ -1883,21 +1869,6 @@
       "target": "성인 누구나",
       "source": {
         "url": "https://artbookbogo.kr/seoul/menu/10024/program/30009/cultureDetail.do?currentPageNo=1&cultureIdx=26941"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-33a2ecca2b8c",
-      "title": "[송파 청년아티스트센터] 3기 릴레이 개인전 [주워진 시간] - 허유",
-      "region": "서울",
-      "place": "송파 청년아티스트센터 지하1층 아트 스페이스",
-      "startDate": "2026-09-30",
-      "endDate": "2026-10-15",
-      "fee": "무료",
-      "performers": "허유(참여작가), 콘노 유키(서문), 이영현, 홍과홍 한지(협력)",
-      "target": "누구나",
-      "source": {
-        "url": "https://www.instagram.com/p/DdnAGcAP6PO/"
       },
       "credit": "서울문화포털"
     },
@@ -2168,20 +2139,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-486d3306b175",
-      "title": "국회 개방 정오의 콘서트 [10월 국회 버스킹]",
-      "region": "서울",
-      "place": "국회 중앙잔디광장(국회도서관 방면)",
-      "startDate": "2026-10-01",
-      "endDate": "2026-10-15",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://reservation.assembly.go.kr/reserve/contents/booking/contentsDetail.do?cntsDtlClsCd=EVT309&cntsUniqId=4953774&cntsClsCd=EVENT&menuNo=2200029&tabId=photo"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-6b2e6e71b7da",
       "title": "예고를 빛낸 사람 수상작가전: 첫 장면 Award-Winning Alumni Exhibition: The …",
       "region": "서울",
@@ -2221,20 +2178,6 @@
       "target": "누구나",
       "source": {
         "url": "https://archivist.kr/exi?m=gov&i=1790806191"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-97a0ec8f5833",
-      "title": "제31회 부산국제영화제 동네방네비프와 함께 하는 10월 국회문화극장 [사람과 고기]",
-      "region": "서울",
-      "place": "국회의원회관 2층 대회의실",
-      "startDate": "2026-10-01",
-      "endDate": "2026-10-15",
-      "fee": "무료",
-      "target": "누구나(12세이상)",
-      "source": {
-        "url": "https://reservation.assembly.go.kr/reserve/contents/booking/contentsDetail.do?cntsDtlClsCd=EVT301&cntsUniqId=4957022"
       },
       "credit": "서울문화포털"
     },
@@ -2396,6 +2339,34 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-4c4e775f4788",
+      "title": "[Wanderings Toward Freedom 유(遊): 자유를 향한 여정] 조인호 기획초대전",
+      "region": "서울",
+      "place": "세종뮤지엄갤러리 1관",
+      "startDate": "2026-10-07",
+      "endDate": "2026-10-25",
+      "fee": "무료",
+      "target": "누구나",
+      "source": {
+        "url": "https://www.instagram.com/p/DeLwvEnmWl9/"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-cb572a33ffb3",
+      "title": "[高山 이규탁 도예전] 이규탁 기획초대전",
+      "region": "서울",
+      "place": "세종뮤지엄갤러리 1관",
+      "startDate": "2026-10-08",
+      "endDate": "2026-10-26",
+      "fee": "무료",
+      "target": "누구나",
+      "source": {
+        "url": "https://www.instagram.com/p/DeN21PNmZDN/"
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-f03f1146ae1c",
       "title": "2026년 서대문구 행복캠퍼스 연세 인생학교: 백세시대의 건강관리",
       "region": "서울",
@@ -2449,6 +2420,21 @@
       "target": "누구나 (영화별 관람등급 상이)",
       "source": {
         "url": "https://yongsanculture.or.kr/site/main/performance/EDUCATION/view/227"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-fd16a2bbddfa",
+      "title": "2026년 10월 9일부터 23일까지¹ 매일 오전 …",
+      "region": "서울",
+      "place": "주석모음집",
+      "startDate": "2026-10-09",
+      "endDate": "2026-10-23",
+      "fee": "0원",
+      "performers": "임석호, 서혜연, 김익현, 주슬아",
+      "target": "누구나",
+      "source": {
+        "url": "https://archivist.kr/exi?m=gov&i=1791845417"
       },
       "credit": "서울문화포털"
     },
@@ -2526,20 +2512,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-5556b8ec6c71",
-      "title": "석사학위 청구전 [Our Own Shelter] 한지연 · 박세빈",
-      "region": "서울",
-      "place": "갤러리 지하",
-      "startDate": "2026-10-12",
-      "endDate": "2026-10-15",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://galleryjiha.com/home/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=175009108&t=board"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-628631c17afb",
       "title": "[운현궁] 2026 기획전시 [제12회 설경규방공예연구회]",
       "region": "서울",
@@ -2584,20 +2556,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-418305a1f92c",
-      "title": "[강북문화재단] 인형극 [그의 하루]",
-      "region": "서울",
-      "place": "강북문화예술회관 강북진달래홀",
-      "startDate": "2026-10-14",
-      "endDate": "2026-10-15",
-      "fee": "무료",
-      "target": "12세 이상",
-      "source": {
-        "url": "https://www.gbcf.or.kr/load.asp?subPage=110.View&page=1&idx=450"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-79f4075f0079",
       "title": "[마포구립서강도서관] 10-11월 길 위의 인문학 (박정원) [옷을 자를 때, 비로소 취향을 고민한다]",
       "region": "서울",
@@ -2612,6 +2570,21 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-63f30f819578",
+      "title": "[서초문화원] 제10회 [시詩와 아리아]",
+      "region": "서울",
+      "place": "서초문화예술회관 1층 아트홀(강남대로 201)",
+      "startDate": "2026-10-14",
+      "endDate": "2026-11-11",
+      "fee": "무료",
+      "target": "누구나",
+      "text": "2026년 서초문화원 「시詩와 아리아」는 시와 음악을 통해 삶의 순간마다 마주하는 사랑과 기억을 그려낸 공연입니다. 시를 통해 한 사람의 삶을 그리는 이야기로, 사랑 속에서 태어난 아이가 청춘의 설렘을 지나 가정을 이루고, 삶의 끝에서 사랑을 남기기까지의 시간을 봄·여름·가을·겨울 4막으로 담았습니다. 시낭송과 노래가 한데 어우러져 삶의 이야기로 이어지며, 사랑은 모습만 달라질 뿐 늘 우리 곁에 존재해왔음을 전합니다. 무대 위 주인공의 이야기를 따라가며, 여러분 자신의 지난 시간과 소중한 사람들을 떠올려보는 아름다운 시간이 되기를 바랍니다.",
+      "source": {
+        "url": "http://www.socc.or.kr/bbs/board.php?bo_table=sub05_01&wr_id=433"
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-a46931d563c4",
       "title": "2026 K컬쳐·공연 글로벌 마케팅 전문인력양성 아카데미 3기",
       "region": "서울",
@@ -2622,20 +2595,6 @@
       "target": "문화관광재단 공연관광·문화관광 실무자 등",
       "source": {
         "url": "http://kpata.kr/bbs/board.php?bo_table=sub04_01&wr_id=49"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-6c307e9fdaa8",
-      "title": "[4기] 서울아트책보고 북클럽 X 현대문학 : 첫 번째 시간 『우리 세희』 읽기 / 조해진 소설가",
-      "region": "서울",
-      "place": "서울아트책보고 워크숍룸",
-      "startDate": "2026-10-15",
-      "endDate": "2026-10-15",
-      "fee": "무료",
-      "target": "누구나 (일반 시민 25명)",
-      "source": {
-        "url": "https://www.artbookbogo.kr/seoul/menu/10024/program/30009/cultureDetail.do?currentPageNo=1&cultureIdx=27382"
       },
       "credit": "서울문화포털"
     },
@@ -2664,20 +2623,6 @@
       "target": "누구나",
       "source": {
         "url": "https://ggrappe.com/exhibitions/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=174912615&t=board"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-f8d9b1dc408a",
-      "title": "[서울디자인창업센터] 서울디자인런2026@SUP 5회차 [아트와 공간 ― 쓰레기를 예술로, 제로웨이스트를 …",
-      "region": "서울",
-      "place": "서울새활용프라자 5층 교육실",
-      "startDate": "2026-10-15",
-      "endDate": "2026-10-15",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://event-us.kr/designrun/event/136644"
       },
       "credit": "서울문화포털"
     },
@@ -2928,6 +2873,20 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-5517ca64da90",
+      "title": "2026 서울글로벌 아트나이트 with 영수증콘서트",
+      "region": "서울",
+      "place": "서울광장 특설무대",
+      "startDate": "2026-10-16",
+      "endDate": "2026-10-17",
+      "fee": "무료",
+      "target": "누구나",
+      "source": {
+        "url": "https://www.billconcert.com/"
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-3d03dbaed28c",
       "title": "[관악문화재단] '도시의 쉼표 - 관악, 우리들의 해비타트' 2기,3기",
       "region": "서울",
@@ -3074,6 +3033,20 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-12e40e278378",
+      "title": "[서울돈화문국악당] 2026 돈화문 야광명월",
+      "region": "서울",
+      "place": "서울돈화문국악당 국악마당",
+      "startDate": "2026-10-17",
+      "endDate": "2026-10-17",
+      "fee": "무료",
+      "target": "전체관람가",
+      "source": {
+        "url": "https://www.sgtt.kr/program/detail/7374"
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-80c64d03668d",
       "title": "[서울시어울림플라자] 어울림 컬쳐 클래스(Culture Class) - 미술로 보는 창의력의 세계",
       "region": "서울",
@@ -3154,20 +3127,6 @@
       "target": "누구나",
       "source": {
         "url": "https://www.artbookbogo.kr/seoul/menu/10024/program/30009/cultureDetail.do?currentPageNo=1&cultureIdx=27680"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-ca032d664b29",
-      "title": "2026 돈화문 야광명월",
-      "region": "서울",
-      "place": "서울돈화문국악당 국악마당",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-17",
-      "fee": "무료",
-      "target": "전체관람가",
-      "source": {
-        "url": "https://www.sgtt.kr/program/detail/7374"
       },
       "credit": "서울문화포털"
     },
@@ -3290,22 +3249,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-d99c7e23e4fc",
-      "title": "제4회 구로시장 한맥대축제 : 한복ON 구로마켓 런웨이",
-      "region": "서울",
-      "place": "한우마당 공터 및 구로시장 일대",
-      "startDate": "2026-10-19",
-      "endDate": "2026-10-24",
-      "fee": "무료",
-      "performers": "구로구 드림탭 난타팀, SNS통해 모집된 고객 쇼호스트 10명, 트롯가수, 대학생공연팀 등",
-      "target": "누구나, 남녀노소 참여 가능",
-      "text": "야간음식문화 활성화 사업으로, 고객들이 시장의 대표상품을 직접 런웨이 및 현장특가전, 맥주 및 막걸리와 다양한 먹거리, 난타 등 동아리 축하공연, 1인 최대 2만원의 온누리상품권 페이백 진행, 된장만들기와 전통놀이 3종 등 한복과 전통의 테마 체험, 영수증 추첨 이벤트 등",
-      "source": {
-        "url": "https://blog.naver.com/marketguro2020/224432247464"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-91c2946a18b4",
       "title": "[3기] 서울아트책보고 북클럽 X 현대문학 : 두 번째 시간 『악의』 읽기 / 박인곤 교수",
       "region": "서울",
@@ -3386,6 +3329,21 @@
       "target": "누구나",
       "source": {
         "url": "https://www.kcdf.or.kr/brd/board/322/L/menu/291?brdType=R&thisPage=1&bbIdx=9196"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-4a375297c45b",
+      "title": "2026 서울 전통춤의 향연 [춤을 읽다 Ⅱ]",
+      "region": "서울",
+      "place": "한국문화의집KOUS",
+      "startDate": "2026-10-21",
+      "endDate": "2026-10-21",
+      "fee": "전석무료",
+      "target": "8세 이상",
+      "text": "태평무, 통영승전무, 선입무, 교방 굿거리, 교방무, 사자춤, 쇠춤, 판굿",
+      "source": {
+        "url": "https://blog.naver.com/jungart00/224440099709"
       },
       "credit": "서울문화포털"
     },
@@ -3639,6 +3597,22 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-1a2b814d7760",
+      "title": "[서울로봇인공지능과학관] 강연/라임 콜로키엄 [2026년 제7회_AI와 함께 만드는, 맞춤형 로봇]",
+      "region": "서울",
+      "place": "서울로봇인공지능과학관 1층 로비",
+      "startDate": "2026-10-28",
+      "endDate": "2026-10-28",
+      "fee": "무료",
+      "performers": "김병철 교수 (성균관대학교 글로벌바이오메디컬공학과 교수) 김병철 교수는 성균관대학교 글로벌바이오메디컬공학과 소속으로 생체모사 체화지능 로봇 연구실을 운영하고 있다. 서울대학교 기계공학부에서 박사학위를 취득하였으며,…",
+      "target": "로봇과 인공지능에 관심 있는 누구나",
+      "text": "생성형 AI 기반 로봇 설계부터 인간의 움직임을 보조하는 로봇까지 실제 연구 사례를 통해 피지컬 AI(Physical AI)의 기술적 원리와 사회적 의미를 탐색해 봅니다.",
+      "source": {
+        "url": "https://science.seoul.go.kr/RAIM/bbsctt/view.do?bbscttSn=2610140003&menuTy=&key=2310160001&sc_custom1=now&pageIndex=1&orderBy=bbscttOrdr+desc&sc_status="
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-a54466e20f4c",
       "title": "[서울시립교향악단] 2026 서울시향 뮤지엄 콘서트 ① ②",
       "region": "서울",
@@ -3755,6 +3729,20 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-f059b13dc68c",
+      "title": "2026 정동야행(夜行)",
+      "region": "서울",
+      "place": "중구 덕수궁 주변 정동일대",
+      "startDate": "2026-10-30",
+      "endDate": "2026-10-31",
+      "fee": "체험프로그램 중 일부 유료",
+      "target": "누구나",
+      "source": {
+        "url": "https://jeongdong-culturenight.kr/kor/"
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-b7cef19b3580",
       "title": "[동작문화재단] 2026 동작 빵도동 축제",
       "region": "서울",
@@ -3829,6 +3817,36 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-8e52a09d6363",
+      "title": "SAD BOOK ― 다시 쓰기: 몸으로서의 도시",
+      "region": "서울",
+      "place": "예술가의 집 전관, 마로니에공원, 낙산공원",
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-08",
+      "fee": "무료",
+      "performers": "로나 번, 최찬숙, 플로리안 돔부아, 황민규, 권아람, 로나 심슨",
+      "target": "누구나",
+      "text": "국내외 예술가들과 함께 전시장과 도시를 연결하며, 퍼포먼스·사운드·설치미술·시민 참여 프로그램으로 슬픔의 새로운 가능성을 탐색하는 국제 현대미술 프로젝트.",
+      "source": {
+        "url": "https://www.artinsight.co.kr/news/view2.php?no=82760"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-4595c7b48615",
+      "title": "[3기] 서울아트책보고 북클럽 X 현대문학 : 세 번째 시간 『매스커레이드 호텔』 읽기 / 한이 소설가 ·…",
+      "region": "서울",
+      "place": "서울아트책보고 워크숍룸",
+      "startDate": "2026-11-03",
+      "endDate": "2026-11-03",
+      "fee": "무료",
+      "target": "누구나 (일반 시민 25명)",
+      "source": {
+        "url": "https://www.artbookbogo.kr/seoul/menu/10024/program/30009/cultureDetail.do?currentPageNo=1&cultureIdx=27358&cultureTypeCdArr=EDUC&searchCultureTypeCd=&searchOperStatusCd=VALID"
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-1633b1de5407",
       "title": "[서초문화재단] 2026 심산영화관 [인생은 아름다워]",
       "region": "서울",
@@ -3839,6 +3857,20 @@
       "target": "전체 관람가",
       "source": {
         "url": "https://www.seochocf.or.kr/site/main/seocho/show/view?show_idx=934"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-b5ea255fad7c",
+      "title": "제14회 인도영화제",
+      "region": "서울",
+      "place": "프로그램별 상이",
+      "startDate": "2026-11-03",
+      "endDate": "2026-11-07",
+      "fee": "무료",
+      "target": "누구나",
+      "source": {
+        "url": "https://www.instagram.com/p/DePE4r9j8vL/?img_index=1"
       },
       "credit": "서울문화포털"
     },
@@ -3883,6 +3915,62 @@
       "target": "어린이(초등1~3학년 학급 단체)",
       "source": {
         "url": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260826105625074095"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-772cdab3a001",
+      "title": "[마포구립서강도서관] 11월/일반강좌 [옛 밥상, 오늘의 삶을 차리다_품격 있는 나이듦을 위한 인문학]",
+      "region": "서울",
+      "place": "마포구립서강도서관 3층 세미나실",
+      "startDate": "2026-11-05",
+      "endDate": "2026-11-12",
+      "fee": "무료",
+      "target": "50대 이상 성인",
+      "source": {
+        "url": "https://mplib.mapo.go.kr/sglib/PGM3028/eventDetail.do?eventSn=13507"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-67be4f491684",
+      "title": "홍현기 개인전 [환기(換氣): 바람이 지나간 자리]",
+      "region": "서울",
+      "place": "갤러리 지하",
+      "startDate": "2026-11-05",
+      "endDate": "2026-11-08",
+      "fee": "무료",
+      "target": "누구나",
+      "source": {
+        "url": "https://galleryjiha.com/exhibitions/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=175062109&t=board"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-47257b6c22a7",
+      "title": "[고려대학교] 2026 모두의 AI·AX 캠프(초·중·고 대상)",
+      "region": "서울",
+      "place": "고려대학교 자연계캠퍼스 정운오IT교양관",
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07",
+      "fee": "무료",
+      "target": "초·중·고 학생 누구나",
+      "source": {
+        "url": "https://ku-ai.korea.ac.kr/swuniv/community/event.do?mode=view&articleNo=1586448&article.offset=0&articleLimit=10&totalNoticeYn=N&totalBoardNo="
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-48ae6ae0a743",
+      "title": "[구산동도서관마을] 은평 월간 다문화 미등록 [이주아동 이야기 은유 작가님과 함께하는 북토크]",
+      "region": "서울",
+      "place": "구산동도서관마을 3층 힐링캠프",
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07",
+      "fee": "무료",
+      "target": "청소년 이상 누구나",
+      "source": {
+        "url": "https://www.eplib.or.kr/gsvlib/menu/11004/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=231562&manageCd=MI&searchStatus=OPEN"
       },
       "credit": "서울문화포털"
     },
