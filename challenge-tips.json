@@ -56,21 +56,13 @@
         {
           "imageUrl": "/rice1.jpg",
           "text": "즉석밥 24개입 약 2만원\n쌀 2kg 9천원, 10kg 35,000원\n쌀은 밥이 되면서 무게가 약 2.2~2.3배 늘어나요.\n\n즉석밥을 묶음으로 사더라도\n쌀로 밥을 지으면 절반 넘게 저렴한 거예요.",
-          "link": {
-            "url": "https://link.coupang.com/a/ho7BfkxKh2",
-            "title": "쌀 사러가기",
-            "disclosure": "쿠팡 파트너스 활동의 일환으로 일정액의 수수료를 제공받습니다."
-          },
+          "link": null,
           "source": null
         },
         {
           "imageUrl": "/rice2.jpg",
           "text": "주 3회 이상 집밥을 먹는다면\n고슬고슬 지어서 냉동실에 쟁여보세요.\n\n밥이 뜨거울 때 그대로 담아주세요.\n김이 갇혀야 나중에 촉촉해요.\n\n우선 저렴한 전자레인지 가능 용기로 시작해보고,\n습관이 되면 실리콘, 유리, 도자기 용기도 고려해 보세요.",
-          "link": {
-            "url": "https://link.coupang.com/a/ho7BfkxKh2",
-            "title": "쌀 사러가기",
-            "disclosure": "쿠팡 파트너스 활동의 일환으로 일정액의 수수료를 제공받습니다."
-          },
+          "link": null,
           "source": null
         },
         {
@@ -79,7 +71,7 @@
           "link": {
             "url": "https://link.coupang.com/a/ho7BfkxKh2",
             "title": "쌀 사러가기",
-            "disclosure": "쿠팡 파트너스 활동의 일환으로 일정액의 수수료를 제공받습니다."
+            "disclosure": "이 게시물은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다."
           },
           "source": null
         }
@@ -93,12 +85,8 @@
       "slides": [
         {
           "imageUrl": "/tteokguk_1.jpg",
-          "text": "⏱ 20분 소요\n🍲 메인 - 황태, 떡, 계란\n🥕 서브 - 파, 무\n🧂 양념 - 후추, 간장, 소금",
-          "link": {
-            "url": "https://link.coupang.com/a/hcAa0uV2GG",
-            "title": "재료 사러가기",
-            "disclosure": "쿠팡 파트너스 활동의 일환으로 일정액의 수수료를 제공받습니다."
-          },
+          "text": "간단하게 맛있는 레시피\n\n⏱ 20분 소요\n🍲 메인 - 황태, 떡, 계란\n🥕 서브 - 파, 무\n🧂 양념 - 후추, 간장, 소금",
+          "link": null,
           "source": null
         },
         {
@@ -116,7 +104,11 @@
         {
           "imageUrl": "/tteokguk_4.jpg",
           "text": "국이 너무 뜨겁지 않게 실온에 식혀주고\n도시락 통에 넣어 냉동해 주세요.\n\n좋아하는 떡도 세트로 소분해두고\n먹기 전 물에 살짝 불려두면 좋아요.\n\n떡에 냉동 육수를 올려서\n전자레인지로 충분히 데워주세요.\n가능하다면 불에 보글보글 끓여야 더 맛있어요.",
-          "link": null,
+          "link": {
+            "url": "https://link.coupang.com/a/hcAa0uV2GG",
+            "title": "재료 사러가기",
+            "disclosure": "이 게시물은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다."
+          },
           "source": null
         }
       ]
