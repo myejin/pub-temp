@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "generatedAt": "2026-10-16T22:43:47.287Z",
+  "generatedAt": "2026-10-17T22:08:40.177Z",
   "events": [
     {
       "id": "seoul-d71050f45bb5",
@@ -1331,20 +1331,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-b82cbdff56b2",
-      "title": "제15회 두산연강예술상 수상자 정여름 개인전 [복수]",
-      "region": "서울",
-      "place": "두산아트센터 두산갤러리",
-      "startDate": "2026-08-26",
-      "endDate": "2026-10-17",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://www.doosangallery.com/kr/exhibitions/detail/238"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-7da665bc22ce",
       "title": "[서울시립 미술아카이브] 26/27 레퍼런스 라이브러리 [책 생각들]",
       "region": "서울",
@@ -2167,20 +2153,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-b60f2cf5e7a1",
-      "title": "이웅철 개인전 [안전거리]",
-      "region": "서울",
-      "place": "INGAHEE",
-      "startDate": "2026-10-01",
-      "endDate": "2026-10-17",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://archivist.kr/exi?m=gov&i=1791238237"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-7d40d3c73273",
       "title": "전시 [접촉화면]",
       "region": "서울",
@@ -2671,20 +2643,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-09bbdc55fd53",
-      "title": "뉴제로 ON페스타",
-      "region": "서울",
-      "place": "신영시장 내",
-      "startDate": "2026-10-15",
-      "endDate": "2026-10-17",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://blog.naver.com/sy03319/224440033429"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-3c90f2b0f8ed",
       "title": "박성민 [형태를 지나 결에 머물다]",
       "region": "서울",
@@ -2758,20 +2716,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-0c80d76d1e4f",
-      "title": "[서울시] 2026 서울도시농업박람회",
-      "region": "서울",
-      "place": "서울숲(동부공원여가센터 일원)",
-      "startDate": "2026-10-16",
-      "endDate": "2026-10-17",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://agro-cityseoul.co.kr/"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-4f0d0f3919fe",
       "title": "[서울시농수산식품공사] 2026년 제3회 가락 옥토버페스트",
       "region": "서울",
@@ -2782,20 +2726,6 @@
       "target": "지역주민, 가족 단위 방문객, 시장 이용객 등 시민 누구나",
       "source": {
         "url": "https://www.garak.co.kr/homepage/M0000075/board/view.do?atcSn=26101"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-5517ca64da90",
-      "title": "2026 서울글로벌 아트나이트 with 영수증콘서트",
-      "region": "서울",
-      "place": "서울광장 특설무대",
-      "startDate": "2026-10-16",
-      "endDate": "2026-10-17",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://www.billconcert.com/"
       },
       "credit": "서울문화포털"
     },
@@ -2829,38 +2759,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-42f78da27b34",
-      "title": "[광진문화재단] 2026 생활예술축제 [춤추는광진]",
-      "region": "서울",
-      "place": "서울어린이대공원 열린무대",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-17",
-      "fee": "무료",
-      "performers": "광진구민",
-      "target": "광진구민 누구나",
-      "text": "광진구민이 함께 하는 생활예술 축제",
-      "source": {
-        "url": "https://www.naruart.or.kr/exhibition/program_view.php?idx=10413"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-fc60967c1c4a",
-      "title": "[광진정보도서관] 조선에서 레벨업! 심용환 작가와의 만남",
-      "region": "서울",
-      "place": "광진정보도서관 문화동 지하1층 영화음악감상실",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-17",
-      "fee": "무료",
-      "performers": "심용환역사앤교육연구소 소장(2021~現) TBS 역사스테이 흔적 진행(2021~2024) KBS1TV 역사저널 그날 패널(2018~2020) 인문학 아카데미 깊은계단 대표(2000~2015) 주요 논저: 「친절한 …",
-      "target": "광진구립도서관 회원 누구나",
-      "text": "2026년 광진정보도서관 심용환 작가와의 만남 : 조선에서 레벨업! 이야기로 생각하는 창의력 한국사",
-      "source": {
-        "url": "https://www.gwangjinlib.seoul.kr/gjinfo/menu/10111/program/30026/lectureDetail.do?currentPageNo=3&lectureIdx=14893&statusCd=&targetTypeCd="
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-dee8668c5dea",
       "title": "[금천문화재단] 2026 금천하모니축제",
       "region": "서울",
@@ -2871,20 +2769,6 @@
       "target": "누구나",
       "source": {
         "url": "https://www.instagram.com/geumcheon_harmony/"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-cc85a97dc7f9",
-      "title": "[금천문화재단] 찾아가는 금천라이브 - 하반기",
-      "region": "서울",
-      "place": "금나래중앙공원",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-17",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://m.site.naver.com/2eeRX"
       },
       "credit": "서울문화포털"
     },
@@ -2900,20 +2784,6 @@
       "text": "가을의 기록을 한 권의 포토에세이로 엮어가는 시간",
       "source": {
         "url": "https://www.idfac.or.kr/bbs/board.php?bo_table=notice&wr_id=475"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-2be7f2606c6e",
-      "title": "[마포구립서강도서관] 10월/어린이메이킹 해봄이웃집Maker [업사이클링 팝업북]",
-      "region": "서울",
-      "place": "마포구립서강도서관 3층 세미나실",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-17",
-      "fee": "무료",
-      "target": "해봄이로 등록한 초등학교 4-6학년 12명",
-      "source": {
-        "url": "https://mplib.mapo.go.kr/sglib/PGM3028/eventDetail.do?eventSn=13427"
       },
       "credit": "서울문화포털"
     },
@@ -2948,62 +2818,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-39599e0129d7",
-      "title": "[서울공예박물관] 2026 SeMoCA 공예강좌 #6",
-      "region": "서울",
-      "place": "울공예박물관 교육동 1층 강당",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-17",
-      "fee": "무료",
-      "target": "모든 시민(선착순 80명)",
-      "source": {
-        "url": "https://craftmuseum.seoul.go.kr/progrm/view/523"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-12e40e278378",
-      "title": "[서울돈화문국악당] 2026 돈화문 야광명월",
-      "region": "서울",
-      "place": "서울돈화문국악당 국악마당",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-17",
-      "fee": "무료",
-      "target": "전체관람가",
-      "source": {
-        "url": "https://www.sgtt.kr/program/detail/7374"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-80c64d03668d",
-      "title": "[서울시어울림플라자] 어울림 컬쳐 클래스(Culture Class) - 미술로 보는 창의력의 세계",
-      "region": "서울",
-      "place": "서울시 어울림플라자 B동 지하 2층 문화센터",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-17",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://seouleoullim.or.kr/site/board/board-view?id=589&board_type=notice"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-4b61ffd29677",
-      "title": "[서초문화재단] 2026 서리풀 K-스트링 페어 [개막 음악회]",
-      "region": "서울",
-      "place": "로데아트센터 B3층 콘서트홀 (서초구 남부순환로317길 79)",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-17",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://seoripulac.or.kr/modules/board/bd_view.html?no=261&id=program&mc_code=1110&or=bd_order&al=asc"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-14d12295d6d6",
       "title": "[송파문화재단] 2026 송파 문화예술 활성화 지원사업 선정작 [강가에 서서]",
       "region": "서울",
@@ -3014,20 +2828,6 @@
       "target": "초등학생 이상",
       "source": {
         "url": "https://www.songpafac.or.kr/notice_view.do?brd_seq=1546&curPage=&searchtype=&keyword="
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-a9629ae491db",
-      "title": "[용산역사박물관] 2026 용산역사박물관 [월간 청음회] 10월",
-      "region": "서울",
-      "place": "용산역사박물관 1층 로비",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-17",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://museum.yongsan.go.kr/edus/view?id=920"
       },
       "credit": "서울문화포털"
     },
@@ -3046,20 +2846,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-19b7c90c6760",
-      "title": "[힙독클럽 X 서울아트책보고] 『호프 끝장』 북토크 : 호프를 둘러싼 다양한 이야기",
-      "region": "서울",
-      "place": "서울아트책보고 열린 무대",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-17",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://www.artbookbogo.kr/seoul/menu/10024/program/30009/cultureDetail.do?currentPageNo=1&cultureIdx=27680"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-9f9d06ac5832",
       "title": "2026 에코나이트 페스티벌",
       "region": "서울",
@@ -3072,52 +2858,6 @@
       "text": "창동역 고가 하부 유휴 공간을 친환경 문화예술과 야간 빛으로 재해석하는 융합 페스티벌! 1.에코 나이트 인스케이프: 어두운 고가 하부를 빛으로 채우는 야간 미디어아트 전시 및 점등 퍼포먼스 2. 에코 스테이지: LED 국악 B-boy, 성악 앙상블, 친환경 패션쇼 등 다채로운 야간 융합 공연 3. 지속가능 에코 마켓: 시민 참여형 업사이클링 체험 워크숍, 라이프스타일 수공예품 및 제로웨이스트 마켓 부스",
       "source": {
         "url": "https://edenpeople.kr"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-4677aef72de2",
-      "title": "2026 제21회 서울창작공간연극축제_창작공모형 공연 [청룡 흑룡의 반짝 대소동]",
-      "region": "서울",
-      "place": "하자센터 본관 2층 999클럽",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-17",
-      "fee": "무료",
-      "performers": "김지수, 이송연, 정찬미, 채 윤",
-      "target": "누구나, 어린이",
-      "text": "반짝이는 별이 사라진 초록별 마을. 청룡, 흑룡, 삼구귀, 별남이와 함께 별을 찾아 떠나는 대소동이 벌어진다!",
-      "source": {
-        "url": "https://playticket.co.kr/nav/detail.html?idx=4585"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-933e6882a5b8",
-      "title": "2026 하늘소음 그리기대회",
-      "region": "서울",
-      "place": "서서울호수공원 문화데크광장",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-17",
-      "fee": "무료",
-      "target": "어린이, 청소년",
-      "source": {
-        "url": "http://airportnoise.center/pic2026/"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-da79e0509c52",
-      "title": "2026년 국제인도법 시네마 토크",
-      "region": "서울",
-      "place": "서울영화센터 제2상영관(2층)",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-17",
-      "fee": "무료",
-      "performers": "사회 | 배동미 기자 (씨네21) / 패널 | 이혜영 서울대학교 국제대학원 교수(국제인권법·국제형사법), 장문석 서울대학교 서양사학과 교수(제2차 세계대전사)",
-      "target": "누구나",
-      "text": "대한적십자사 인도법연구소에서 매년 개최하는 '국제인도법 시네마토크'는 국제인도법을 보다 대중적인 형태로 만나볼 수 있는 문화행사로, 인도주의와 평화, 인권, 국제법 등에 관심이 있는 일반인 및 학생들을 위해 소중한 체험 학습의 기회를 제공하고자 마련되었습니다.",
-      "source": {
-        "url": "https://booking.naver.com/booking/12/bizes/263201/items/8085979"
       },
       "credit": "서울문화포털"
     },
