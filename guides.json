@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "generatedAt": "2026-10-17T22:08:40.177Z",
+  "generatedAt": "2026-10-18T22:20:59.464Z",
   "events": [
     {
       "id": "seoul-d71050f45bb5",
@@ -594,20 +594,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-6bd445d5962b",
-      "title": "2026 서울시 태권도 공연",
-      "region": "서울",
-      "place": "남산골한옥마을, DDP(동대문디자인플라자) 등",
-      "startDate": "2026-05-09",
-      "endDate": "2026-10-18",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://www.instagram.com/p/DXJHEnTii_j/"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-91da7ef5e61d",
       "title": "[서울시립 미술아카이브] 2026 서울시립 미술아카이브 대학연계프로그램 [오픈아카이브]",
       "region": "서울",
@@ -930,20 +916,6 @@
       "target": "일반 20명",
       "source": {
         "url": "https://mplib.mapo.go.kr/sglib/PGM3028/eventDetail.do?eventSn=12787"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-9c856fbddd87",
-      "title": "[서울시립 사진미술관] 마틴 파 : We Are Martin Parr",
-      "region": "서울",
-      "place": "서울시립 사진미술관 2층 영상홀, 서울시립 사진미술관 2층 1,2,3,4전시실",
-      "startDate": "2026-07-16",
-      "endDate": "2026-10-18",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1553791"
       },
       "credit": "서울문화포털"
     },
@@ -1745,20 +1717,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-3f9a40e8f005",
-      "title": "[한성백제박물관] 땅속서울 : Underground Seoul 2000 - 백제 토기",
-      "region": "서울",
-      "place": "한성백제박물관 기획전시실2",
-      "startDate": "2026-09-15",
-      "endDate": "2026-10-18",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://baekjemuseum.seoul.go.kr/module/index.jsp?boardid=a&code=DP&mmode=content&mpid=SBM0203000000&pid=23568"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-97cf860a7754",
       "title": "2026 가을 기획전 [아름다운 기증, 소중한 모음Ⅴ]",
       "region": "서울",
@@ -1883,20 +1841,6 @@
       "target": "초등생",
       "source": {
         "url": "https://baekjemuseum.seoul.go.kr/module/index.jsp?boardid=a&code=ED&mmode=content&mpid=SBM0402000000&pid=23529"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-08d7f9427a53",
-      "title": "윤이도 개인전 [안녕: 흐릿하게 남은 사랑]",
-      "region": "서울",
-      "place": "공간:일리",
-      "startDate": "2026-09-30",
-      "endDate": "2026-10-18",
-      "fee": "0원",
-      "target": "누구나",
-      "source": {
-        "url": "https://archivist.kr/exi?m=gov&i=1791410351"
       },
       "credit": "서울문화포털"
     },
@@ -2226,20 +2170,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-f2a830d06c70",
-      "title": "박희주 개인전 [아주 오래된 잔해]",
-      "region": "서울",
-      "place": "예술공간 의식주",
-      "startDate": "2026-10-03",
-      "endDate": "2026-10-18",
-      "fee": "0원",
-      "target": "누구나",
-      "source": {
-        "url": "https://archivist.kr/exi?m=gov&i=1791410666"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-f877d9ffcc73",
       "title": "김영재 개인전 [Ashes to Bones]",
       "region": "서울",
@@ -2278,20 +2208,6 @@
       "target": "누구나",
       "source": {
         "url": "https://www.eplib.or.kr/jslib/menu/10457/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=230163"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-7b36943f6835",
-      "title": "[문화실험공간 호수] 2026 더 임팩트 청년예술인 공모전시 [THE OTHERS]",
-      "region": "서울",
-      "place": "문화실험공간 호수 2F 전시실",
-      "startDate": "2026-10-06",
-      "endDate": "2026-10-18",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://blog.naver.com/exp_space_hosu/224430157183"
       },
       "credit": "서울문화포털"
     },
@@ -2396,20 +2312,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-baa0c93e8158",
-      "title": "[용산문화재단] 릴레이 상영전 [용산 필름 인사이드]",
-      "region": "서울",
-      "place": "용산문화재단 복합문화공간 1층, 2층",
-      "startDate": "2026-10-09",
-      "endDate": "2026-10-18",
-      "fee": "무료",
-      "target": "누구나 (영화별 관람등급 상이)",
-      "source": {
-        "url": "https://yongsanculture.or.kr/site/main/performance/EDUCATION/view/227"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-fd16a2bbddfa",
       "title": "2026년 10월 9일부터 23일까지¹ 매일 오전 …",
       "region": "서울",
@@ -2494,20 +2396,6 @@
       "target": "누구나",
       "source": {
         "url": "https://www.sdfac.or.kr/kor/sdfac/performance/plan_view.do?p_idx=1661"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-628631c17afb",
-      "title": "[운현궁] 2026 기획전시 [제12회 설경규방공예연구회]",
-      "region": "서울",
-      "place": "운현궁 기획전시실",
-      "startDate": "2026-10-13",
-      "endDate": "2026-10-18",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://www.unhyeongung.or.kr/sub/prpgram/exhibition_list.php?abmode=view&no=2005&group=basic&code=B35"
       },
       "credit": "서울문화포털"
     },
@@ -2687,20 +2575,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-99802601922f",
-      "title": "[강동구] 제31회 강동선사문화축제",
-      "region": "서울",
-      "place": "서울 암사동 유적, 암사역사공원 일대",
-      "startDate": "2026-10-16",
-      "endDate": "2026-10-18",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://www.gdsunsa.com/"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-c06c62d38ae0",
       "title": "[노원문화재단] 2026 노원달빛산책",
       "region": "서울",
@@ -2712,20 +2586,6 @@
       "text": "다채로운 빛조각 작품을 비롯해 노원구민, 관내 대학생이 작가와 함께 만드는 커뮤니티 아트, 구민이 직접 도슨트로 나서는 달빛투어 등 다양한 프로그램을 통해 가을밤 당현천에서 예술을 만나고 함께 즐기는 시민참여형 공공미술 축제",
       "source": {
         "url": "https://nowonarts.kr/channels/festival/programs/1068"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-4f0d0f3919fe",
-      "title": "[서울시농수산식품공사] 2026년 제3회 가락 옥토버페스트",
-      "region": "서울",
-      "place": "가락몰 3층 하늘공원",
-      "startDate": "2026-10-16",
-      "endDate": "2026-10-18",
-      "fee": "무료",
-      "target": "지역주민, 가족 단위 방문객, 시장 이용객 등 시민 누구나",
-      "source": {
-        "url": "https://www.garak.co.kr/homepage/M0000075/board/view.do?atcSn=26101"
       },
       "credit": "서울문화포털"
     },
@@ -2759,20 +2619,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-dee8668c5dea",
-      "title": "[금천문화재단] 2026 금천하모니축제",
-      "region": "서울",
-      "place": "금천구청, 금나래중앙공원 일대",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-18",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://www.instagram.com/geumcheon_harmony/"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-719345805dc0",
       "title": "[동작문화재단] 가을의 기록을 한 권의 포토에세이로 엮어가는 시간 [가을 기록실]",
       "region": "서울",
@@ -2802,66 +2648,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-e14552c31627",
-      "title": "[미래한강본부] ON 스테이지: 한강에 별이 뜨면 - 2026 한강페스티벌 가을",
-      "region": "서울",
-      "place": "잠원한강공원 다목적운동장(럭비장)",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-18",
-      "fee": "무료",
-      "performers": "‘이루다 드림’ 어린이 뮤지컬팀, 꿈꾸는 청춘: 단국대학교 뮤지컬 전공 학생팀, 뮤지컬 스타 10. 17.(토) 서범석/10. 18 리사",
-      "target": "누구나",
-      "text": "한강에서 펼쳐지는 꿈꾸는 청춘과 뮤지컬 스타의 컬래버래이션 공연",
-      "source": {
-        "url": "https://www.seoul.go.kr/festa/hangang/y2026/programs?article=47083"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-14d12295d6d6",
-      "title": "[송파문화재단] 2026 송파 문화예술 활성화 지원사업 선정작 [강가에 서서]",
-      "region": "서울",
-      "place": "송파문화예술회관 송파아트홀",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-18",
-      "fee": "무료",
-      "target": "초등학생 이상",
-      "source": {
-        "url": "https://www.songpafac.or.kr/notice_view.do?brd_seq=1546&curPage=&searchtype=&keyword="
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-6e5901419c10",
-      "title": "[종로문화재단] 2026 윤동주문학제 [동주의 한글, 별이 되다]",
-      "region": "서울",
-      "place": "종로구, 마로니에공원, 윤동주문학관 일대",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-18",
-      "fee": "무료",
-      "target": "윤동주 시인을 사랑하는 누구나",
-      "source": {
-        "url": "https://blog.naver.com/jn_jfac/224375134044"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-9f9d06ac5832",
-      "title": "2026 에코나이트 페스티벌",
-      "region": "서울",
-      "place": "창동역 1번출구 고가하부 및 보행광장",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-18",
-      "fee": "무료",
-      "performers": "LED 퍼포먼스, B-boy 팀, 성악 앙상블, 친환경 패션쇼, 청년 아티스트 및 버스커 등",
-      "target": "전연령(제한없음)",
-      "text": "창동역 고가 하부 유휴 공간을 친환경 문화예술과 야간 빛으로 재해석하는 융합 페스티벌! 1.에코 나이트 인스케이프: 어두운 고가 하부를 빛으로 채우는 야간 미디어아트 전시 및 점등 퍼포먼스 2. 에코 스테이지: LED 국악 B-boy, 성악 앙상블, 친환경 패션쇼 등 다채로운 야간 융합 공연 3. 지속가능 에코 마켓: 시민 참여형 업사이클링 체험 워크숍, 라이프스타일 수공예품 및 제로웨이스트 마켓 부스",
-      "source": {
-        "url": "https://edenpeople.kr"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-e1944a467d06",
       "title": "제9회 어르니마켓",
       "region": "서울",
@@ -2886,20 +2672,6 @@
       "target": "누구나",
       "source": {
         "url": "https://galleryjiha.com/home/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=175009125&t=board"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-1725eec5bbb3",
-      "title": "[서울시어울림플라자] 어울림 스테이지(Stage) - '나는 코다입니다.'",
-      "region": "서울",
-      "place": "서울시 어울림플라자 B동 지하 1층 공연장",
-      "startDate": "2026-10-18",
-      "endDate": "2026-10-18",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://seouleoullim.or.kr/site/board/board-view?id=622&board_type=notice"
       },
       "credit": "서울문화포털"
     },
@@ -3848,6 +3620,20 @@
       "text": "제31회 한무숙문학상 수상자 구병모 소설가와 함께 작품을 낭독하고, 작가와 문학 이야기를 나누는 시간",
       "source": {
         "url": "http://www.hahnmoosook.com/public_html/pages/news/program.asp"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-d0a4078abbc0",
+      "title": "[3기] 서울아트책보고 북클럽 X 현대문학 : 네 번째 시간 『백조와 박쥐』 읽기 / 한이 소설가 · 편집자",
+      "region": "서울",
+      "place": "서울아트책보고 워크숍룸",
+      "startDate": "2026-11-17",
+      "endDate": "2026-11-17",
+      "fee": "무료",
+      "target": "누구나 (일반 시민 25명)",
+      "source": {
+        "url": "https://www.artbookbogo.kr/seoul/menu/10024/program/30009/cultureDetail.do?currentPageNo=1&cultureIdx=27359&cultureTypeCdArr=EDUC&searchCultureTypeCd=&searchOperStatusCd=VALID"
       },
       "credit": "서울문화포털"
     }
