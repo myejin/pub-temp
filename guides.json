@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "generatedAt": "2026-10-20T23:05:08.795Z",
+  "generatedAt": "2026-10-21T23:09:11.914Z",
   "events": [
     {
       "id": "seoul-d71050f45bb5",
@@ -1064,21 +1064,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-2234fbb5cdd9",
-      "title": "[청운문확도서관] 2026 지혜학교 [세계문학으로 읽는 12가지 지혜]",
-      "region": "서울",
-      "place": "청운문학도서관",
-      "startDate": "2026-08-05",
-      "endDate": "2026-10-21",
-      "fee": "무료",
-      "target": "관심있는 성인 누구나",
-      "text": "성균관대 장유정 교수와 함께 동서양 명작 속에서 삶의 본질을 탐구하는 12주간의 인문학 여정",
-      "source": {
-        "url": "https://blog.naver.com/jn_jfac/224347751879"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-59a9437a131a",
       "title": "[구산동도서관마을] 2026년 구산동도서관마을 지혜학교 [몸으로 인문학하기]",
       "region": "서울",
@@ -2083,21 +2068,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-7d40d3c73273",
-      "title": "전시 [접촉화면]",
-      "region": "서울",
-      "place": "스페이스 카다로그",
-      "startDate": "2026-10-01",
-      "endDate": "2026-10-21",
-      "fee": "0원",
-      "performers": "김규년, 설고은, 윤태준, 장예빈, 정영호, 도혜민, 인현진, 조형준, 김진솔",
-      "target": "누구나",
-      "source": {
-        "url": "https://archivist.kr/exi?m=gov&i=1790806191"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-fbb7d4b8fbb5",
       "title": "한솔비 [식빵 자세]",
       "region": "서울",
@@ -2850,20 +2820,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-31f19f7d5b53",
-      "title": "[동작문화재단] 상도어울마당 아트홀 '아트 박스 콘서트' 10회차 [동작동락-장단으로 만나는 퓨전국악 여행]",
-      "region": "서울",
-      "place": "상도어울마당 아트홀",
-      "startDate": "2026-10-21",
-      "endDate": "2026-10-21",
-      "fee": "무료",
-      "target": "동작구민 누구나",
-      "source": {
-        "url": "https://www.idfac.or.kr/bbs/board.php?bo_table=gallery_info&wr_id=314"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-fe506dd6c547",
       "title": "[미림아트갤러리] 소소화 제1회 회원전 [그려진 시간들]",
       "region": "서울",
@@ -2892,20 +2848,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-7108182e47b6",
-      "title": "[서울영화센터] 2026 AI 영화 쇼케이스",
-      "region": "서울",
-      "place": "서울영화센터 지하 1층 상영관 Ⅲ",
-      "startDate": "2026-10-21",
-      "endDate": "2026-10-21",
-      "fee": "무료",
-      "target": "영화인, 대학생 등",
-      "source": {
-        "url": "https://www.seoulfilmcenter.com/edu/view.do?eduSn=2609160001&slctnYn=&key=2508270013"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-5ff1388c5ca8",
       "title": "2026 공예현장 라운드테이블",
       "region": "서울",
@@ -2916,21 +2858,6 @@
       "target": "누구나",
       "source": {
         "url": "https://www.kcdf.or.kr/brd/board/322/L/menu/291?brdType=R&thisPage=1&bbIdx=9196"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-4a375297c45b",
-      "title": "2026 서울 전통춤의 향연 [춤을 읽다 Ⅱ]",
-      "region": "서울",
-      "place": "한국문화의집KOUS",
-      "startDate": "2026-10-21",
-      "endDate": "2026-10-21",
-      "fee": "전석무료",
-      "target": "8세 이상",
-      "text": "태평무, 통영승전무, 선입무, 교방 굿거리, 교방무, 사자춤, 쇠춤, 판굿",
-      "source": {
-        "url": "https://blog.naver.com/jungart00/224440099709"
       },
       "credit": "서울문화포털"
     },
@@ -3298,6 +3225,20 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-c2b11168ccc8",
+      "title": "2026 명원박물관 TEAGARDEN FESTIVAL [명원 마티네 가을]",
+      "region": "서울",
+      "place": "명원박물관 성곡헌 상설전시실",
+      "startDate": "2026-10-27",
+      "endDate": "2026-10-27",
+      "fee": "무료",
+      "target": "국민대학교 구성원 및 지역주민 누구나",
+      "source": {
+        "url": "https://museum.kookmin.ac.kr/event/performance/26?sc=450"
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-1a2b814d7760",
       "title": "[서울로봇인공지능과학관] 강연/라임 콜로키엄 [2026년 제7회_AI와 함께 만드는, 맞춤형 로봇]",
       "region": "서울",
@@ -3433,6 +3374,21 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-bc27a4f72e81",
+      "title": "[서울역사박물관] 제6회 서울역사박물관 배리어프리영화관 [화이트 버드]",
+      "region": "서울",
+      "place": "서울역사박물관 1층 야주개홀(강당)",
+      "startDate": "2026-10-29",
+      "endDate": "2026-10-29",
+      "fee": "무료",
+      "target": "누구나",
+      "text": "장애인과 비장애인이 함께 보는 배리어프리영화 관람",
+      "source": {
+        "url": "https://museum.seoul.go.kr/www/board/NR_boardView.do?bbsCd=1018&seq=20261013163438168&sso=ok"
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-9f837885a83a",
       "title": "[광진정보도서관] 역사는 우리의 삶을 치유할 수 있을까? 전범선 작가와의 만남",
       "region": "서울",
@@ -3560,6 +3516,20 @@
       "target": "누구나",
       "source": {
         "url": "https://litt.ly/artistcenter_songpa"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-0463c904d948",
+      "title": "2026 서울특별시 무형유산 삼현육각 전수발표회",
+      "region": "서울",
+      "place": "민속극장풍류",
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-01",
+      "fee": "전석무료",
+      "target": "8세 이상",
+      "source": {
+        "url": "https://blog.naver.com/jungart00/224446319473"
       },
       "credit": "서울문화포털"
     },
@@ -3712,6 +3682,20 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-1fb113b20e48",
+      "title": "[동작문화재단] 2026 상도어울마당 아트홀 개관 3주년 기획 프로그램 [상도 놀이터]",
+      "region": "서울",
+      "place": "상도어울마당 아트홀",
+      "startDate": "2026-11-04",
+      "endDate": "2026-11-18",
+      "fee": "무료",
+      "target": "동작구민",
+      "source": {
+        "url": "http://www.idfac.or.kr/bbs/board.php?bo_table=notice&wr_id=479"
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-d59fc0a9de7d",
       "title": "[서울돈화문국악당] 12가사 완창 프로젝트 Ⅱ 문현의 4가사 절반창과 경제시조 [삶:歌]",
       "region": "서울",
@@ -3782,20 +3766,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-d868caf28072",
-      "title": "[서울형 키즈카페 한성백제박물관점] 영유아 예술체험 프로그램 [동그라미 세모 네모]",
-      "region": "서울",
-      "place": "서울백제어린이박물관내 서울형 키즈카페 한성백제박물관점",
-      "startDate": "2026-11-06",
-      "endDate": "2026-11-06",
-      "fee": "무료",
-      "target": "8개월~16개월 영아 관람객 신청자",
-      "source": {
-        "url": "https://baekjemuseum.seoul.go.kr/dreamvillage/index.jsp"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-ee4a64a1dadf",
       "title": "제18회 언리미티드 에디션 - 서울아트북페어 2026",
       "region": "서울",
@@ -3834,6 +3804,21 @@
       "target": "청소년 이상 누구나",
       "source": {
         "url": "https://www.eplib.or.kr/gsvlib/menu/11004/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=231562&manageCd=MI&searchStatus=OPEN"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-f86d4f831356",
+      "title": "연극 [점프x컷]",
+      "region": "서울",
+      "place": "우란문화재단 우란2경",
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-15",
+      "fee": "*본 공연은 무료공연이나, 1인 10,000원의 예약금이 있습니다. 예약금은 참여 여부와 관계없이 공연 종료 후 전액 환불되며, 결제 취소 및 환불은 일괄 진행됩니다.",
+      "performers": "민준 역: 이제민, 지우 역: 김무정, 서연 역: 이다은, 도현 역: 이경우, 윤서 역: 박유밀, 진호 역: 전진오",
+      "target": "중학생이상 관람가",
+      "source": {
+        "url": "https://booking.naver.com/booking/12/bizes/1513018"
       },
       "credit": "서울문화포털"
     },
