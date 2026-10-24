@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "generatedAt": "2026-10-23T23:00:19.561Z",
+  "generatedAt": "2026-10-24T22:22:54.727Z",
   "events": [
     {
       "id": "seoul-d71050f45bb5",
@@ -1844,20 +1844,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-2a20001783a7",
-      "title": "[구립증산도서관] 테마로 즐기는 도서관 II - 10월 테마전시체험전 [나의 특별한 섬]",
-      "region": "서울",
-      "place": "구립증산도서관 3층 가족열람실",
-      "startDate": "2026-10-01",
-      "endDate": "2026-10-24",
-      "fee": "무료",
-      "target": "도서관 이용자 누구나",
-      "source": {
-        "url": "https://www.eplib.or.kr/jslib/menu/10457/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=229833"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-1d86e4e65bfe",
       "title": "[마포구립서강도서관] 10월 문화프로그램 안내",
       "region": "서울",
@@ -2106,21 +2092,6 @@
       "target": "36개월 미만 영아, 보호자",
       "source": {
         "url": "https://www.seoulchildrensmuseum.org/education/educationView.do?id=3003"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-3bec223c10d0",
-      "title": "최은지 개인전 [지도에 없는 장소에 그림자를 붙이고 있었다]",
-      "region": "서울",
-      "place": "콤플렉스",
-      "startDate": "2026-10-06",
-      "endDate": "2026-10-24",
-      "fee": "무료",
-      "performers": "최은지, 모희, 윤나라, 고정균",
-      "target": "누구나",
-      "source": {
-        "url": "https://archivist.kr/exi?m=gov&i=1791086082"
       },
       "credit": "서울문화포털"
     },
@@ -2646,22 +2617,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-d99c7e23e4fc",
-      "title": "제4회 구로시장 한맥대축제 : 한복ON 구로마켓 런웨이",
-      "region": "서울",
-      "place": "한우마당 공터 및 구로시장 일대",
-      "startDate": "2026-10-19",
-      "endDate": "2026-10-24",
-      "fee": "무료",
-      "performers": "구로구 드림탭 난타팀, SNS통해 모집된 고객 쇼호스트 10명, 트롯가수, 대학생공연팀 등",
-      "target": "누구나, 남녀노소 참여 가능",
-      "text": "야간음식문화 활성화 사업으로, 고객들이 시장의 대표상품을 직접 런웨이 및 현장특가전, 맥주 및 막걸리와 다양한 먹거리, 난타 등 동아리 축하공연, 1인 최대 2만원의 온누리상품권 페이백 진행, 된장만들기와 전통놀이 3종 등 한복과 전통의 테마 체험, 영수증 추첨 이벤트 등",
-      "source": {
-        "url": "https://blog.naver.com/marketguro2020/224432247464"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-f90b8a673e13",
       "title": "[서울기록원] 예술가들이 기록한 도시",
       "region": "서울",
@@ -2776,36 +2731,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-935f84a70f0c",
-      "title": "[마포구립서강도서관] 10월/부모교육 [단단한 부모, 단단한 자녀!]",
-      "region": "서울",
-      "place": "마포구립서강도서관 3층 세미나실",
-      "startDate": "2026-10-22",
-      "endDate": "2026-10-24",
-      "fee": "무료",
-      "target": "초등 고학년 / 중학생 자녀 양육자 각 20명",
-      "source": {
-        "url": "https://mplib.mapo.go.kr/sglib/PGM3028/eventDetail.do?eventSn=13347"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-19c0bc7d4e57",
-      "title": "[서울시평생교육진흥원] 서울 AI 평생학습 러닝그라운드",
-      "region": "서울",
-      "place": "서울 성동구 서울숲, 더서울라이티움",
-      "startDate": "2026-10-23",
-      "endDate": "2026-10-24",
-      "fee": "무료",
-      "performers": "김상균 경의대학교 교수, 김대식 카이스트대학교 교수 등",
-      "target": "아동부터 노년까지 AI시대를 맞이한 전 세대별 방문객 누구나",
-      "text": "2026 서울 AI 평생학습 러닝 그라운드는 누구나 AI를 쉽고 재미있게 경험할 수 있는 체험형 시민 행사입니다.",
-      "source": {
-        "url": "https://seoul-ai-learning-ground.kr/about"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-3def7ad0f1b8",
       "title": "2026 제5회 전국 승가원 [장애공감 어린이 그림공모전 수상작 전시] 나답게, 너답게, 우리답게!",
       "region": "서울",
@@ -2844,20 +2769,6 @@
       "target": "누구나",
       "source": {
         "url": "https://tasteofseoul.visitseoul.net/"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-c72273818403",
-      "title": "[구립증산도서관] 개관 18주년 기념 로비 체험 [점자 키링 만들기]",
-      "region": "서울",
-      "place": "구립증산도서관 1층 로비",
-      "startDate": "2026-10-24",
-      "endDate": "2026-10-24",
-      "fee": "무료",
-      "target": "도서관 이용자 누구나 선착순 자유 참여",
-      "source": {
-        "url": "https://www.eplib.or.kr/jslib/menu/10457/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=231918"
       },
       "credit": "서울문화포털"
     },
@@ -2933,34 +2844,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-9c9eb4545b61",
-      "title": "2026 서울뮤직페스티벌",
-      "region": "서울",
-      "place": "노들섬",
-      "startDate": "2026-10-24",
-      "endDate": "2026-10-24",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://seoulmusicfestival.co.kr/2026/"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-b7f54eb91135",
-      "title": "이솝 만돌린 앙상블 정기연주회",
-      "region": "서울",
-      "place": "이화여자대학교 중강당",
-      "startDate": "2026-10-24",
-      "endDate": "2026-10-24",
-      "fee": "없음",
-      "target": "누구나",
-      "source": {
-        "url": "https://cafe.naver.com/ewhasiloammandolinob?iframe_url_utf8=%2Fca-fe%2Fcafes%2F29260053%2Farticles%2F615%253Fmenuid%3D1%2526oldPath%3D%252FArticleRead.nhn%253Fclubid%253D29260053%2526articleid%253D615%2526menuid%253D1"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-97ba1450463d",
       "title": "전시 [Bubble, Dream, Void]",
       "region": "서울",
@@ -2973,22 +2856,6 @@
       "text": "예술공간 의식주 하반기 기획전시",
       "source": {
         "url": "https://the-necessaries.com/"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-e3bebd791ceb",
-      "title": "희망 Dream: 게임음악 앙상블 콘서트 [PRESS START]",
-      "region": "서울",
-      "place": "씨스퀘어(C-SQUARE)",
-      "startDate": "2026-10-24",
-      "endDate": "2026-10-24",
-      "fee": "무료",
-      "performers": "오블리주 앙상블, LCK 윤수빈 아나운",
-      "target": "누구나 (8세 이상)",
-      "text": "모두의 마블, 브롤스타즈, 라그나로크, 발로란트, 이터널 리턴, 리그오브레전드... 게임의 시작과 함께 흘러나오던 음악, 승부의 순간마다 심장을 뛰게 했던 그 선율이 9인의 앙상블 사운드로 무대 위에 펼쳐집니다.",
-      "source": {
-        "url": "https://booking.naver.com/booking/5/bizes/1513095"
       },
       "credit": "서울문화포털"
     },
