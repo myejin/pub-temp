@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "generatedAt": "2026-10-24T22:22:54.727Z",
+  "generatedAt": "2026-10-25T22:25:04.615Z",
   "events": [
     {
       "id": "seoul-d71050f45bb5",
@@ -636,20 +636,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-944a36746116",
-      "title": "[서울시립미술관 서소문본관] 2026년 한국 근대 거장전 《유영국: 산은 내 안에 있다》",
-      "region": "서울",
-      "place": "서울시립미술관 서소문본관 1층 전시실",
-      "startDate": "2026-05-19",
-      "endDate": "2026-10-25",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1529410"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-2ea70ba0012d",
       "title": "팔색찬란 - K로 가득한 지역",
       "region": "서울",
@@ -820,20 +806,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-772b44ac39cb",
-      "title": "[서울역사박물관] 2026년 작은전시 [박물관 보물찾기: 휴대용 앙부일구]",
-      "region": "서울",
-      "place": "서울역사박물관 상설전시 1존 '작은 전시실'",
-      "startDate": "2026-07-07",
-      "endDate": "2026-10-25",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://museum.seoul.go.kr/www/board/NR_boardView.do?bbsCd=1014&seq=20260708150831818&sso=ok"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-866bb9b17615",
       "title": "[구립증산도서관] 2026 지혜학교 [나의 GO백서 - 바둑으로 삶을 기록하고 복기하다]",
       "region": "서울",
@@ -845,20 +817,6 @@
       "text": "[구립증산도서관 2026 지혜학교] 나의 GO백서 - 바둑으로 삶을 기록하고 복기하다 · 기 간 l 2026. 7. 25.(토) ~ 10.31.(토) 총 12회 / 강연 및 실습 10회, 워크숍 2회 · 장 소 l 구립증산도서관 지하1층 문화강좌실 · 대 상 l 성인 누구나 22명 *선착순 무료 접수 · 접수일정 l 7.8(수)~마감 시, 도서관 홈페이지 온라인 접수 · 문 의 l 구립증산도서관 문화홍보팀 02.307.6030(내선205) · 강의일시 ㅣ 7.25.(토)~10.31.(토) (매주 토요일 14:00~17:00, *9.10(목) 디지털동행플라자 은평지점) · 매회차 프로그램 진행 방식 ㅣ 1교시 인문학 강의 ---> 2교시 실습 및 대국 ---> 3 교시 기록과 성찰 · 프로그램 세부 일정 ㅣ *하단 포스터 참조 [강 사] 남치형 명지대학교 바둑학과 교수 ·바둑 경력 - 1990~2020년 한국기원 프로기사 - KBS 바둑왕전, MBC 제왕전, EBS 바둑교실 진행 - 2022 항저우 장애인 아시안 게임 감독(금2, 동1) - 2024년 드라마 《세작》 자문 - (2023~) 국제바둑학회장 ·강의 경력 - (2003~)명지대학교 바둑학과 수업 …",
       "source": {
         "url": "https://www.jsplib.or.kr/culture/event.asp?mode=view&lecture_seq=2355&listname=normal"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-445245493d70",
-      "title": "[서울역사박물관] 여민공수與民共守 [백성과 함께 지킨다]",
-      "region": "서울",
-      "place": "서울역사박물관 기획전시실 B / 한양도성박물관 기획전시실",
-      "startDate": "2026-07-14",
-      "endDate": "2026-10-25",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://museum.seoul.go.kr/www/board/NR_boardView.do?sortName=&q_listType=THUMBNAIL&searchVal=&bbsCd=1002&endDt=&searchKey=TITLE___1002&sso=ok&regPwd=N&museumCd=&pageType=&sortOrder=&q_exhSttus=next&startDt=&currentPage=&seq=20260615104640628&ctgCd=&showSummaryYn=N"
       },
       "credit": "서울문화포털"
     },
@@ -1022,20 +980,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-1db0835a1c1d",
-      "title": "[더 갤러리 호수] 호수동물아트전",
-      "region": "서울",
-      "place": "더 갤러리 호수",
-      "startDate": "2026-08-05",
-      "endDate": "2026-10-25",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://archivist.kr/exi?m=gov&i=1786525248"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-59a9437a131a",
       "title": "[구산동도서관마을] 2026년 구산동도서관마을 지혜학교 [몸으로 인문학하기]",
       "region": "서울",
@@ -1116,20 +1060,6 @@
       "target": "유아, 아동·청소년, 성인 누구나 *프로그램 별 상이",
       "source": {
         "url": "https://www.sfac.or.kr/opensquare/notice/notice_list.do?cbIdx=955&bcIdx=138515&type="
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-244e4a028b6f",
-      "title": "[서울시립 북서울미술관] 2026 타이틀 매치 《오인환 vs. 장서영: 휴먼 에러》",
-      "region": "서울",
-      "place": "서울시립 북서울미술관 1층 전시실 1,2 서울시립 북서울미술관 2층 전시실 3,4",
-      "startDate": "2026-08-13",
-      "endDate": "2026-10-25",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1563285"
       },
       "credit": "서울문화포털"
     },
@@ -1584,20 +1514,6 @@
       "target": "전체",
       "source": {
         "url": "http://www.snumoa.org/exhibitions_view.php?exh_id=195"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-7fc0310be3d0",
-      "title": "[서울시립 미술아카이브] 수수께끼 도형 놀이",
-      "region": "서울",
-      "place": "서울시립 미술아카이브 배움동 2층 모두의 교실",
-      "startDate": "2026-09-12",
-      "endDate": "2026-10-25",
-      "fee": "무료",
-      "target": "어린이 초등학생 저학년(1학년~3학년)",
-      "source": {
-        "url": "https://sema.seoul.go.kr/kr/whatson/education/detail?acadmyEeNo=1576189"
       },
       "credit": "서울문화포털"
     },
@@ -2110,20 +2026,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-4c4e775f4788",
-      "title": "[Wanderings Toward Freedom 유(遊): 자유를 향한 여정] 조인호 기획초대전",
-      "region": "서울",
-      "place": "세종뮤지엄갤러리 1관",
-      "startDate": "2026-10-07",
-      "endDate": "2026-10-25",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://www.instagram.com/p/DeLwvEnmWl9/"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-cb572a33ffb3",
       "title": "[高山 이규탁 도예전] 이규탁 기획초대전",
       "region": "서울",
@@ -2148,21 +2050,6 @@
       "target": "서대문구 주민 및 관내 대학교 재학생",
       "source": {
         "url": "https://go.yonsei.ac.kr/fro_end/html/dep_03/3120.php?smode=view&courseid=15672"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-8fa60c84ec2c",
-      "title": "정미옥 초대전 [In-Between]",
-      "region": "서울",
-      "place": "갤러리제이원 서울 1,2F",
-      "startDate": "2026-10-08",
-      "endDate": "2026-10-25",
-      "fee": "무료",
-      "performers": "정미옥 Miok CHUNG",
-      "target": "전체관람",
-      "source": {
-        "url": "https://www.galleryjone.com/208"
       },
       "credit": "서울문화포털"
     },
@@ -2225,21 +2112,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-e7ccabf5f73c",
-      "title": "이하린 개인전 [Wash Me (and I shall be whiter than snow)]",
-      "region": "서울",
-      "place": "FINORK (서울숲 9길 5, 2층)",
-      "startDate": "2026-10-10",
-      "endDate": "2026-10-25",
-      "fee": "무료",
-      "target": "누구나",
-      "text": "네이버플레이스 링크, 전화, DM 등 예약 필요",
-      "source": {
-        "url": "https://www.instagram.com/p/Dd0KQZ6GGPP/?img_index=1"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-707ab74c50ac",
       "title": "[구립증산도서관] 그림책을 뜨다 도서관 로비 전시회 & 뜨개 원데이클래스",
       "region": "서울",
@@ -2250,20 +2122,6 @@
       "target": "프로그램별 상이",
       "source": {
         "url": "https://www.eplib.or.kr/jslib/menu/10457/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=230757"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-fd2fcde7eca4",
-      "title": "[성동문화재단] 제5회 신진 청년작가 공모전 선정작 릴레이 전시 [사, 방. 탁, 자.]",
-      "region": "서울",
-      "place": "왕십리 비트플렉스 4층 외부 갤러리허브",
-      "startDate": "2026-10-12",
-      "endDate": "2026-10-25",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://www.sdfac.or.kr/kor/sdfac/performance/plan_view.do?p_idx=1661"
       },
       "credit": "서울문화포털"
     },
@@ -2365,21 +2223,6 @@
       "text": "2026년 서초문화원 「시詩와 아리아」는 시와 음악을 통해 삶의 순간마다 마주하는 사랑과 기억을 그려낸 공연입니다. 시를 통해 한 사람의 삶을 그리는 이야기로, 사랑 속에서 태어난 아이가 청춘의 설렘을 지나 가정을 이루고, 삶의 끝에서 사랑을 남기기까지의 시간을 봄·여름·가을·겨울 4막으로 담았습니다. 시낭송과 노래가 한데 어우러져 삶의 이야기로 이어지며, 사랑은 모습만 달라질 뿐 늘 우리 곁에 존재해왔음을 전합니다. 무대 위 주인공의 이야기를 따라가며, 여러분 자신의 지난 시간과 소중한 사람들을 떠올려보는 아름다운 시간이 되기를 바랍니다.",
       "source": {
         "url": "http://www.socc.or.kr/bbs/board.php?bo_table=sub05_01&wr_id=433"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-24db24e611d7",
-      "title": "농담(濃淡): 논산의 이야기를 담다",
-      "region": "서울",
-      "place": "CN갤러리",
-      "startDate": "2026-10-14",
-      "endDate": "2026-10-25",
-      "fee": "무료",
-      "performers": "강수희, 강신영, 고미경, 김갑순, 김현숙, 신효남, 우현진, 전병운, 조선영, 최선명",
-      "target": "누구나",
-      "source": {
-        "url": "https://archivist.kr/exi?m=gov&i=1792105502"
       },
       "credit": "서울문화포털"
     },
@@ -2561,20 +2404,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-be8a2014b8ad",
-      "title": "[미래한강본부] 2026 한강페스티벌-가을[Hangang River Festival-Fall]",
-      "region": "서울",
-      "place": "한강 수상 및 한강공원 일대(잠원, 강서 중심)",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-25",
-      "fee": "무료(일부 프로그램 유료)",
-      "target": "누구나",
-      "source": {
-        "url": "https://www.seoul.go.kr/festa/hangang/"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-6e8d66ca8443",
       "title": "제5회 서초 청년작가 특별전시(SYAF)",
       "region": "서울",
@@ -2585,20 +2414,6 @@
       "target": "누구나",
       "source": {
         "url": "https://www.instagram.com/p/DeeBe-QzAcu/"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-e1944a467d06",
-      "title": "제9회 어르니마켓",
-      "region": "서울",
-      "place": "커먼그라운드 야외광장",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-25",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://blog.naver.com/vuilder/224428079851"
       },
       "credit": "서울문화포털"
     },
@@ -2642,20 +2457,6 @@
       "target": "누구나",
       "source": {
         "url": "https://www.instagram.com/p/DeiOxrZPvhl/"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-15c216b665cd",
-      "title": "[운현궁] 2026 기획전시 [색·동x색·경 色·動x色·鏡]",
-      "region": "서울",
-      "place": "운현궁 기획전시실",
-      "startDate": "2026-10-20",
-      "endDate": "2026-10-25",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://www.unhyeongung.or.kr/sub/prpgram/exhibition_list.php?abmode=view&no=2007&group=basic&code=B35"
       },
       "credit": "서울문화포털"
     },
@@ -2717,34 +2518,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-151324900fc3",
-      "title": "로컬트립 [가을소풍]",
-      "region": "서울",
-      "place": "지역관광 안테나숍 옥상 (서울 중구 세종대로 119)",
-      "startDate": "2026-10-21",
-      "endDate": "2026-10-25",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://www.instagram.com/p/DeBG97igaUy/?utm_source=ig_web_copy_link&xtok=MWQ1ZGUxMzBkMA==&srtk=MWQ1ZGUxMzBkMA=="
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-3def7ad0f1b8",
-      "title": "2026 제5회 전국 승가원 [장애공감 어린이 그림공모전 수상작 전시] 나답게, 너답게, 우리답게!",
-      "region": "서울",
-      "place": "한국장애인문화예술원 이음갤러리",
-      "startDate": "2026-10-23",
-      "endDate": "2026-10-25",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://sgwon.or.kr/introduce/04.php?admin_mode=read&no=181612"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-7736aa23fc7e",
       "title": "서울시무형유산 석암제 시조 지정 10주년 기념 [제4회 호수문화제]",
       "region": "서울",
@@ -2787,21 +2560,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-c812d176fcf2",
-      "title": "[미래한강본부] 한강 포레스트 어드벤처 - 2026 한강페스티벌 가을",
-      "region": "서울",
-      "place": "강서한강공원 어린이 놀이터 옆",
-      "startDate": "2026-10-24",
-      "endDate": "2026-10-25",
-      "fee": "무료",
-      "target": "일반시민(어린이 대상 프로그램)",
-      "text": "자연 속에서 아이들은 오감을 깨우고, 어른들은 여유롭게 쉬어 가는 특별한 놀이터",
-      "source": {
-        "url": "https://www.seoul.go.kr/festa/hangang/y2026/programs?article=47085"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-844fd7aa27af",
       "title": "[서울시] 서울시 공공미술 작품전시 《평화의 잔상》",
       "region": "서울",
@@ -2812,34 +2570,6 @@
       "target": "누구나",
       "source": {
         "url": "https://seoulismuseum.kr/"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-335dc6b3ae68",
-      "title": "[서울시립과학관 x 노원천문우주과학관] 2026년 별빛축제",
-      "region": "서울",
-      "place": "서울시립과학관",
-      "startDate": "2026-10-24",
-      "endDate": "2026-10-25",
-      "fee": "무료",
-      "target": "별과 우주, 과학을 사랑하는 누구나",
-      "source": {
-        "url": "https://science.seoul.go.kr/sciEvent/starlight/read?menuId=76&progMstId=2338"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-9f324198aae0",
-      "title": "2026 서울 바비큐 페스티벌",
-      "region": "서울",
-      "place": "난지캠핑장",
-      "startDate": "2026-10-24",
-      "endDate": "2026-10-25",
-      "fee": "홈페이지 참고",
-      "target": "누구나",
-      "source": {
-        "url": "https://www.seoulbbqfesta.com/"
       },
       "credit": "서울문화포털"
     },
@@ -2856,50 +2586,6 @@
       "text": "예술공간 의식주 하반기 기획전시",
       "source": {
         "url": "https://the-necessaries.com/"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-fb8c67657c69",
-      "title": "[서울도서관] 2026 움직이는 서울형책방 16회 : 번역가의 서재",
-      "region": "서울",
-      "place": "광화문 라운지 (광화문역 9번 출구)",
-      "startDate": "2026-10-25",
-      "endDate": "2026-10-25",
-      "fee": "무료",
-      "target": "청소년 이상",
-      "source": {
-        "url": "https://lib.seoul.go.kr/lecture/applyDetail/7521"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-da052d064cc6",
-      "title": "[영등포구청] 2026 영등포 어린이 미술대전",
-      "region": "서울",
-      "place": "선유도공원 내",
-      "startDate": "2026-10-25",
-      "endDate": "2026-10-25",
-      "fee": "무료",
-      "target": "어린이",
-      "text": "영등포 선유도원축제와 함께하는 영등포 어린이 미술대전",
-      "source": {
-        "url": "https://ydpartsquare.com/forum/view/1550574"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-5aff5784699f",
-      "title": "2026 종로구 주민소통공모사업 [미운오리새끼 발레단 공연]",
-      "region": "서울",
-      "place": "종로문화체육센터 광화문아트홀",
-      "startDate": "2026-10-25",
-      "endDate": "2026-10-25",
-      "fee": "무료",
-      "target": "누구나",
-      "text": "종로구 주민소통공모 선정사업 발레 공연",
-      "source": {
-        "url": "https://form.naver.com/response/AWIuofM4zZz"
       },
       "credit": "서울문화포털"
     },
