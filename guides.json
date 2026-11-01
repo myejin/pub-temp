@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "generatedAt": "2026-10-31T23:15:49.022Z",
+  "generatedAt": "2026-11-01T23:27:58.251Z",
   "events": [
     {
       "id": "seoul-d71050f45bb5",
@@ -255,20 +255,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-140c1da28a72",
-      "title": "[광진문화재단] 2025 건대프리마켓",
-      "region": "서울",
-      "place": "청춘뜨락",
-      "startDate": "2026-04-02",
-      "endDate": "2026-11-01",
-      "fee": "무료",
-      "target": "전체관람",
-      "source": {
-        "url": "https://www.naruart.or.kr/exhibition/program_view.php?page=1&sch_tab=date&sch_year=2026&sch_month=05&sch_notice=N&idx=10331"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-d98564471180",
       "title": "[서울생활사박물관] 2026년 조각조각 서울이야기 엮기(초등5~6학년 학급단체)",
       "region": "서울",
@@ -367,21 +353,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-36c40d10fe64",
-      "title": "[서울도서관] 2026년 서울야외도서관 (책읽는 서울광장, 광화문 책마당, 책읽는 맑은 냇가)",
-      "region": "서울",
-      "place": "서울광장, 광화문 광장, 청계천 일대",
-      "startDate": "2026-04-23",
-      "endDate": "2026-11-01",
-      "fee": "무료",
-      "target": "누구나",
-      "text": "서울광장, 광화문광장, 청계천(모전교~광통교)에 누구나 즐거운 독서를 경험할 수 있는 도심 속 야외도서관 조성 및 운영",
-      "source": {
-        "url": "https://seouloutdoorlibrary.kr/"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-48f3b72548ab",
       "title": "[청담종합사회복지관] 청년 요리·사회참여 커뮤니티 [ON(溫)마을 행복한 밥상]",
       "region": "서울",
@@ -392,21 +363,6 @@
       "target": "금천구 거주 청년(만 19~39세)",
       "source": {
         "url": "https://m.site.naver.com/21Wwq"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-d3817c224f92",
-      "title": "2026 서로장터",
-      "region": "서울",
-      "place": "서울광장, 서울숲, 양재시민의 숲, 잠수교",
-      "startDate": "2026-04-26",
-      "endDate": "2026-11-01",
-      "fee": "무료",
-      "target": "누구나",
-      "text": "전국 각지에서 모이는 서울시대표 농수산물 직거래 장터",
-      "source": {
-        "url": "https://www.instagram.com/seoul.local.market/"
       },
       "credit": "서울문화포털"
     },
@@ -754,20 +710,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-60760f4c3407",
-      "title": "[광진문화재단] 2026 생활밀착형 문화예술교육 지원사업 [가가호호(家家好好)] - 광진",
-      "region": "서울",
-      "place": "광진생활문화센터 5F",
-      "startDate": "2026-08-01",
-      "endDate": "2026-11-01",
-      "fee": "무료",
-      "target": "광진구민 누구나",
-      "source": {
-        "url": "https://www.naruart.or.kr/academy/art_view.php?idx=10077"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-a2a522c68e3d",
       "title": "[서울문화재단] 큰 즐거움이 있는 길, [대-락(樂)로]",
       "region": "서울",
@@ -1105,21 +1047,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-8561b9288611",
-      "title": "[서울야외도서관] 2026년 서울야외도서관 (책읽는 서울광장, 광화문 책마당, 책읽는 맑은냇가)",
-      "region": "서울",
-      "place": "서울광장, 광화문광장(육조마당), 청계천(모전교~광통교)",
-      "startDate": "2026-09-04",
-      "endDate": "2026-11-01",
-      "fee": "무료",
-      "target": "누구나",
-      "text": "서울광장, 광화문광장, 청계천(모전교~광통교)에 누구나 즐거운 독서를 경험할 수 있는 도심 속 야외도서관 조성 및 운영",
-      "source": {
-        "url": "https://seouloutdoorlibrary.kr/"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-df07f5a9350d",
       "title": "[서울아트책보고] 열람실 수장고 큐레이션 [하나의 이야기, 천의 얼굴 One Story, a Thousan…",
       "region": "서울",
@@ -1160,21 +1087,6 @@
       "target": "청년",
       "source": {
         "url": "https://blog.naver.com/sbculture1/224378250626"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-b66ee5050c6f",
-      "title": "[종로문화재단] 2026 무계원 기획전시 한국의 미(美) 17 《금별, 우주를 만나다》",
-      "region": "서울",
-      "place": "무계원(서울시 종로구 창의문로 5가길 2)",
-      "startDate": "2026-09-10",
-      "endDate": "2026-11-01",
-      "fee": "무료",
-      "performers": "국가무형유산 금박장 보유자 김기호",
-      "target": "누구나",
-      "source": {
-        "url": "https://www.jfac.or.kr/site/main/program/perf_exhi_list_view?pgIdx=2809"
       },
       "credit": "서울문화포털"
     },
@@ -1249,21 +1161,6 @@
       "text": "경운박물관 소장품 중 새로운 기증유물을 소개하는 5번째 기증특별전이다.",
       "source": {
         "url": "https://kwmuseum.org/144"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-43ca82210597",
-      "title": "문화역서울284 기획전시 [돌봄의 디자인]",
-      "region": "서울",
-      "place": "문화역서울284 1, 2층",
-      "startDate": "2026-09-17",
-      "endDate": "2026-11-01",
-      "fee": "무료",
-      "performers": "김태동, 데이지 지옌 장, 라드, 미엘 래더맨 유켈리스, 박선민, 배윤호, 백윤석, 보칼, 서지우, 안드레스 하케, 얀 보르만, 에스오에이, 에이루트, 에이코랩, 이병엽+차진엽, 정영선, 중소도시포럼, 첸트랄라+알…",
-      "target": "누구나",
-      "source": {
-        "url": "https://www.seoul284.org/program/view/category/319/state/5/menu/328?thisPage=1&idx=377&searchField=all&searchText="
       },
       "credit": "서울문화포털"
     },
@@ -1362,20 +1259,6 @@
       "target": "청소년",
       "source": {
         "url": "https://docs.google.com/forms/d/e/1FAIpQLSe-Yv5k-c12JCVyLRLQVdMUow1O5LCGolKhlVMkZsvKHOsZSQ/viewform?usp=dialog"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-0926727da82d",
-      "title": "고민정 개인전 [존재하는 점]",
-      "region": "서울",
-      "place": "아트센터림 1층 아트윈도우, 2층 갤러리 1,2관",
-      "startDate": "2026-10-01",
-      "endDate": "2026-11-01",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://artcenter-lim.imweb.me/programs/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=174845144&t=board"
       },
       "credit": "서울문화포털"
     },
@@ -1985,20 +1868,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-78450216b3ca",
-      "title": "2026 더아트프라자: 팔레트립 by IBK",
-      "region": "서울",
-      "place": "IBK 기업은행 본점 및 파이낸스타워 로비, IBK 선큰가든 등",
-      "startDate": "2026-10-28",
-      "endDate": "2026-11-01",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://theartplaza.kr/"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-0083522630a4",
       "title": "유별남 사진전 [兪 ; 그러하다]",
       "region": "서울",
@@ -2071,50 +1940,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-0463c904d948",
-      "title": "2026 서울특별시 무형유산 삼현육각 전수발표회",
-      "region": "서울",
-      "place": "민속극장풍류",
-      "startDate": "2026-11-01",
-      "endDate": "2026-11-01",
-      "fee": "전석무료",
-      "target": "8세 이상",
-      "source": {
-        "url": "https://blog.naver.com/jungart00/224446319473"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-43ea71d5d2a8",
-      "title": "2026 시 읽는 서울지하철",
-      "region": "서울",
-      "place": "시청역 & 서울지하철 2호선(51.4km, 50개역, 87분) (거점역 : 시청역-상왕십리역-강변역-역삼역…",
-      "startDate": "2026-11-01",
-      "endDate": "2026-11-01",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "http://www.imhs.co.kr/index.html"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-6ae468521142",
-      "title": "2026 이북5도민어울림한마당축제",
-      "region": "서울",
-      "place": "석계문화공원",
-      "startDate": "2026-11-01",
-      "endDate": "2026-11-01",
-      "fee": "무료",
-      "performers": "MC 현우·김도경 / 평양설경예술단을 중심으로 여러 예술단이 함께하는 공연 / 초대가수 로미나·희야·하선경 / 가야금 한수애 / 소해금 박성진 / 아코디언 남연미 / 키르기스스탄 무용 / 페루 음악팀 티키타카",
-      "target": "이북5도민 및 서울시민 누구나",
-      "text": "이북5도민과 서울시민이 음악과 춤으로 함께 어울리는 문화예술 축제입니다. 평양설경예술단의 민속무용과 공연, 초대가수 무대, 키르기스스탄·우즈베키스탄 무용, 시민 참여 프로그램을 선보입니다. 2026년 11월 1일(일) 석계문화공원에서 열리며, 식전공연은 오후 1시, 개막식은 오후 2시 30분, 본공연은 오후 3시부터 6시까지 진행됩니다.",
-      "source": {
-        "url": "https://www.facebook.com/share/p/1EgtMekNPw/"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-af8c17a84e14",
       "title": "2026 청와대 사랑채 국민화합 체험형 문화프로그램",
       "region": "서울",
@@ -2125,22 +1950,6 @@
       "target": "만 5세~성인",
       "source": {
         "url": "https://event-us.kr/projectk/event/138335?utm_source=eventus&utm_medium=organic&utm_campaign=search-result&utm_term=%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8k"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-51e03de6ba51",
-      "title": "리비툼 오케스트라 제5회 정기연주회 : 모차르트 바이올린 협주곡 4번 & 멘델스존 교향곡 4번",
-      "region": "서울",
-      "place": "북서울꿈의숲아트센터 콘서트홀",
-      "startDate": "2026-11-01",
-      "endDate": "2026-11-01",
-      "fee": "무료",
-      "performers": "연주 : 리비툼 오케스트라, 객원 악장 및 협연 : 최낙원 바이올리니스트",
-      "target": "누구나",
-      "text": "제5회 정기연주회 [1부] 모차르트 티토 황제의 자비 서곡 & 바이올린 협주곡 4번, [2부] 멘델스존 - 교향곡 4",
-      "source": {
-        "url": "https://libitumcau2023.wixsite.com/libitum/event-details/libitum-philomusica-orchestra-the-5th-concert"
       },
       "credit": "서울문화포털"
     },
@@ -3120,6 +2929,20 @@
       "text": "활동가를 위한 노션 활용 IT 기초 교육으로 노션 기초 기능을 익히고 노션으로 홈페이지를 만들어보는 실무 역량강화 교육입니다.",
       "source": {
         "url": "https://seochoequality.org/board_TwMT47/6494"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-a0605e758e96",
+      "title": "[서초문화재단] 2026 심산영화관 [러브스토리]",
+      "region": "서울",
+      "place": "반포심산아트홀",
+      "startDate": "2026-12-01",
+      "endDate": "2026-12-01",
+      "fee": "전석무료",
+      "target": "15세 이상 관람가",
+      "source": {
+        "url": "https://www.seochocf.or.kr/site/main/seocho/show/view?show_idx=935"
       },
       "credit": "서울문화포털"
     }
