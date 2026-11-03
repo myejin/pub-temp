@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "generatedAt": "2026-11-01T23:27:58.251Z",
+  "generatedAt": "2026-11-03T02:09:02.661Z",
   "events": [
     {
       "id": "seoul-d71050f45bb5",
@@ -1391,20 +1391,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-707ab74c50ac",
-      "title": "[구립증산도서관] 그림책을 뜨다 도서관 로비 전시회 & 뜨개 원데이클래스",
-      "region": "서울",
-      "place": "구립증산도서관 1층 로비 및 지하문화강좌실",
-      "startDate": "2026-10-12",
-      "endDate": "2026-11-02",
-      "fee": "무료",
-      "target": "프로그램별 상이",
-      "source": {
-        "url": "https://www.eplib.or.kr/jslib/menu/10457/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=230757"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-8c43b3a4ce47",
       "title": "[은평문화재단] 2026 신진 청년작가 지원사업 [사이] 릴레이 개인전",
       "region": "서울",
@@ -1666,6 +1652,20 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-31259021fbc9",
+      "title": "[서울공예박물관] 공예동행@쇼윈도 #6. 실루엣 Silhouette",
+      "region": "서울",
+      "place": "10:00~18:00 (평일, 주말 동일) 매주 금요일 21:00까지",
+      "startDate": "2026-10-21",
+      "endDate": "2026-12-06",
+      "fee": "무료",
+      "target": "누구나",
+      "source": {
+        "url": "https://craftmuseum.seoul.go.kr/exhibit/plan/view/197"
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-a031131a6205",
       "title": "[서울시립미술관 서소문본관] 린 허쉬만 리슨: 나의 [나]들",
       "region": "서울",
@@ -1766,22 +1766,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-121d7fe61c10",
-      "title": "[서초문화재단] 2026 서울어텀페스타 선정작 [숨비소리, 해녀들의 노래]",
-      "region": "서울",
-      "place": "서리풀아트스튜디오",
-      "startDate": "2026-10-26",
-      "endDate": "2026-11-02",
-      "fee": "무료",
-      "performers": "작연출: 정소원, 배우: 김현우",
-      "target": "누구나",
-      "text": "《숨비소리, 해녀들의 노래》는 해녀였던 어머니가 남긴 기도와 기억을 따라, 오염되어 가는 바다의 숨을 다시 듣는 1인 AI 이머시브 음악극입니다. 배우의 육성과 숨비소리 위로 AI가 빚어낸 바다의 영상과 소리가 번지고, 관객은 ‘바다에게 빌고 싶은 한 문장’을 품은 채 잠시 숨을 멈춥니다. 한 사람의 기억에서 시작된 기도는 여러 사람의 숨을 만나, 바다가 없는 도시 한가운데 작은 공동체의 제의로 이어집니다.",
-      "source": {
-        "url": "https://www.sfac.or.kr/seoulautumnfesta/festival/create/233?curPage=3&cntPerPage=10&searchType=&searchMonth=&searchYear=2025&searchKeyword=&searchGenre=THEATER&searchRegion=&searchBgngDt=&searchEndDt="
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-3b1c82d17f12",
       "title": "신교명 개인전 [Active Painting]",
       "region": "서울",
@@ -1796,16 +1780,16 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-29387ec71e3f",
-      "title": "[미림아트갤러리] 채운 회원전 《우리가 사랑한 시간 : THE TIME WE LOVED》",
+      "id": "seoul-b4fa592442ce",
+      "title": "[서울공예박물관] 2026 신당창작아케이드 기획전시 《각각의 각》",
       "region": "서울",
-      "place": "미림아트갤러리 (종로구 인사동길 11-1 미림아트 3F)",
-      "startDate": "2026-10-28",
-      "endDate": "2026-11-02",
+      "place": "서울공예박물관 전시1동 1층",
+      "startDate": "2026-10-27",
+      "endDate": "2026-11-15",
       "fee": "무료",
       "target": "누구나",
       "source": {
-        "url": "https://www.instagram.com/p/De84e-rzOXh/"
+        "url": "https://craftmuseum.seoul.go.kr/exhibit/plan/view/198"
       },
       "credit": "서울문화포털"
     },
@@ -1864,6 +1848,21 @@
       "text": "스스로 깊이 읽고 생각을 똑똑하게 키우는 힘, 우리 아이 평생 공부 머리를 깨우는 핵심은 바로 '탄탄한 문해력'입니다! 「세상에서 가장 쉬운 문해력 수업」 시리즈의 저자이자, 서울대학교 아동가정학과(아동 언어·인지 전공) 연구진이 학부모님들을 위해 준비한 특급 자녀 국어 교육 솔루션! 그림책부터 초등 문학과 비문학 독해 실력으로 확실하게 이어주는 명쾌한 독서 로드맵을 전수해 드립니다. 우리 아이의 국어 자신감과 문해력을 쑥쑥 높여주고 싶은 학부모님이라면 이번 기회를 절대 놓치지 마세요!",
       "source": {
         "url": "https://library.gangnam.go.kr/ysplib/menu/10618/program/30013/lectureDetail.do?currentPageNo=1&searchCategory=&manageCd=MG&searchStatusCd=&lectureIdx=33949"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-0189e5593df6",
+      "title": "[아마도예술공간] 정정화 개인전 《유령이 삼켜버린 편지를 찾아서 Ⅱ》",
+      "region": "서울",
+      "place": "아마도예술공간",
+      "startDate": "2026-10-30",
+      "endDate": "2026-11-29",
+      "fee": "무료",
+      "performers": "정정화",
+      "target": "누구나",
+      "source": {
+        "url": "https://amadoart.org/exhibition/%ec%a0%95%ec%a0%95%ed%99%94-%ea%b0%9c%ec%9d%b8%ec%a0%84-%e3%80%8a%ec%9c%a0%eb%a0%b9%ec%9d%b4-%ec%82%bc%ec%bc%9c%eb%b2%84%eb%a6%b0-%ed%8e%b8%ec%a7%80%eb%a5%bc-%ec%b0%be%ec%95%84%ec%84%9c-%e2%85%b1/"
       },
       "credit": "서울문화포털"
     },
@@ -1968,20 +1967,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-78c9974706f5",
-      "title": "[서울시립교향악단] 22026 서울시향 우리동네 실내악 - 중랑구청",
-      "region": "서울",
-      "place": "중랑구청 대강당 (중랑구청 B1층)",
-      "startDate": "2026-11-02",
-      "endDate": "2026-11-02",
-      "fee": "무료",
-      "target": "제한 없음",
-      "source": {
-        "url": "https://naver.me/Fz8jKh1c"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-69fed9658127",
       "title": "제5회 서울시니어연극제 [어린 노인]",
       "region": "서울",
@@ -2026,6 +2011,34 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-e320bb59951e",
+      "title": "[문화실험공간 호수] 2026 더 임팩트 청년예술인 공모전시 [Head in the Clouds]",
+      "region": "서울",
+      "place": "문화실험공간 2층 전시장",
+      "startDate": "2026-11-03",
+      "endDate": "2026-11-15",
+      "fee": "무료",
+      "target": "누구나",
+      "source": {
+        "url": "https://blog.naver.com/exp_space_hosu/224457561745"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-32bd8a075541",
+      "title": "[서울공예박물관 어린이박물관] 《나무의 비밀》 - 소목장세미와 만나는 나무공예",
+      "region": "서울",
+      "place": "교육동, 기타장소 3층 어린이박물관",
+      "startDate": "2026-11-03",
+      "endDate": "2027-09-19",
+      "fee": "무료",
+      "target": "성인 보호자를 동반한 연나이 3~9세 어린이",
+      "source": {
+        "url": "https://craftmuseum.seoul.go.kr/exhibit/plan/view/199"
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-1633b1de5407",
       "title": "[서초문화재단] 2026 심산영화관 [인생은 아름다워]",
       "region": "서울",
@@ -2036,6 +2049,20 @@
       "target": "전체 관람가",
       "source": {
         "url": "https://www.seochocf.or.kr/site/main/seocho/show/view?show_idx=934"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-9b70600925aa",
+      "title": "[운현궁] 2026 기획전시 [운현궁, 뿌리展]",
+      "region": "서울",
+      "place": "운현궁 기획전시실",
+      "startDate": "2026-11-03",
+      "endDate": "2026-11-08",
+      "fee": "무료",
+      "target": "누구나",
+      "source": {
+        "url": "https://www.unhyeongung.or.kr/sub/prpgram/exhibition_list.php?abmode=view&no=2017&group=basic&code=B35"
       },
       "credit": "서울문화포털"
     },
@@ -2128,6 +2155,20 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-872e49be95c3",
+      "title": "[서울시립미술관 서소문본관] 《린 허쉬만 리슨: 나의 [나]들》 전시 연계 강연",
+      "region": "서울",
+      "place": "서울시립미술관 서소문본관 지하1층 세마홀",
+      "startDate": "2026-11-04",
+      "endDate": "2026-12-04",
+      "fee": "무료",
+      "target": "성인 누구나",
+      "source": {
+        "url": "https://sema.seoul.go.kr/kr/whatson/education/detail?acadmyEeNo=1600266"
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-4f93b9d2bab8",
       "title": "[서초문화재단] 2026서리풀 어울림 콘서트 [피아니스트 양지우의 with IN&OUT II]",
       "region": "서울",
@@ -2152,6 +2193,20 @@
       "target": "어린이(초등1~3학년 학급 단체)",
       "source": {
         "url": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S260826105625074095"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-2176c333b1ed",
+      "title": "김한나의 개인전 [종이, 연필, 지우개, 책 (Paper, Pencil, Eraser, Book)]",
+      "region": "서울",
+      "place": "갤러리 플래닛 (서울시 강남구 압구정로 71길 14,2층)",
+      "startDate": "2026-11-04",
+      "endDate": "2026-11-27",
+      "fee": "무료",
+      "target": "누구나",
+      "source": {
+        "url": "http://galleryplanet.co.kr/paper-pencil-eraser-book%EC%A2%85%EC%9D%B4-%EC%97%B0%ED%95%84-%EC%A7%80%EC%9A%B0%EA%B0%9C-%EC%B1%85nov-04-2026-nov-27-2026kim-hanna/"
       },
       "credit": "서울문화포털"
     },
@@ -2184,6 +2239,20 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-172bd8b4a143",
+      "title": "[마포구립서강도서관] 11월/어린이메이킹 [해봄아 노올자! 해봄맘껏Time]",
+      "region": "서울",
+      "place": "마포구립서강도서관 4층 어린이자료실 내 해봄",
+      "startDate": "2026-11-05",
+      "endDate": "2026-11-28",
+      "fee": "무료",
+      "target": "마포구립도서관 정회원, 해봄이로 등록한 초등학생",
+      "source": {
+        "url": "https://mplib.mapo.go.kr/sglib/PGM3028/eventDetail.do?eventSn=13647"
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-772cdab3a001",
       "title": "[마포구립서강도서관] 11월/일반강좌 [옛 밥상, 오늘의 삶을 차리다_품격 있는 나이듦을 위한 인문학]",
       "region": "서울",
@@ -2198,6 +2267,20 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-cf0c10d45c35",
+      "title": "[서울시립 미술아카이브] 원문으로 읽는 한국현대미술사",
+      "region": "서울",
+      "place": "서울시립 미술아카이브 나눔동 2층 다목적홀(종로구 평창문화로 100)",
+      "startDate": "2026-11-05",
+      "endDate": "2026-11-26",
+      "fee": "무료",
+      "target": "성인 50명",
+      "source": {
+        "url": "https://sema.seoul.go.kr/kr/whatson/event/detail?evtNo=1600027"
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-75a7afd48954",
       "title": "[서울시립 서서울미술관] 2026 서서울미술관 뉴미디어 신진작가전 《탈피하지 못하는 뱀은》",
       "region": "서울",
@@ -2208,6 +2291,20 @@
       "target": "누구나",
       "source": {
         "url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1604602"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-1994b6e685dd",
+      "title": "[서울시립 서서울미술관] 뉴미디어 신진작가전 《탈피하지 못하는 뱀은》 오프닝 퍼포먼스 | 노오경 [돌과 속…",
+      "region": "서울",
+      "place": "서울시립 서서울미술관 전시실 3, 잔디마당 2",
+      "startDate": "2026-11-05",
+      "endDate": "2026-11-05",
+      "fee": "무료",
+      "target": "누구나",
+      "source": {
+        "url": "https://sema.seoul.go.kr/kr/whatson/education/detail?acadmyEeNo=1607679"
       },
       "credit": "서울문화포털"
     },
@@ -2299,6 +2396,20 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-88f04c8c5c54",
+      "title": "[서울백제어린이박물관] 영유아 예술체험 프로그램 [동그라미 세모 네모]",
+      "region": "서울",
+      "place": "서울백제어린이박물관내 서울형 키즈카페 한성백제박물관점",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-06",
+      "fee": "무료",
+      "target": "8개월~16개월 영아 관람객 신청자",
+      "source": {
+        "url": "https://baekjemuseum.seoul.go.kr/dreamvillage/board/notice/index.jsp?boardid=SDM0303000000&mmode=content&mpid=SDM0303000000&skin=notice&pid=23596&cpage=1"
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-5371a60ab437",
       "title": "[서울시립교향악단] 2026 서울시향 우리동네 실내악 - 양천문화회관",
       "region": "서울",
@@ -2309,20 +2420,6 @@
       "target": "19:30",
       "source": {
         "url": "https://yfac.kr/main/site/ticket/page1.do?proc_type=view&tidx=519"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-d868caf28072",
-      "title": "[서울형 키즈카페 한성백제박물관점] 영유아 예술체험 프로그램 [동그라미 세모 네모]",
-      "region": "서울",
-      "place": "서울백제어린이박물관내 서울형 키즈카페 한성백제박물관점",
-      "startDate": "2026-11-06",
-      "endDate": "2026-11-06",
-      "fee": "무료",
-      "target": "8개월~16개월 영아 관람객 신청자",
-      "source": {
-        "url": "https://baekjemuseum.seoul.go.kr/dreamvillage/board/notice/index.jsp?boardid=SDM0303000000&mmode=content&mpid=SDM0303000000&skin=notice&pid=23596&cpage=1"
       },
       "credit": "서울문화포털"
     },
@@ -2688,6 +2785,20 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-d39664a26206",
+      "title": "붙잡을 수 없는 환영을 지나, 보이지 않는 진실을 향해 나아간다",
+      "region": "서울",
+      "place": "갤러리 지하",
+      "startDate": "2026-11-13",
+      "endDate": "2026-11-18",
+      "fee": "무료",
+      "target": "누구나",
+      "source": {
+        "url": "https://galleryjiha.com/exhibitions/?bmode=view&idx=175323416&back_url=Lw%3D%3D&t=board&page="
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-690d92c6f67c",
       "title": "제31회 한무숙문학상 수상자 구병모 소설가와 함께하는 [소설 읽는 시간 & 작가와의 대화]",
       "region": "서울",
@@ -2704,6 +2815,20 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-c32794f6ddf6",
+      "title": "[구립증산도서관] 보드게임과 함께하는 어린이 투자교실 [용돈을 부탁해!]",
+      "region": "서울",
+      "place": "구립증산도서관 지하 1층 문화강좌실",
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-14",
+      "fee": "무료",
+      "target": "초등 1~2학년 어린이와 보호자 8팀",
+      "source": {
+        "url": "https://www.eplib.or.kr/jslib/menu/10457/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=233891&manageCd=MB&searchTarget=&searchStatus=OPEN"
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-7630cefba19b",
       "title": "[마포구립서강도서관] 11월/어린이메이킹 해봄이웃집Maker [그림책으로 만나는 슈링클스 키캡 만들기]",
       "region": "서울",
@@ -2714,6 +2839,21 @@
       "target": "해봄이로 등록한 초등학교 1-3학년 12명",
       "source": {
         "url": "https://mplib.mapo.go.kr/sglib/MENU1199/PGM3028/eventDetail.do?currentPageNo=1&eventSn=13569"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-0e1229468394",
+      "title": "[성동구립도서관] 하반기 원어민 특강 [Here To Hero]",
+      "region": "서울",
+      "place": "성동구립도서관 1층 어린이영어세상 강의실",
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-14",
+      "fee": "무료",
+      "target": "어린이 (6~10세)",
+      "text": "원어민과 함께 히어로 주제 영어 도서를 읽고 나만의 히어로 만들기 활동을 통해 나의 잠재력을 깨우고 영어 의사소통 능력을 함께 기르는 독서·체험 프로그램",
+      "source": {
+        "url": "https://www.sdlib.or.kr/SD/edusat/view.do?edu_idx=2578"
       },
       "credit": "서울문화포털"
     },
@@ -2803,6 +2943,21 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-be15e67eeb3b",
+      "title": "[성동구립도서관] 김금희 작가와 함께하는 2026 성동구 구립도서관 하반기 북 콘서트",
+      "region": "서울",
+      "place": "성수아트홀",
+      "startDate": "2026-11-19",
+      "endDate": "2026-11-19",
+      "fee": "무료",
+      "target": "누구나",
+      "text": "음악과 함께하는 김금희 작가 북 콘서트",
+      "source": {
+        "url": "https://sdlib.or.kr/SD/edusat/view.do?edu_idx=2592"
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-d372e0e625fc",
       "title": "[서울도서관] 11월 작가힙톡(Hip-Talk) - (백영선) 우리 일과 삶을 확장시키는 관계의 기획 '커…",
       "region": "서울",
@@ -2829,6 +2984,20 @@
       "text": "종이 오브제로 만나는 따뜻한 가족 이야기 뮤지컬!",
       "source": {
         "url": "https://www.idfac.or.kr/bbs/board.php?bo_table=gallery_info&wr_id=335"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-303bddb70840",
+      "title": "[마포구립서강도서관] 11월/어린이 [해봄+ing 미래를 달리다! 자율주행 코딩 챌린지]",
+      "region": "서울",
+      "place": "마포구립서강도서관 3층 세미나실",
+      "startDate": "2026-11-21",
+      "endDate": "2026-11-21",
+      "fee": "무료",
+      "target": "해봄이로 등록한 초등학교 4~6학년 16명",
+      "source": {
+        "url": "https://mplib.mapo.go.kr/sglib/MENU1199/PGM3028/eventDetail.do?currentPageNo=1&eventSn=13648"
       },
       "credit": "서울문화포털"
     },
@@ -2890,6 +3059,34 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-59abaf7c1ffa",
+      "title": "[구립증산도서관] 유아 미술 책놀이 [냠냠 그림책 미술놀이]",
+      "region": "서울",
+      "place": "구립증산도서관 지하 문화강좌실",
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-30",
+      "fee": "무료",
+      "target": "유아",
+      "source": {
+        "url": "https://www.eplib.or.kr/jslib/menu/10457/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=234168&manageCd=MB&searchTarget=&searchStatus=OPEN"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-dbc8cbc9ead9",
+      "title": "[금천문화재단] 10월 문화가 있는 날 [공연에서 살아남기]",
+      "region": "서울",
+      "place": "금천구립금나래도서관",
+      "startDate": "2026-11-25",
+      "endDate": "2026-12-30",
+      "fee": "무료",
+      "target": "누구나",
+      "source": {
+        "url": "https://geumcheonlib.seoul.kr/geumcheonlib/uce/programDetail.do?headerId=&selfId=1090&INST_CD=INST0003&INST_GB=1&idxNo=3842"
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-326ea6108355",
       "title": "[서울도서관] 11월 작가힙톡(Hip-Talk) - (한국편집기자협회) 뉴스의 편집과 AI",
       "region": "서울",
@@ -2914,6 +3111,36 @@
       "target": "누구나",
       "source": {
         "url": "https://finecharacter.kr/"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-6c36ca84f1ec",
+      "title": "2026 민간 국악행사 지원사업 [도깨비와 함께 신화 여행]",
+      "region": "서울",
+      "place": "관악청소년센터 소극장",
+      "startDate": "2026-11-28",
+      "endDate": "2026-11-28",
+      "fee": "무료",
+      "target": "누구나, 성인, 어린이, 청소년",
+      "text": "고려 건국 설화 중 하나인 왕수재와 용왕의 딸 설화를 도깨비들이 이야기 해 주는 가족극입니다.",
+      "source": {
+        "url": "https://blog.naver.com/shengnice/224415043578"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-ce2623af65b8",
+      "title": "[서울시립과학관] 과학북토크: 달작한 사이언스 (11월) [미술관에 간 물리학자]",
+      "region": "서울",
+      "place": "서울시립과학관 3층 스타홀",
+      "startDate": "2026-11-29",
+      "endDate": "2026-11-29",
+      "fee": "무료",
+      "performers": "물리학자 서민아 작가님",
+      "target": "과학과 책을 좋아하는 누구나",
+      "source": {
+        "url": "https://science.seoul.go.kr/sciEdu/talk/read?menuId=73&progMstId=2359"
       },
       "credit": "서울문화포털"
     },
