@@ -2,7 +2,8 @@
 // http 만 된다(openapi.seoul.go.kr:8088).
 
 const PAGE = 1000; // 한 번에 최대 1000건
-const MAX_PAGES = 10;
+// 문화행사는 10,000건을 넘는다(2026-11-04 에 10쪽에서 멈췄다) — 넉넉히.
+const MAX_PAGES = 30;
 
 // 응답 한 쪽. 데이터가 없으면 서비스 이름 대신 맨 위에 RESULT(INFO-200)만 온다 — 빈 쪽으로 읽는다.
 export function seoulPage(body, service) {

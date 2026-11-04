@@ -76,3 +76,9 @@ test("모든 소스를 못 받으면 쓰지 않고 실패한다", () => {
   assert.throws(() => run(dir), /Command failed/);
   rmSync(dir, { recursive: true, force: true });
 });
+
+test("경기로 물었는데 다른 지역 주소인 축제는 뺀다", () => {
+  const { feed, log } = run(fixtures);
+  assert.ok(!feed.events.some((e) => e.id === "tour-4004"));
+  assert.match(log, /다른 지역 1/);
+});

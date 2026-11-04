@@ -33,12 +33,21 @@
             "eventstartdate": "20260501",
             "eventenddate": "20260505",
             "lDongRegnCd": "41"
+          },
+          {
+            "contentid": "4004",
+            "contenttypeid": "15",
+            "title": "평화온담",
+            "addr1": "경상북도 경주시 인왕동 839-1",
+            "eventstartdate": "20261107",
+            "eventenddate": "20261107",
+            "lDongRegnCd": "41"
           }
         ]
       },
       "numOfRows": 100,
       "pageNo": 1,
-      "totalCount": 3
+      "totalCount": 4
     }
   }
 }

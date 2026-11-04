@@ -40,7 +40,7 @@ import * as tour from "./sources/tour.mjs";
 const FORMAT_VERSION = 1; // src/utils/guides.ts 의 GUIDES_FORMAT_VERSION
 // 앞에 있을수록 겹칠 때 남는다. limit 은 소스별 상한 — 첫 실제 실행의 건수를 보고 맞춘다.
 const SOURCES = [
-  { mod: yeyak, limit: 100 },
+  { mod: yeyak, limit: 50 },
   { mod: culture, limit: MAX_EVENTS },
   { mod: tour, limit: 80 },
 ];

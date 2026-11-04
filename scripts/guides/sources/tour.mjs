@@ -14,9 +14,10 @@ export const prefix = "tour-";
 export const keyEnv = "TOURAPI_KEY";
 const CREDIT = "한국관광공사";
 const BASE = "https://apis.data.go.kr/B551011/KorService2";
+// [법정동 시도코드, 지역, 주소 앞머리]. 경기로 물었는데 경주 행사가 섞여 와서(2026-11-04) 주소로 한 번 더 본다.
 const AREAS = [
-  ["11", "서울"],
-  ["41", "경기"],
+  ["11", "서울", /^서울/],
+  ["41", "경기", /^경기/],
 ];
 // 이미 하고 있는 축제도 잡으려고 시작일을 이만큼 앞으로 당겨 묻는다. 끝나는 날은 우리가 거른다.
 const LOOKBACK_DAYS = 180;
@@ -92,7 +93,7 @@ export async function collect({ fetchJson, key, win }) {
   const listed = [];
   let received = 0;
   const since = seoulDate(-LOOKBACK_DAYS, Date.parse(`${win.today}T12:00:00+09:00`)).replaceAll("-", "");
-  for (const [code, region] of AREAS) {
+  for (const [code, region, addrHead] of AREAS) {
     for (let page = 1; page <= MAX_PAGES; page++) {
       const body = await fetchJson(
         url("searchFestival2", { numOfRows: ROWS, pageNo: page, eventStartDate: since, lDongRegnCd: code }, key),
@@ -100,7 +101,11 @@ export async function collect({ fetchJson, key, win }) {
       );
       const { items, total } = tourItems(body);
       received += items.length;
-      for (const item of items) listed.push({ item, region });
+      for (const item of items) {
+        const addr = String(item.addr1 ?? "").trim();
+        if (addr && !addrHead.test(addr)) drops.push({ reason: "다른 지역", title: item.title, detail: addr });
+        else listed.push({ item, region });
+      }
       if (items.length < ROWS || page * ROWS >= total) break;
     }
   }

@@ -143,6 +143,12 @@ test("공공서비스예약: 무료·접수중만, 시간·접수 기간", () =>
   assert.equal(yeyak.toEvent({ ...base, SVCID: "../x" }).drop, "id 없음");
   assert.equal(yeyak.timeOf({ V_MIN: "0900", V_MAX: "" }), "09:00");
   assert.equal(yeyak.timeOf({ V_MIN: "", V_MAX: "" }), undefined);
+  assert.equal(yeyak.timeOf({ V_MIN: "00:00", V_MAX: "00:00" }), undefined);
+  assert.equal(yeyak.toEvent({ ...base, MINCLASSNM: "서울형키즈카페" }).drop, "나들이 아닌 분류");
+  assert.equal(yeyak.toEvent({ ...base, MINCLASSNM: "청년정보" }).drop, "나들이 아닌 분류");
+  assert.ok(yeyak.toEvent({ ...base, MINCLASSNM: "공원탐방" }).event);
+  for (const t of ["리앤업사이클플라자 학교단체 교육", "[은평구] 2026년 목공재능기부자 모집안내", "서울청년센터 은평 11월 티톡 참여자 모집"])
+    assert.equal(yeyak.toEvent({ ...base, SVCNM: t }).drop, "단체·모집", t);
 });
 
 test("관광공사: 항목 모양, 시·군, 반려동물 줄", () => {

@@ -19,11 +19,17 @@ const SERVICES = [
 ];
 // 「안내중」(접수 시작 전)·「접수종료」·「예약마감」은 지금 신청할 수 없어 뺀다.
 const OPEN = new Set(["접수중"]);
+// 나들이가 아닌 소분류 — 키즈카페 시간 예약, 청년센터 상담·강의, 자격증·어학·컴퓨터 강좌, 봉사. 첫 dry run(2026-11-04)을 보고 정했다.
+const SKIP_CLASSES = new Set(["서울형키즈카페", "청년정보", "전문/자격증", "정보통신", "교양/어학", "단체봉사"]);
+// 학교·학급 단체만 받는 교육과 참여자·기부자를 뽑는 공고. 문화행사와 달리 여기서는 「참여자 모집」이 대개 청년센터 강의다.
+const SKIP_TITLE = /학교\s*단체|학급\s*단체|재능\s*기부자|참여자\s*모집/;
 
 // "09:00"·"0900"·"9:00" → "09:00". 못 읽으면 undefined.
 function hhmm(v) {
   const m = /^(\d{1,2}):?(\d{2})$/.exec(String(v ?? "").trim());
   if (!m) return undefined;
+  // 시간을 안 적은 서비스는 「00:00」으로 온다 — 자정 행사는 없다고 보고 비운다.
+  if (Number(m[1]) === 0 && Number(m[2]) === 0) return undefined;
   const h = Number(m[1]);
   const min = Number(m[2]);
   return h <= 24 && min < 60 ? `${String(h).padStart(2, "0")}:${m[2]}` : undefined;
@@ -45,6 +51,8 @@ export function toEvent(r) {
   if (!title) return { drop: "제목 없음" };
   if (String(r.PAYATNM ?? "").trim() !== "무료") return { drop: "유료", title };
   if (!OPEN.has(String(r.SVCSTATNM ?? "").trim())) return { drop: "접수 중 아님", title };
+  if (SKIP_CLASSES.has(String(r.MINCLASSNM ?? "").trim())) return { drop: "나들이 아닌 분류", title };
+  if (SKIP_TITLE.test(title)) return { drop: "단체·모집", title };
   const svcId = String(r.SVCID ?? "").trim();
   if (!SAFE_ID.test(svcId)) return { drop: "id 없음", title };
 
