@@ -1,0 +1,22 @@
+{
+  "response": {
+    "header": {
+      "resultCode": "0000",
+      "resultMsg": "OK"
+    },
+    "body": {
+      "items": {
+        "item": {
+          "contentid": "4001",
+          "usetimefestival": "무료<br>※ 일부 체험 유료",
+          "playtime": "10:00~18:00",
+          "eventplace": "자라섬",
+          "agelimit": ""
+        }
+      },
+      "numOfRows": 100,
+      "pageNo": 1,
+      "totalCount": 1
+    }
+  }
+}

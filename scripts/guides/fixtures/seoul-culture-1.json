@@ -1,0 +1,123 @@
+{
+  "culturalEventInfo": {
+    "list_total_count": 8,
+    "RESULT": {
+      "CODE": "INFO-000",
+      "MESSAGE": "정상 처리되었습니다"
+    },
+    "row": [
+      {
+        "IS_FREE": "무료",
+        "USE_FEE": "",
+        "USE_TRGT": "누구나",
+        "PROGRAM": "",
+        "ETC_DESC": "",
+        "PLAYER": "",
+        "ORG_LINK": "https://sema.seoul.go.kr/",
+        "HMPG_ADDR": "",
+        "TITLE": "[서울시립미술관] 겨울 소장품 展",
+        "STRTDATE": "2026-11-01 00:00:00.0",
+        "END_DATE": "2026-12-20 00:00:00.0",
+        "PLACE": "서울시립미술관 서소문본관"
+      },
+      {
+        "IS_FREE": "무료",
+        "USE_FEE": "30,000원",
+        "USE_TRGT": "누구나",
+        "PROGRAM": "",
+        "ETC_DESC": "",
+        "PLAYER": "",
+        "ORG_LINK": "",
+        "HMPG_ADDR": "",
+        "TITLE": "명상 문화강좌 [마음을, 걷다]",
+        "STRTDATE": "2026-11-07 00:00:00.0",
+        "END_DATE": "2026-11-07 00:00:00.0",
+        "PLACE": "삼청각"
+      },
+      {
+        "IS_FREE": "유료",
+        "USE_FEE": "무료(입장료 4,000원 별도)",
+        "USE_TRGT": "누구나",
+        "PROGRAM": "",
+        "ETC_DESC": "",
+        "PLAYER": "",
+        "ORG_LINK": "",
+        "HMPG_ADDR": "",
+        "TITLE": "[서울상상나라] 통-하다",
+        "STRTDATE": "2026-11-11 00:00:00.0",
+        "END_DATE": "2026-11-11 00:00:00.0",
+        "PLACE": "서울상상나라 1층"
+      },
+      {
+        "IS_FREE": "무료",
+        "USE_FEE": "",
+        "USE_TRGT": "초등5~6학년 학급단체",
+        "PROGRAM": "",
+        "ETC_DESC": "",
+        "PLAYER": "",
+        "ORG_LINK": "",
+        "HMPG_ADDR": "",
+        "TITLE": "[서울생활사박물관] 조각조각 서울이야기",
+        "STRTDATE": "2026-11-05 00:00:00.0",
+        "END_DATE": "2026-11-26 00:00:00.0",
+        "PLACE": "서울생활사박물관"
+      },
+      {
+        "IS_FREE": "무료",
+        "USE_FEE": "",
+        "USE_TRGT": "누구나",
+        "PROGRAM": "",
+        "ETC_DESC": "",
+        "PLAYER": "",
+        "ORG_LINK": "",
+        "HMPG_ADDR": "",
+        "TITLE": "[송파문화재단] 온라인 전시 [사적 게임 아카이브]",
+        "STRTDATE": "2026-11-07 00:00:00.0",
+        "END_DATE": "2026-12-31 00:00:00.0",
+        "PLACE": "온라인 전시"
+      },
+      {
+        "IS_FREE": "무료",
+        "USE_FEE": "",
+        "USE_TRGT": "누구나",
+        "PROGRAM": "",
+        "ETC_DESC": "",
+        "PLAYER": "",
+        "ORG_LINK": "",
+        "HMPG_ADDR": "",
+        "TITLE": "[서울시] 공공미술 수변갤러리 [선유담담]",
+        "STRTDATE": "2025-04-23 00:00:00.0",
+        "END_DATE": "2027-04-22 00:00:00.0",
+        "PLACE": "선유도공원"
+      },
+      {
+        "IS_FREE": "무료",
+        "USE_FEE": "",
+        "USE_TRGT": "누구나",
+        "PROGRAM": "",
+        "ETC_DESC": "",
+        "PLAYER": "",
+        "ORG_LINK": "",
+        "HMPG_ADDR": "",
+        "TITLE": "[서울숲공원] 가을 숲 해설",
+        "STRTDATE": "2026-11-01 00:00:00.0",
+        "END_DATE": "2026-11-30 00:00:00.0",
+        "PLACE": "서울숲"
+      },
+      {
+        "IS_FREE": "무료",
+        "USE_FEE": "",
+        "USE_TRGT": "누구나",
+        "PROGRAM": "",
+        "ETC_DESC": "",
+        "PLAYER": "",
+        "ORG_LINK": "",
+        "HMPG_ADDR": "",
+        "TITLE": "[한국장애인문화예술원] 장애예술인 강사 양성과정",
+        "STRTDATE": "2026-11-06 00:00:00.0",
+        "END_DATE": "2026-11-19 00:00:00.0",
+        "PLACE": "모두미술공간"
+      }
+    ]
+  }
+}

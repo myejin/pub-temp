@@ -1,47 +1,107 @@
 # guides.json — 무료 일정·식재료 보관법 피드
 
-위클리 앱 꾹팁 탭의 「이번 주말 나들이」·「무료로 즐기기」·「식재료 보관법」이 읽는 파일입니다. 루트의 `guides.json` 을
-GitHub Action(`.github/workflows/guides.yml`)이 매일 새벽 5시(서울)에 **main** 에서 새로 만듭니다. develop 은 필요할 때
-**Actions → guides.json → Run workflow** 에서 갈래를 `develop` 으로 골라 돌려요. 스크립트는 늘 main 의 것을 쓰니
-develop 에 이 폴더를 올릴 필요는 없어요. develop 에는 초안(`draft`) 보관법도 들어가 시뮬레이터에서 미리 볼 수 있어요.
+위클리 앱 꾹팁 탭의 「이번 주말 나들이」·「나들이 모아보기」·「식재료 보관법」이 읽는 파일입니다. 루트의 `guides.json` 을
+GitHub Action(`.github/workflows/guides.yml`)이 매일 새벽 5시(서울)에 **main** 에서 새로 만듭니다.
 형식의 정본은 weekly-challenge 저장소의 `src/utils/guides.ts` 입니다.
 
 | 파일 | 누가 | 무엇 |
 | --- | --- | --- |
 | `guides.json` (루트) | Action | 앱이 받는 파일. 손으로 고치지 마세요 — 다음 날 덮어씁니다 |
-| `scripts/guides/collect.mjs` | — | 서울 문화행사 API 를 받아 무료·30일 안의 일정만 거르고 `foods.json` 과 합칩니다 |
+| `scripts/guides/collect.mjs` | — | 소스를 모아 공통 규칙으로 거르고, 겹친 것을 빼고, 앱 순서로 놓아 `foods.json` 과 합칩니다 |
+| `scripts/guides/lib.mjs` | — | 공통 판정(날짜 창·무료·나들이 아닌 것·겹침 열쇠·앱 순서)과 API 받기 |
+| `scripts/guides/sources/*.mjs` | — | 소스 하나에 파일 하나 |
+| `scripts/guides/*.test.mjs`, `fixtures/` | — | 네트워크 없이 도는 시험과 시험 응답(가짜 — 형식은 API 문서 기준) |
 | `scripts/guides/foods.json` | 사람 | 식재료 보관법 |
 | `scripts/guides/blocklist.json` | 사람 | 빼고 싶은 일정(제목에 들어간 낱말 `titles`, 또는 `ids`) |
 
-## 처음 한 번
+## 소스
 
-1. **서울 열린데이터광장 인증키**를 받아요. data.seoul.go.kr → 로그인 → 인증키 신청(일반 인증키).
-2. 이 저장소 **Settings → Secrets and variables → Actions → New repository secret**:
-   이름 `SEOUL_API_KEY`, 값은 받은 키.
-3. 이 폴더(`scripts/guides/`)와 `.github/workflows/guides.yml` 을 **main** 에 올려요.
-4. **Actions → guides.json → Run workflow** 로 한 번 돌려 봐요. main 에 `guides.json` 커밋이 생기면 됩니다.
-   - 키가 틀렸거나 응답 모양이 다르면 실패하고, 기존 파일은 그대로 둡니다(로그에 이유가 찍혀요).
-   - API 필드 이름(`TITLE`·`STRTDATE`·`END_DATE`·`IS_FREE`·`USE_FEE`·`PLACE`·`ORG_LINK` 등)은 문서를 보고 맞췄지만
-     실제 응답으로 확인하지 못했어요. 첫 실행 로그의 「받은 N건 중 M건」을 봐 주세요.
+| 소스 | 파일 | 지역 | id 머리말 | 키(Secrets) | 출처 표시 |
+| --- | --- | --- | --- | --- | --- |
+| 서울 열린데이터광장 「서울시 공공서비스예약 정보」 문화체험·교육강좌 | `sources/seoul-yeyak.mjs` | 서울 | `yeyak-` | `SEOUL_API_KEY` | 서울시 공공서비스예약 |
+| 서울 열린데이터광장 「서울시 문화행사 정보」 | `sources/seoul-culture.mjs` | 서울 | `seoul-` | `SEOUL_API_KEY` | 서울문화포털 |
+| 한국관광공사 「국문 관광정보 서비스_GW」 행사정보(축제) | `sources/tour.mjs` | 서울·경기 | `tour-` | `TOURAPI_KEY` | 한국관광공사 |
+
+표 순서가 겹칠 때 남는 순서입니다 — 같은 행사가 둘에 있으면 위의 것(예약 링크와 이용 시간이 있는 공공서비스예약)을 남깁니다.
+
+- **공공서비스예약**은 무료(`PAYATNM`)이고 「접수중」인 것만 넣습니다. 이용 시간(`V_MIN`~`V_MAX`)은 앱의 `time` 칸에, 접수 기간은 소개 첫 줄
+  (「접수 11.1~11.20 (서울시 공공서비스예약)」)에 적습니다 — 「예약」이 들어 있어 앱이 「사전 신청」을 답니다.
+- **관광공사**는 무료 표시 칸이 없어 요금 글(`usetimefestival`)로 거릅니다 — 「무료」로 시작하거나 「입장 무료」처럼 들어가는 값이
+  무료인 것만(「입장료 10,000원(체험 무료)」은 뺍니다). 지역은 법정동 시도코드(`lDongRegnCd` 11·41)로 고릅니다(옛 `areaCode` 는 삭제 예정).
+  경기는 넓어서 장소 앞에 시·군을 붙입니다(「가평 · 자라섬」). 반려동물 동반 정보가 있는 축제에만 소개 첫 줄에
+  「반려동물: … (한국관광공사 정보, 가기 전에 확인해 주세요)」를 적습니다 — 정보가 없다고 동반이 안 되는 건 아니라서
+  「동반 불가」로 읽힐 표시는 하지 않습니다. 하루 한도는 기능마다 1,000건이고, 날짜로 먼저 거른 축제만 상세를 부릅니다.
+- 공공서비스예약과 관광공사의 칸 이름은 문서를 보고 맞췄고 **실제 응답으로는 아직 확인하지 못했습니다.** 처음에는 develop 에서
+  dry run 으로 돌려 로그를 봐 주세요(아래).
+
+## 키
+
+| Secret | 어디서 | 만료 |
+| --- | --- | --- |
+| `SEOUL_API_KEY` | data.seoul.go.kr → 로그인 → 인증키 신청(일반 인증키). 문화행사·공공서비스예약 둘 다 이 키 | — |
+| `TOURAPI_KEY` | data.go.kr → 「한국관광공사_국문 관광정보 서비스_GW」 활용신청 → 마이페이지의 **일반 인증키** | **2028-11-04** |
+
+저장소 **Settings → Secrets and variables → Actions** 에 넣습니다. 키 값은 이 저장소 어디에도 적지 마세요(공개 저장소입니다).
+**`TOURAPI_KEY` 는 2028-11-04 에 끝납니다** — 그 전에 data.go.kr 마이페이지에서 연장 신청하세요. 키가 바뀌면 Secrets 에서
+`TOURAPI_KEY` 를 **Update** 합니다. 만료되면 그날부터 Action 이 「못 받은 소스: 한국관광공사 축제」로 빨간불이 되고(어제 것으로
+채우므로 앱에서 바로 사라지지는 않습니다), GitHub 이 실패 메일을 보냅니다.
+
+## 거르는 것
+
+- **무료만.** 문화행사는 `IS_FREE` 「무료」이거나 요금이 「무료」로 시작하고, 요금 칸이 금액만 적힌 유료(「30,000원」)가 아닌 것.
+  「무료(입장료 4,000원 별도)」처럼 행사는 무료이고 들어가는 값만 따로인 것은 넣습니다(앱이 요금 원문을 보여 줍니다).
+- **날짜** — 오늘(서울)부터 30일 안에 시작하고, 아직 끝나지 않았고, **60일 안에 끝나는 것**(앱의 `EVENT_END_DAYS`). 몇 해짜리
+  장기 전시는 앱이 어차피 숨겨서 여기서 먼저 뺍니다. 피드가 며칠 묵어도 빈틈이 없게 끝나는 날은 7일 넉넉히 둡니다
+  (`END_GRACE_DAYS`). **앱에서 60일을 늘리면 `lib.mjs` 의 `END_DAYS` 도 같이 늘리세요** — 줄이는 건 앱만 고쳐도 됩니다.
+- **나들이가 아닌 것**(`lib.mjs` 의 `notOuting`)
+  - 단체 전용 — 대상에 「단체·학급」이 있고 「개인·누구나」가 없는 것(학급단체 교육, 어린이집 단체 등)
+  - 온라인 — 장소가 「온라인·비대면」으로 **시작**하거나 제목에 「온라인 전시·교육·강의·강좌」. 「서강도서관 3층 / 온라인(zoom)」처럼
+    현장과 같이 하는 것은 남깁니다.
+  - 모집 공고 — 제목에 「신청자 모집·문화패스·서포터즈·자원봉사자·강사 양성」. 「참가자 모집」은 실제 체험 프로그램이 많아 넣지 않았습니다.
+  - 규칙에 안 걸리는 한두 건은 `blocklist.json` 으로 뺍니다.
+- 소스끼리 같은 행사(기관 머리·연도·띄어쓰기를 뗀 제목이 같고 날짜가 겹침)는 하나만.
+- **앱 순서**(이미 시작한 것을 끝나는 날 순, 그다음 앞으로 할 것을 시작일 순)로 놓고, 소스별 상한(`collect.mjs` 의 `SOURCES`)과
+  전체 300건으로 자릅니다 — 앱은 피드의 앞 300건만 읽습니다.
+- 사진은 넣지 않습니다(공공누리 유형 확인 없이 쓸 수 없어요). 공식 사이트 주소는 앱과 같은 조건(ASCII, 300자 이하, 계정·포트 없는
+  http(s), 호스트는 영문 소문자·숫자·점·하이픈)만.
+
+## 실패할 때
+
+- **소스 하나를 못 받으면** 어제 `guides.json` 에서 그 소스 몫(id 머리말)을 가져와 오늘 날짜로 다시 거르고, 파일을 쓰고 커밋한 뒤
+  Action 을 **빨간불로** 끝냅니다(마지막 단계 「못 받은 소스가 있으면 실패로」).
+- **모든 소스를 못 받았거나 0건이면** 쓰지 않고 실패합니다 — 어제 파일이 그대로 남습니다.
+- 생성 시각만 바뀐 날은 커밋하지 않습니다.
+- 요청 주소는 로그에 찍지 않습니다 — 키가 들어 있고, 이 저장소는 공개라 Action 로그도 공개입니다.
+
+## 새 스크립트 시험하기 (develop)
+
+Action 은 **워크플로를 돌린 갈래의 스크립트**를 씁니다. 정기 실행과 손으로 돌릴 때의 기본값은 main 이라 평소와 같습니다.
+
+1. 고친 스크립트(와 워크플로)를 **develop** 에 올립니다.
+2. **Actions → guides.json → Run workflow** 에서 **Use workflow from: `develop`**, **dry_run** 을 켜고 돌립니다.
+   - main 이 아닌 갈래에서 돌리면 결과는 대상 칸과 상관없이 **늘 그 갈래에** 씁니다 — main 은 건드리지 않습니다.
+   - dry run 은 커밋하지 않고, 로그에 소스별 건수·뺀 이유·뺀 일정·넣은 일정을 다 찍고, 결과와 받은 원본 응답을 아티팩트
+     `guides-dry-run` 으로 올립니다(3일 보관). 원본은 `fixtures/` 처럼 시험 응답으로 쓸 수 있습니다.
+3. 로그가 괜찮으면 dry_run 을 끄고 다시 돌려 develop 에 `guides.json` 을 만들고, 앱을 develop 피드로 띄워 봅니다
+   (`EXPO_PUBLIC_TIPS_FEED_BRANCH=develop npx expo run:ios`). develop 에는 초안(`draft`) 보관법도 들어갑니다.
+4. 스크립트·워크플로·README 만 main 에 올립니다 — develop 의 시험용 `guides.json` 은 가져가지 않습니다(main 의 매일 커밋과 부딪힙니다).
+   다음 새벽 정기 실행부터 실사용자에게 나갑니다.
+
+## 로컬에서
+
+```bash
+node --test scripts/guides/lib.test.mjs scripts/guides/collect.test.mjs        # 규칙 시험 (네트워크 없이)
+GUIDES_MOCK_DIR=scripts/guides/fixtures GUIDES_TODAY=2026-11-04 GUIDES_OUT=/tmp/guides.json DRY_RUN=1 node scripts/guides/collect.mjs   # 시험 응답으로
+SEOUL_API_KEY=키 TOURAPI_KEY=키 TARGET_BRANCH=develop DRY_RUN=1 node scripts/guides/collect.mjs   # 실제 API (루트의 guides.json 을 덮어씁니다)
+```
+
+환경 변수: `GUIDES_MOCK_DIR`(시험 응답 폴더 — `<label>.json`), `GUIDES_SAVE_RAW`(받은 응답을 남길 폴더), `GUIDES_OUT`(쓸 파일, 기본
+`guides.json`), `GUIDES_TODAY`(오늘을 정해 시험), `DRY_RUN=1`(뺀 일정·넣은 일정을 다 찍기), `TARGET_BRANCH`(main 이면 초안 보관법을 뺌).
 
 ## 보관법(`foods.json`) 올리기
 
-- 지금 들어 있는 7개는 앱 개발용 예시에서 옮긴 **초안**이라 모두 `"draft": true` 예요.
-- **main 에는 draft 가 빠지고 나갑니다** — 보관 기간을 확인하기 전에는 실사용자에게 보이지 않아요.
+- 보관 기간을 확인하기 전의 **초안**은 `"draft": true` 입니다. **main 에는 draft 가 빠지고 나갑니다** — 실사용자에게 보이지 않아요.
 - 기간을 식약처 식품안전나라 같은 출처와 맞춰 본 뒤 `"draft": true` 를 지우고, 출처를 `"credit"` 에 적어요(예: `"식품안전나라"`).
 - 칸은 `room`(실온)·`fridge`(냉장)·`freezer`(냉동). `null` 은 「두지 않아요」, 칸을 아예 안 적으면 「정보 없음」입니다.
   `span` 은 10자, `note` 는 20자, 이름은 15자까지. 넘으면 앱이 그 칸(또는 품목)을 버립니다.
-
-## 시험해 보기 (로컬)
-
-```bash
-SEOUL_API_KEY=키 TARGET_BRANCH=develop node scripts/guides/collect.mjs   # 실제 API
-SEOUL_API_MOCK=sample.json TARGET_BRANCH=main node scripts/guides/collect.mjs   # 저장해 둔 응답으로
-```
-
-## 지키는 것
-
-- 무료(`IS_FREE` 「무료」 또는 요금이 「무료」로 시작)만, 오늘부터 30일 안에 시작하고 아직 끝나지 않은 것만. 최대 300건.
-- 사진은 넣지 않아요(공공누리 유형 확인 없이 쓸 수 없어요).
-- 공식 사이트 주소는 앱과 같은 조건(ASCII, 300자 이하, 계정·포트 없는 http(s), 호스트는 영문 소문자·숫자·점·하이픈)만.
-- 0건이면 쓰지 않고 실패해요. 생성 시각만 바뀐 날은 커밋하지 않아요.
+- `foods.json` 이 깨지면 그날 수집이 통째로 실패합니다(무료 일정도 안 바뀝니다). 웹 편집기로 고친 뒤에는 확인하세요.
