@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "generatedAt": "2026-11-04T00:32:40.932Z",
+  "generatedAt": "2026-11-05T00:49:34.658Z",
   "events": [
     {
       "id": "seoul-d71050f45bb5",
@@ -1077,20 +1077,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-ce6326cd1918",
-      "title": "[성북문화재단] 2026 성북축제학교 [지음·이음·다음]",
-      "region": "서울",
-      "place": "돌곶이생활예술문화센터",
-      "startDate": "2026-09-09",
-      "endDate": "2026-11-04",
-      "fee": "무료",
-      "target": "청년",
-      "source": {
-        "url": "https://blog.naver.com/sbculture1/224378250626"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-41c4d8a2ac0e",
       "title": "2026 코리아나미술관 소장품 기획전 [산수/풍경]",
       "region": "서울",
@@ -1405,20 +1391,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-cdc51c2a2190",
-      "title": "[노원문화재단] 2026 노원 NEXT: 민하형 개인전 [피-빼기]",
-      "region": "서울",
-      "place": "경춘선숲길 갤러리",
-      "startDate": "2026-10-13",
-      "endDate": "2026-11-04",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://nowonarts.kr/channels/exhibition/programs/1074"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-b7d06f9b57e7",
       "title": "서울대학교 개교 80주년 기념전 [새로운 미래]",
       "region": "서울",
@@ -1610,20 +1582,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-6e8d66ca8443",
-      "title": "제5회 서초 청년작가 특별전시(SYAF)",
-      "region": "서울",
-      "place": "서리풀청년아트갤러리",
-      "startDate": "2026-10-17",
-      "endDate": "2026-11-04",
-      "fee": "무료관람",
-      "target": "누구나",
-      "source": {
-        "url": "https://www.instagram.com/p/DeeBe-QzAcu/"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-f90b8a673e13",
       "title": "[서울기록원] 예술가들이 기록한 도시",
       "region": "서울",
@@ -1762,20 +1720,6 @@
       "text": "예술공간 의식주 하반기 기획전시",
       "source": {
         "url": "https://the-necessaries.com/"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-3b1c82d17f12",
-      "title": "신교명 개인전 [Active Painting]",
-      "region": "서울",
-      "place": "문래예술공장",
-      "startDate": "2026-10-26",
-      "endDate": "2026-11-04",
-      "fee": "0원",
-      "target": "누구나",
-      "source": {
-        "url": "https://archivist.kr/exi?m=gov&i=1793011365"
       },
       "credit": "서울문화포털"
     },
@@ -2240,20 +2184,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-d59fc0a9de7d",
-      "title": "[서울돈화문국악당] 12가사 완창 프로젝트 Ⅱ 문현의 4가사 절반창과 경제시조 [삶:歌]",
-      "region": "서울",
-      "place": "서울돈화문국악당",
-      "startDate": "2026-11-04",
-      "endDate": "2026-11-04",
-      "fee": "무료",
-      "target": "전체관람가",
-      "source": {
-        "url": "https://sgtt.kr/program/detail/7359"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-872e49be95c3",
       "title": "[서울시립미술관 서소문본관] 《린 허쉬만 리슨: 나의 [나]들》 전시 연계 강연",
       "region": "서울",
@@ -2264,20 +2194,6 @@
       "target": "성인 누구나",
       "source": {
         "url": "https://sema.seoul.go.kr/kr/whatson/education/detail?acadmyEeNo=1600266"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-4f93b9d2bab8",
-      "title": "[서초문화재단] 2026서리풀 어울림 콘서트 [피아니스트 양지우의 with IN&OUT II]",
-      "region": "서울",
-      "place": "반포심산아트홀",
-      "startDate": "2026-11-04",
-      "endDate": "2026-11-04",
-      "fee": "무료",
-      "target": "초등학생 이상 관람가능",
-      "source": {
-        "url": "https://www.seochocf.or.kr/site/main/seocho/show/view?show_idx=1005"
       },
       "credit": "서울문화포털"
     },
