@@ -13,6 +13,8 @@ import {
   plain,
   saysFree,
   sortForApp,
+  tidyNote,
+  clipNote,
   source,
   titleKey,
   urlFrom,
@@ -151,6 +153,26 @@ test("공공서비스예약: 무료·접수중만, 시간·접수 기간", () =>
   assert.ok(yeyak.toEvent({ ...base, MINCLASSNM: "공원탐방" }).event);
   for (const t of ["리앤업사이클플라자 학교단체 교육", "[은평구] 2026년 목공재능기부자 모집안내", "서울청년센터 은평 11월 티톡 참여자 모집", "[서울청년센터 마포] 청년을 위한 호신술 교육 참가자 모집(11/11)", "[11월] 2026 대시민 정비사업 아카데미 2차 (11/7 서초구)"])
     assert.equal(yeyak.toEvent({ ...base, SVCNM: t }).drop, "단체·모집", t);
+});
+
+test("시간·요금 표기 정리: ※ 띄우기, 목록 기호", () => {
+  assert.equal(tidyNote("10:00~18:00※ 행사별로 상이함"), "10:00~18:00 ※ 행사별로 상이함");
+  assert.equal(tidyNote("무료※ 일부 유료"), "무료 ※ 일부 유료");
+  assert.equal(tidyNote("- 1회차 10:00~12:00- 2회차 14:00~16:00"), "1회차 10:00~12:00 · 2회차 14:00~16:00");
+  assert.equal(tidyNote("- 19:00~21:00 - 접수 마감 18:00~19:20"), "19:00~21:00 · 접수 마감 18:00~19:20");
+  assert.equal(tidyNote("10:00 - 12:00"), "10:00~12:00");
+  assert.equal(tidyNote("11:00 / 14:00※ 매주 월요일 휴무"), "11:00 / 14:00 ※ 매주 월요일 휴무");
+  assert.equal(tidyNote("11:00~16:00"), "11:00~16:00");
+  assert.equal(clipNote("<br>- 09:00~18:00※ 매주 화요일 휴관", 60), "09:00~18:00 ※ 매주 화요일 휴관");
+  assert.equal(clipNote("", 60), undefined);
+});
+
+test("공공서비스예약: 소개 줄 정리", () => {
+  const head = "<p>1. 공공시설 예약서비스 이용시 필수 준수사항 …</p><p>3. 상세내용</p>";
+  const text = yeyak.detailOf(`${head}<p>4. 주의사항</p><p>&gt;</p><p>예약사이트 바로가기--</p><p>편한 신발을 신어요.&crarr;준비물: 물</p>`);
+  assert.equal(text, "주의사항\n편한 신발을 신어요.\n준비물: 물");
+  assert.ok(!text.includes("crarr"));
+  assert.equal(yeyak.detailOf("<p>[구로구] - 가족 숲해설</p>"), "[구로구] - 가족 숲해설");
 });
 
 test("공공서비스예약: 공통 머리말을 걷고, 「접수 안내」뿐인 제목은 뺀다", () => {

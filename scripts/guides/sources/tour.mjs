@@ -7,7 +7,7 @@
 //
 // 칸 이름은 활용 매뉴얼을 보고 맞췄고 실제 응답으로는 아직 확인하지 못했다 — 첫 dry run 로그로 고친다.
 
-import { clip, clipText, dateIssue, dayOf, mapLimit, saysFree, seoulDate, source, urlFrom } from "../lib.mjs";
+import { clip, clipNote, clipText, dateIssue, dayOf, mapLimit, saysFree, seoulDate, source, urlFrom } from "../lib.mjs";
 
 export const name = "한국관광공사 축제";
 export const prefix = "tour-";
@@ -61,7 +61,7 @@ export function petLine(pet) {
 export function toEvent(item, region, intro, common, pet) {
   const title = clip(item.title, 60);
   if (!title) return { drop: "제목 없음" };
-  const fee = clip(intro?.usetimefestival, 120);
+  const fee = clipNote(intro?.usetimefestival, 120);
   if (!saysFree(fee)) return { drop: "무료 아님", title, detail: fee ?? "(요금 칸 없음)" };
   const where = clip(intro?.eventplace, 40) ?? clip(String(item.addr1 ?? "").replace(/^\S+\s+/, ""), 40);
   const city = region === "경기" ? cityOf(item.addr1) : undefined;
@@ -77,7 +77,7 @@ export function toEvent(item, region, intro, common, pet) {
       place: clip(city && where && !where.startsWith(city) ? `${city} · ${where}` : (where ?? city), 60),
       startDate: dayOf(item.eventstartdate),
       endDate: dayOf(item.eventenddate),
-      time: clip(intro?.playtime, 60),
+      time: clipNote(intro?.playtime, 60),
       fee,
       target: clip(intro?.agelimit, 60),
       text,

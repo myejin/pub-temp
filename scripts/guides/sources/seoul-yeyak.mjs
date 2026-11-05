@@ -49,9 +49,21 @@ export function timeOf(r) {
 export function detailOf(html) {
   const t = plain(html);
   const m = /(?:^|\s)3\.\s*상세\s*내용\s*/.exec(t);
-  if (m) return t.slice(m.index + m[0].length).trim();
+  if (m) return tidyDetail(t.slice(m.index + m[0].length));
   if (/^1\.\s*공공시설\s*예약\s*서비스/.test(t)) return "";
-  return t;
+  return tidyDetail(t);
+}
+
+// 소개 줄 정리 — 「4. 주의사항」 같은 번호 머리는 번호만 떼고(「상세내용」이 비어 번호가 4부터 시작한다), 「>」·「--」 같은 기호뿐인 줄과
+// 「예약사이트 바로가기」 줄(주소는 버튼으로 따로 있다)은 뺀다.
+const SYMBOL_LINE = /^[\s>\-–—·•*=~_.]+$/;
+const LINK_LINE = /^예약\s*사이트\s*바로\s*가기[\s\-–—>]*$/;
+function tidyDetail(text) {
+  return text
+    .split("\n")
+    .map((l) => l.replace(/^\s*\d\.\s*(주의\s*사항|유의\s*사항|참고\s*사항)\s*$/, "$1").trim())
+    .filter((l) => l && !SYMBOL_LINE.test(l) && !LINK_LINE.test(l))
+    .join("\n");
 }
 
 // 기관 머리(「[서울공예박물관] 」)를 떼면 「접수 안내」뿐인 제목 — 카드만 보고는 무슨 프로그램인지 알 수 없다.

@@ -61,7 +61,7 @@ export function dateIssue(e, win) {
 
 // ── 글자 ─────────────────────────────
 
-const ENTITIES = { nbsp: " ", amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", middot: "·" };
+const ENTITIES = { nbsp: " ", amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", middot: "·", crarr: "\n" };
 const decode = (s) =>
   s.replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/gi, (m, name) => {
     if (name[0] === "#") {
@@ -102,6 +102,24 @@ function fit(t, max) {
 export function clip(s, max) {
   const t = plain(s).replace(/\s+/g, " ").trim();
   return t ? fit(t, max) : undefined;
+}
+
+// 시간·요금 칸의 표기를 읽기 좋게 — 「10:00~18:00※ 행사별로 상이함」, 「- 1회차 10:00~12:00- 2회차 14:00~16:00」처럼 기호가 글자에 붙어 오고
+// 목록 기호(「-」)가 그대로 보인다. 「10:00 - 12:00」 같은 시각 범위는 먼저 「~」로 맞춘다.
+export function tidyNote(s) {
+  return String(s)
+    .replace(/(\d{1,2}:\d{2})\s*-\s*(\d{1,2}:\d{2})/g, "$1~$2")
+    .replace(/^\s*-\s+/, "")
+    .replace(/\s*-\s+(?=\S)/g, " · ")
+    .replace(/\s*※\s*/g, " ※ ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+// 한 줄 칸 + 표기 정리. 정리하면서 글자가 늘 수 있어 넉넉히 받아 정리한 뒤 줄인다.
+export function clipNote(s, max) {
+  const t = clip(s, 400);
+  return t ? clip(tidyNote(t), max) : undefined;
 }
 
 // 여러 줄 그대로(소개 글).
