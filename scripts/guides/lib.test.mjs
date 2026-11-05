@@ -147,7 +147,7 @@ test("공공서비스예약: 무료·접수중만, 시간·접수 기간", () =>
   assert.equal(yeyak.toEvent({ ...base, MINCLASSNM: "서울형키즈카페" }).drop, "나들이 아닌 분류");
   assert.equal(yeyak.toEvent({ ...base, MINCLASSNM: "청년정보" }).drop, "나들이 아닌 분류");
   assert.ok(yeyak.toEvent({ ...base, MINCLASSNM: "공원탐방" }).event);
-  for (const t of ["리앤업사이클플라자 학교단체 교육", "[은평구] 2026년 목공재능기부자 모집안내", "서울청년센터 은평 11월 티톡 참여자 모집"])
+  for (const t of ["리앤업사이클플라자 학교단체 교육", "[은평구] 2026년 목공재능기부자 모집안내", "서울청년센터 은평 11월 티톡 참여자 모집", "[서울청년센터 마포] 청년을 위한 호신술 교육 참가자 모집(11/11)", "[11월] 2026 대시민 정비사업 아카데미 2차 (11/7 서초구)"])
     assert.equal(yeyak.toEvent({ ...base, SVCNM: t }).drop, "단체·모집", t);
 });
 
