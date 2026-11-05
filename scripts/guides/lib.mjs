@@ -200,6 +200,10 @@ export function sortForApp(events, today) {
 // JSON 받기. 시험할 때는 `mockDir/<label>.json` 을 읽고, `saveDir` 이 있으면 받은 것을 같은 이름으로 남긴다
 // (dry run 아티팩트 — 나중에 그대로 시험 응답으로 쓴다). 오류 글에는 요청 주소를 넣지 않는다 — 키가 들어 있고
 // 이 저장소는 공개라 Action 로그도 공개다. 혹시 몰라 키 글자도 지운다.
+// 다시 시도하는 간격 — 세 번까지. 2026-11-05 에 관광공사가 2초 간격 두 번을 다 「fetch failed」로 끝나 그날 경기 일정을
+// 통째로 놓쳤다(몇 분 뒤에는 됐다). 끊김이 잠깐이면 이 안에 돌아온다.
+const RETRY_DELAYS = [5_000, 15_000];
+
 export function makeFetcher({ mockDir, saveDir, secrets = [] }) {
   const scrub = (msg) => secrets.filter(Boolean).reduce((m, k) => m.split(k).join("***"), String(msg));
   return async function fetchJson(url, label) {
@@ -209,7 +213,7 @@ export function makeFetcher({ mockDir, saveDir, secrets = [] }) {
       return JSON.parse(readFileSync(file, "utf8"));
     }
     let last;
-    for (let attempt = 0; attempt < 2; attempt++) {
+    for (let attempt = 0; attempt <= RETRY_DELAYS.length; attempt++) {
       try {
         const res = await fetch(url, { signal: AbortSignal.timeout(30_000) });
         const body = await res.text();
@@ -227,10 +231,10 @@ export function makeFetcher({ mockDir, saveDir, secrets = [] }) {
         return json;
       } catch (e) {
         last = e;
-        // 네트워크 오류·시간 초과·5xx 만 한 번 더. 4xx 와 모양이 다른 응답은 다시 해도 같다.
+        // 네트워크 오류·시간 초과·5xx 만 다시. 4xx 와 모양이 다른 응답은 다시 해도 같다.
         const retry = e.retry === true || e.name === "TimeoutError" || e.name === "TypeError";
-        if (!retry || attempt === 1) break;
-        await new Promise((r) => setTimeout(r, 2000));
+        if (!retry || attempt === RETRY_DELAYS.length) break;
+        await new Promise((r) => setTimeout(r, RETRY_DELAYS[attempt]));
       }
     }
     throw new Error(scrub(`${label}: ${last?.message ?? last}`));
