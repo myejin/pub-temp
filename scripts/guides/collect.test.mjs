@@ -44,6 +44,8 @@ test("세 소스를 합쳐 거르고 앱 순서로 놓는다", () => {
   assert.equal(jara.place, "가평 · 자라섬");
   assert.match(jara.text, /^반려동물: /);
   assert.deepEqual(jara.source, { url: "http://www.jarasum.kr" });
+  assert.equal(feed.events[0].applyEnd, "2026-11-28"); // 공공서비스예약만
+  assert.ok(feed.events.slice(1).every((e) => !("applyEnd" in e)));
   // 앱이 모르는 칸이나 undefined 가 없다
   for (const e of feed.events) for (const v of Object.values(e)) assert.notEqual(v, undefined);
   // main 에는 초안 보관법이 없다

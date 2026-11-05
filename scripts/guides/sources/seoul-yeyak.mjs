@@ -73,6 +73,9 @@ export function toEvent(r) {
       startDate: dayOf(r.SVCOPNBGNDT),
       endDate: dayOf(r.SVCOPNENDDT),
       time: timeOf(r),
+      // 접수 마감일(YYYY-MM-DD). 다음 앱 버전이 「접수 마감」 표시와 주말 줄에서 빼는 데 쓴다. 옛 앱은 모르는 칸이라 무시한다.
+      // 소개 첫 줄의 접수 기간은 옛 앱을 위해 남긴다.
+      applyEnd: rcptTo,
       fee: "무료",
       target: clip(r.USETGTINFO, 60),
       text: clipText(`${receipt}\n${r.DTLCONT ?? ""}`, 600),

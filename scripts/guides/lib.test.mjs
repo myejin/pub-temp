@@ -137,6 +137,8 @@ test("공공서비스예약: 무료·접수중만, 시간·접수 기간", () =>
   const { event } = yeyak.toEvent(base);
   assert.equal(event.id, "yeyak-S1");
   assert.equal(event.time, "10:00~12:00");
+  assert.equal(event.applyEnd, "2026-11-28");
+  assert.equal(yeyak.toEvent({ ...base, RCPTENDDT: "" }).event.applyEnd, undefined);
   assert.match(event.text, /^접수 10\.20~11\.28 \(서울시 공공서비스예약\)/);
   assert.equal(yeyak.toEvent({ ...base, PAYATNM: "유료" }).drop, "유료");
   assert.equal(yeyak.toEvent({ ...base, SVCSTATNM: "안내중" }).drop, "접수 중 아님");
