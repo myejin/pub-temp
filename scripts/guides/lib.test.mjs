@@ -153,6 +153,21 @@ test("공공서비스예약: 무료·접수중만, 시간·접수 기간", () =>
     assert.equal(yeyak.toEvent({ ...base, SVCNM: t }).drop, "단체·모집", t);
 });
 
+test("공공서비스예약: 공통 머리말을 걷고, 「접수 안내」뿐인 제목은 뺀다", () => {
+  const head =
+    "<p>1. 공공시설 예약서비스 이용시 필수 준수사항 모든 서비스의 이용은 담당 기관의 규정에 따릅니다.</p><p>2. 시설예약 비회원일 경우에는 실명 확인을 통하여 사용하실 수 있으며 …</p><p>3. 상세내용</p>";
+  assert.equal(yeyak.detailOf(`${head}<p>[구로구] - 가족 숲해설 프로그램</p><p>☐ 운영장소 : 매봉산</p>`), "[구로구] - 가족 숲해설 프로그램\n☐ 운영장소 : 매봉산");
+  assert.equal(yeyak.detailOf("1. 공공시설 예약서비스 이용시 필수 준수사항 …"), "");
+  assert.equal(yeyak.detailOf("<p>숲 해설가와 함께</p>"), "숲 해설가와 함께");
+  assert.ok(yeyak.emptyTitle("[서울공예박물관] 접수 안내"));
+  assert.ok(yeyak.emptyTitle("예약안내"));
+  assert.ok(!yeyak.emptyTitle("[서울공예박물관] 뮤지엄 나이트 런 접수 안내"));
+  const base = { SVCID: "S1", SVCNM: "[서울공예박물관] 접수 안내", PAYATNM: "무료", SVCSTATNM: "접수중", SVCOPNBGNDT: "2026-11-01", SVCOPNENDDT: "2026-11-30" };
+  assert.equal(yeyak.toEvent(base).drop, "제목만 안내");
+  const { event } = yeyak.toEvent({ ...base, SVCNM: "가족 숲해설", RCPTBGNDT: "2026-10-22", RCPTENDDT: "2026-11-06", DTLCONT: `${head}<p>[구로구] - 가족 숲해설 프로그램</p>` });
+  assert.equal(event.text, "접수 10.22~11.6 (서울시 공공서비스예약)\n[구로구] - 가족 숲해설 프로그램");
+});
+
 test("관광공사: 항목 모양, 시·군, 반려동물 줄", () => {
   const wrap = (items) => ({ response: { header: { resultCode: "0000" }, body: { items, totalCount: 1 } } });
   assert.deepEqual(tour.tourItems(wrap("")).items, []);

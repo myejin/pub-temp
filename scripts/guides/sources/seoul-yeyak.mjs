@@ -4,7 +4,7 @@
 // 서비스 이름과 칸 이름은 열린데이터광장 문서를 보고 맞췄고, 실제 응답으로는 아직 확인하지 못했다 — 첫 dry run
 // 로그의 「받은 N건」과 분류 분포를 보고 고친다.
 
-import { clip, clipText, dayOf, monthDay, source } from "../lib.mjs";
+import { clip, clipText, dayOf, monthDay, plain, source } from "../lib.mjs";
 import { seoulRows } from "./seoul-api.mjs";
 
 export const name = "서울 공공서비스예약";
@@ -44,6 +44,20 @@ export function timeOf(r) {
   return from ?? `~${to}`;
 }
 
+// 예약 사이트가 모든 상세 글 앞에 붙이는 공통 머리말(「1. 공공시설 예약서비스 이용시 필수 준수사항 … 2. 시설예약
+// 비회원일 경우 … 3. 상세내용」). 프로그램 소개는 「상세내용」 뒤부터다. 머리말만 있고 표시가 없으면 머리말 문단을 걷는다.
+export function detailOf(html) {
+  const t = plain(html);
+  const m = /(?:^|\s)3\.\s*상세\s*내용\s*/.exec(t);
+  if (m) return t.slice(m.index + m[0].length).trim();
+  if (/^1\.\s*공공시설\s*예약\s*서비스/.test(t)) return "";
+  return t;
+}
+
+// 기관 머리(「[서울공예박물관] 」)를 떼면 「접수 안내」뿐인 제목 — 카드만 보고는 무슨 프로그램인지 알 수 없다.
+const EMPTY_TITLE = /^(접수|예약|신청|이용)\s*(안내|공지)$/;
+export const emptyTitle = (title) => EMPTY_TITLE.test(title.replace(/^\s*(\[[^\]]*\]\s*|\([^)]*\)\s*)+/, "").trim());
+
 // 서비스 ID 는 「S241231…」 같은 영문·숫자라 그대로 id 에 쓴다 — 날마다 같아 앱의 목록 키가 흔들리지 않는다.
 const SAFE_ID = /^[A-Za-z0-9_-]{1,50}$/;
 
@@ -54,6 +68,7 @@ export function toEvent(r) {
   if (!OPEN.has(String(r.SVCSTATNM ?? "").trim())) return { drop: "접수 중 아님", title };
   if (SKIP_CLASSES.has(String(r.MINCLASSNM ?? "").trim())) return { drop: "나들이 아닌 분류", title };
   if (SKIP_TITLE.test(title)) return { drop: "단체·모집", title };
+  if (emptyTitle(title)) return { drop: "제목만 안내", title };
   const svcId = String(r.SVCID ?? "").trim();
   if (!SAFE_ID.test(svcId)) return { drop: "id 없음", title };
 
@@ -78,7 +93,7 @@ export function toEvent(r) {
       applyEnd: rcptTo,
       fee: "무료",
       target: clip(r.USETGTINFO, 60),
-      text: clipText(`${receipt}\n${r.DTLCONT ?? ""}`, 600),
+      text: clipText(`${receipt}\n${detailOf(r.DTLCONT)}`, 600),
       source: source(r.SVCURL),
       credit: CREDIT,
     },
