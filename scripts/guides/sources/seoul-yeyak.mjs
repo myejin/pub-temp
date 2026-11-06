@@ -57,7 +57,7 @@ export function detailOf(html) {
 // 소개 줄 정리 — 「4. 주의사항」 같은 번호 머리는 번호만 떼고(「상세내용」이 비어 번호가 4부터 시작한다), 「>」·「--」 같은 기호뿐인 줄과
 // 「예약사이트 바로가기」 줄(주소는 버튼으로 따로 있다)은 뺀다.
 const SYMBOL_LINE = /^[\s>\-–—·•*=~_.]+$/;
-const LINK_LINE = /^예약\s*사이트\s*바로\s*가기[\s\-–—>]*$/;
+const LINK_LINE = /^예약\s*사이트\s*바로\s*가기/; // 「예약사이트 바로가기--> https://…」처럼 주소가 한 줄에 붙어 오기도 한다
 function tidyDetail(text) {
   return text
     .split("\n")

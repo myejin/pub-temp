@@ -117,9 +117,12 @@ export function tidyNote(s) {
 }
 
 // 한 줄 칸 + 표기 정리. 정리하면서 글자가 늘 수 있어 넉넉히 받아 정리한 뒤 줄인다.
+// 「※」 뒤는 줄바꿈이 안 되는 공백(U+00A0)으로 — 「10:00~18:00 ※」에서 줄이 꺾여 ※ 만 줄 끝에 남지 않고 「※ 행사별로」가 같이 넘어간다.
+// clip 이 공백을 한 칸으로 모으므로(NBSP 포함) 마지막에 바꾼다.
 export function clipNote(s, max) {
   const t = clip(s, 400);
-  return t ? clip(tidyNote(t), max) : undefined;
+  const r = t ? clip(tidyNote(t), max) : undefined;
+  return r?.replace(/※ /g, "※\u00a0");
 }
 
 // 여러 줄 그대로(소개 글).

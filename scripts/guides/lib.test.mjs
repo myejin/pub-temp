@@ -163,7 +163,8 @@ test("시간·요금 표기 정리: ※ 띄우기, 목록 기호", () => {
   assert.equal(tidyNote("10:00 - 12:00"), "10:00~12:00");
   assert.equal(tidyNote("11:00 / 14:00※ 매주 월요일 휴무"), "11:00 / 14:00 ※ 매주 월요일 휴무");
   assert.equal(tidyNote("11:00~16:00"), "11:00~16:00");
-  assert.equal(clipNote("<br>- 09:00~18:00※ 매주 화요일 휴관", 60), "09:00~18:00 ※ 매주 화요일 휴관");
+  assert.equal(clipNote("<br>- 09:00~18:00※ 매주 화요일 휴관", 60), "09:00~18:00 ※\u00a0매주 화요일 휴관"); // ※ 뒤는 줄바꿈 안 되는 공백
+  assert.equal(clipNote("무료※ 일부 유료", 60), "무료 ※\u00a0일부 유료");
   assert.equal(clipNote("", 60), undefined);
 });
 
@@ -173,6 +174,7 @@ test("공공서비스예약: 소개 줄 정리", () => {
   assert.equal(text, "주의사항\n편한 신발을 신어요.\n준비물: 물");
   assert.ok(!text.includes("crarr"));
   assert.equal(yeyak.detailOf("<p>[구로구] - 가족 숲해설</p>"), "[구로구] - 가족 숲해설");
+  assert.equal(yeyak.detailOf(`${head}<p>예약사이트 바로가기--> https://www.jungnang.go.kr/ecoEdu/app/ecoEdu/s</p><p>플로깅 활동</p>`), "플로깅 활동");
 });
 
 test("공공서비스예약: 공통 머리말을 걷고, 「접수 안내」뿐인 제목은 뺀다", () => {
@@ -188,6 +190,16 @@ test("공공서비스예약: 공통 머리말을 걷고, 「접수 안내」뿐�
   assert.equal(yeyak.toEvent(base).drop, "제목만 안내");
   const { event } = yeyak.toEvent({ ...base, SVCNM: "가족 숲해설", RCPTBGNDT: "2026-10-22", RCPTENDDT: "2026-11-06", DTLCONT: `${head}<p>[구로구] - 가족 숲해설 프로그램</p>` });
   assert.equal(event.text, "접수 10.22~11.6 (서울시 공공서비스예약)\n[구로구] - 가족 숲해설 프로그램");
+});
+
+test("관광공사: 안내 페이지가 없는 축제는 뺀다", () => {
+  const item = { contentid: "9", title: "톡톡달콤 페스티벌", addr1: "경기도 안성시 죽산면", eventstartdate: "20261107", eventenddate: "20261107" };
+  const intro = { usetimefestival: "무료", eventplace: "용설아트스페이스" };
+  assert.equal(tour.toEvent(item, "경기", intro, { overview: "소개" }).drop, "안내 페이지 없음");
+  const ok = tour.toEvent(item, "경기", intro, { overview: "소개", homepage: "www.example.kr" });
+  assert.deepEqual(ok.event.source, { url: "http://www.example.kr" });
+  // 소개 칸의 홈페이지로도 인정한다
+  assert.ok(tour.toEvent(item, "경기", { ...intro, eventhomepage: "https://a.kr/" }, { overview: "소개" }).event);
 });
 
 test("관광공사: 항목 모양, 시·군, 반려동물 줄", () => {

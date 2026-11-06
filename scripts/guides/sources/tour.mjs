@@ -69,6 +69,9 @@ export function toEvent(item, region, intro, common, pet) {
   // 소개 글은 자르지 않는 쪽으로 둔다(공공누리 유형을 아직 확인하지 못했다 — 변경금지면 잘라서도 안 된다).
   // 앱은 4000자를 넘으면 소개를 통째로 버리므로 그 안에서만.
   const text = clipText([pets, common?.overview].filter(Boolean).join("\n"), 3500);
+  // 안내 페이지(홈페이지)가 없는 축제는 뺀다 — 카드만으로는 어디서 무엇을 하는지 더 알 길이 없다(2026-11-06 결정).
+  const link = source(urlFrom(common?.homepage)) ?? source(urlFrom(intro?.eventhomepage));
+  if (!link) return { drop: "안내 페이지 없음", title };
   return {
     event: {
       id: `tour-${String(item.contentid).trim()}`,
@@ -81,7 +84,7 @@ export function toEvent(item, region, intro, common, pet) {
       fee,
       target: clip(intro?.agelimit, 60),
       text,
-      source: source(urlFrom(common?.homepage)) ?? source(urlFrom(intro?.eventhomepage)),
+      source: link,
       credit: CREDIT,
     },
     pets: pets !== undefined,
