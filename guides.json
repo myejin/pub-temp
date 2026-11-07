@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "generatedAt": "2026-11-07T00:01:58.761Z",
+  "generatedAt": "2026-11-07T23:33:29.254Z",
   "events": [
     {
       "id": "seoul-d71050f45bb5",
@@ -1047,22 +1047,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-530bb7d86fd6",
-      "title": "[성북문화예술교육센터] 2026 [오늘도 예술로] 가을 시즌 프로그램 안내",
-      "region": "서울",
-      "place": "성북문화예술교육센터",
-      "startDate": "2026-09-09",
-      "endDate": "2026-11-07",
-      "fee": "무료",
-      "performers": "두리, 도저킴, 주얼 등 다양한 예술가 및 주민 참여로 이루어짐",
-      "target": "누구나 (프로그램별 상이-초등,청소년~성인)",
-      "text": "누구나 누리는 성북창의예술교육 가을시즌(9-10월) 프로그램",
-      "source": {
-        "url": "https://scae.sbculture.or.kr/"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-41c4d8a2ac0e",
       "title": "2026 코리아나미술관 소장품 기획전 [산수/풍경]",
       "region": "서울",
@@ -1335,20 +1319,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-3b85f7854b7d",
-      "title": "[구립증산도서관] 개관 18주년 기념 [나만의 AI 그림책 만들기]",
-      "region": "서울",
-      "place": "구립증산도서관 1층 문화교육실",
-      "startDate": "2026-10-10",
-      "endDate": "2026-11-07",
-      "fee": "무료",
-      "target": "초등생 (초등 4~6학년)",
-      "source": {
-        "url": "https://www.eplib.or.kr/jslib/menu/10457/program/30028/eventLectureDetail.do?currentPageNo=2&lectureIdx=228793&manageCd=MB&searchTarget=&searchStatus=OPEN"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-7b12e7e8effe",
       "title": "[서초구 야외도서관] 2026 양재천을 품은 양재도서관 「물길 따라 그림책 여행」",
       "region": "서울",
@@ -1606,20 +1576,6 @@
       "target": "누구나",
       "source": {
         "url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1559068"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-7736aa23fc7e",
-      "title": "서울시무형유산 석암제 시조 지정 10주년 기념 [제4회 호수문화제]",
-      "region": "서울",
-      "place": "한국의집 민속극장, 남산골한옥마을 천우각",
-      "startDate": "2026-10-23",
-      "endDate": "2026-11-07",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://www.xn--9p4bo5e15ak7bl74a.com/index.php"
       },
       "credit": "서울문화포털"
     },
@@ -2082,21 +2038,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-b8132eba9c69",
-      "title": "[2026공연봄날 공식선정작] 크로키키 브라더스",
-      "region": "서울",
-      "place": "오류아트홀",
-      "startDate": "2026-11-03",
-      "endDate": "2026-11-07",
-      "fee": "무료",
-      "performers": "크로키키 브라더스",
-      "target": "청소년 및 청소년을 동반한 가족 관람객",
-      "source": {
-        "url": "https://www.springday.or.kr/niabbs5/inc.php?inc=sub2-2_list_img_in2&cat=%EB%8B%A4%EC%9B%90%EC%98%88%EC%88%A0&k_gubun2=2&kkno=47d1e990583c9c67424d369f3414728e&gubun2=11"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-29e3ee797c19",
       "title": "[교보아트스페이스] 동양화에 기운 Hearts Inclined to Ink",
       "region": "서울",
@@ -2164,20 +2105,6 @@
       "target": "누구나",
       "source": {
         "url": "https://www.unhyeongung.or.kr/sub/prpgram/exhibition_list.php?abmode=view&no=2017&group=basic&code=B35"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-b5ea255fad7c",
-      "title": "제14회 인도영화제",
-      "region": "서울",
-      "place": "프로그램별 상이",
-      "startDate": "2026-11-03",
-      "endDate": "2026-11-07",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://www.instagram.com/p/DePE4r9j8vL/?img_index=1"
       },
       "credit": "서울문화포털"
     },
@@ -2467,48 +2394,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-47257b6c22a7",
-      "title": "[고려대학교] 2026 모두의 AI·AX 캠프(초·중·고 대상)",
-      "region": "서울",
-      "place": "고려대학교 자연계캠퍼스 정운오IT교양관",
-      "startDate": "2026-11-07",
-      "endDate": "2026-11-07",
-      "fee": "무료",
-      "target": "초·중·고 학생 누구나",
-      "source": {
-        "url": "https://ku-ai.korea.ac.kr/swuniv/community/event.do?mode=view&articleNo=1586448&article.offset=0&articleLimit=10&totalNoticeYn=N&totalBoardNo="
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-48ae6ae0a743",
-      "title": "[구산동도서관마을] 은평 월간 다문화 미등록 [이주아동 이야기 은유 작가님과 함께하는 북토크]",
-      "region": "서울",
-      "place": "구산동도서관마을 3층 힐링캠프",
-      "startDate": "2026-11-07",
-      "endDate": "2026-11-07",
-      "fee": "무료",
-      "target": "청소년 이상 누구나",
-      "source": {
-        "url": "https://www.eplib.or.kr/gsvlib/menu/11004/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=231562&manageCd=MI&searchStatus=OPEN"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-7e7d71db14ff",
-      "title": "[동작문화재단] 11/7(토), 단 4시간만 열리는 사당의 지하낙원으로 초대합니다!",
-      "region": "서울",
-      "place": "사당생활문화센터 전체",
-      "startDate": "2026-11-07",
-      "endDate": "2026-11-07",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://www.idfac.or.kr/bbs/board.php?bo_table=notice&wr_id=485&page=1"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-33f4ddee48eb",
       "title": "[마포구립서강도서관] 11월/영유아 [엄마 아빠, 책이랑 놀자!]",
       "region": "서울",
@@ -2519,50 +2404,6 @@
       "target": "6~7세 어린이 및 양육자 10팀 (2인 1팀)",
       "source": {
         "url": "https://mplib.mapo.go.kr/sglib/PGM3028/eventDetail.do?eventSn=13547"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-8c3df3f4e3f6",
-      "title": "[서울시어울림플라자] 행복을 선물하는 가족뮤지컬 [우리 가족]",
-      "region": "서울",
-      "place": "서울시 어울림플라자 B동 지하 1층 공연장",
-      "startDate": "2026-11-07",
-      "endDate": "2026-11-07",
-      "fee": "무료",
-      "target": "장애인·비장애인 누구나",
-      "text": "장애인과 비장애인이 모두 볼 수 있는 행복한 가족뮤지컬 무료 공연",
-      "source": {
-        "url": "https://seouleoullim.or.kr/site/board/board-view?id=715&board_type=notice"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-477b42f9c616",
-      "title": "[운현궁] 2026 서울 운현궁 「운현궁 한옥콘서트」",
-      "region": "서울",
-      "place": "운현궁 노락당",
-      "startDate": "2026-11-07",
-      "endDate": "2026-11-07",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://www.unhyeongung.or.kr/sub/prpgram/total_list.php?sno=0&group=basic&code=B35&category=&&abmode=view&no=2013&bsort=&bfsort="
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-2c5bc32df7b2",
-      "title": "2026 서리풀 청소년축제",
-      "region": "서울",
-      "place": "서초문화예술공원",
-      "startDate": "2026-11-07",
-      "endDate": "2026-11-07",
-      "fee": "무료",
-      "target": "누구나",
-      "text": "아동청소년을 위한 축제",
-      "source": {
-        "url": "https://www.scy.or.kr/"
       },
       "credit": "서울문화포털"
     },
