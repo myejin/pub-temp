@@ -1,6 +1,6 @@
 {
   "formatVersion": 1,
-  "generatedAt": "2026-11-07T23:33:29.254Z",
+  "generatedAt": "2026-11-08T23:33:47.244Z",
   "events": [
     {
       "id": "seoul-d71050f45bb5",
@@ -781,34 +781,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-30852c0b8573",
-      "title": "[서울역사박물관] 서울도시계획 대관람",
-      "region": "서울",
-      "place": "서울역사박물관 기획전시실A",
-      "startDate": "2026-08-14",
-      "endDate": "2026-11-08",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://museum.seoul.go.kr/www/board/NR_boardView.do?bbsCd=1002&q_exhSttus=next&seq=20260723145427523&sso=ok"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-eabd5754a57e",
-      "title": "[서울시립 서서울미술관] 미디어 작가전 《김희천: 두더지들》",
-      "region": "서울",
-      "place": "서울시립 서서울미술관 B1 제1,2전시실, 다목적홀",
-      "startDate": "2026-08-20",
-      "endDate": "2026-11-08",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://sema.seoul.go.kr/kr/whatson/exhibition/detail?exNo=1565012"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-5c7fb337f6db",
       "title": "[서울문화재단] 《PLAY-UP 아카데미》 드라마투르기적 사고와 실전: 창작 현장에서의 드라마투르그 역할과…",
       "region": "서울",
@@ -1289,50 +1261,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-d4ee833fb802",
-      "title": "[소슬금 갤러리] 이한 개인전 《CONATIUM ― 나로서, 계속》",
-      "region": "서울",
-      "place": "소슬금 갤러리 (서울시 용산구 신흥로20길 17 1층)",
-      "startDate": "2026-10-09",
-      "endDate": "2026-11-08",
-      "fee": "무료",
-      "target": "누구나 (무료)",
-      "source": {
-        "url": "https://blog.naver.com/sosulguem_official/224427581100"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-59786037c783",
-      "title": "TASTE OF GREEN(테이스트 오브 그린) 展",
-      "region": "서울",
-      "place": "헤럴드갤러리 L2층 / (주)헤럴드 본사",
-      "startDate": "2026-10-09",
-      "endDate": "2026-11-08",
-      "fee": "없음",
-      "performers": "크리에이티브레이블 ‘팀토그(teamTOG)’ 소속 20인 (평면, 입체, 설치, 공예, 패션) 전지연, 서호성, 김리원, 황정빈, 박형민, 길수미, 아마레, 이세운, 문정욱, 조은애, 이수진, 김우형, 신아숙, 박…",
-      "target": "누구나",
-      "text": "올해로 8회를 맞이한 은 지속가능성을 기반으로 패션, 공예, 예술을 연결하는 크리에이티브 전시 프로젝트입니다. 2026년 전시는 'THE SENSED'를 주제로, 지속가능성을 단순히 바라보는 가치가 아닌 몸으로 느끼고, 공간에서 경험하며, 감각으로 기억하는 새로운 예술적 경험을 제안합니다. 이번 전시는 ‘헤럴드아트데이’의 공동주최, 주관으로 에서 개최되며, 패션 오브제, 섬유공예, 조형, 사진, 아트토이 등 다양한 장르의 작품을 통해 지속가능성이 하나의 미적 언어가 될 수 있음을 보여줍니다.",
-      "source": {
-        "url": "https://www.artday.co.kr/exhibition/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=174150103&t=board"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-7b12e7e8effe",
-      "title": "[서초구 야외도서관] 2026 양재천을 품은 양재도서관 「물길 따라 그림책 여행」",
-      "region": "서울",
-      "place": "서초구립양재도서관 앞 오솔숲도서관 일대",
-      "startDate": "2026-10-10",
-      "endDate": "2026-11-08",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://yangjae.seocholib.or.kr/NoticeInfoDetail/26122"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-8c43b3a4ce47",
       "title": "[은평문화재단] 2026 신진 청년작가 지원사업 [사이] 릴레이 개인전",
       "region": "서울",
@@ -1461,21 +1389,6 @@
       "target": "누구나",
       "source": {
         "url": "https://www.gallerythec.com/index#CURRENT-EXHIBITION"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-c06c62d38ae0",
-      "title": "[노원문화재단] 2026 노원달빛산책",
-      "region": "서울",
-      "place": "노원구 당현천 (당현마루 일원)",
-      "startDate": "2026-10-16",
-      "endDate": "2026-11-08",
-      "fee": "무료",
-      "target": "누구나",
-      "text": "다채로운 빛조각 작품을 비롯해 노원구민, 관내 대학생이 작가와 함께 만드는 커뮤니티 아트, 구민이 직접 도슨트로 나서는 달빛투어 등 다양한 프로그램을 통해 가을밤 당현천에서 예술을 만나고 함께 즐기는 시민참여형 공공미술 축제",
-      "source": {
-        "url": "https://nowonarts.kr/channels/festival/programs/1068"
       },
       "credit": "서울문화포털"
     },
@@ -1636,22 +1549,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-97ba1450463d",
-      "title": "전시 [Bubble, Dream, Void]",
-      "region": "서울",
-      "place": "예술공간 의식주(서울 서대문구 홍연길 80 2층)",
-      "startDate": "2026-10-24",
-      "endDate": "2026-11-08",
-      "fee": "무료",
-      "performers": "작가: 김제원, 유지원, 황민규 / 기획: 강다원",
-      "target": "누구나",
-      "text": "예술공간 의식주 하반기 기획전시",
-      "source": {
-        "url": "https://the-necessaries.com/"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-b4fa592442ce",
       "title": "[서울공예박물관] 2026 신당창작아케이드 기획전시 《각각의 각》",
       "region": "서울",
@@ -1798,20 +1695,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-39543ecfcd1c",
-      "title": "조준연·송성원 [Time in Hands]",
-      "region": "서울",
-      "place": "CN갤러리",
-      "startDate": "2026-10-30",
-      "endDate": "2026-11-08",
-      "fee": "0원",
-      "target": "누구나",
-      "source": {
-        "url": "https://archivist.kr/exi?m=gov&i=1793571670"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-ec9d1e0cd288",
       "title": "[노들섬] 2026 노들섬 특별기획 [노들anding]",
       "region": "서울",
@@ -1822,20 +1705,6 @@
       "target": "누구나",
       "source": {
         "url": "https://www.sfac.or.kr/opensquare/notice/notice_list.do?bcIdx=139023"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-1595975d6357",
-      "title": "외국인과 함께하는 서대문역사 및 영천시장 미식 투어",
-      "region": "서울",
-      "place": "독립문영천시장 및 서대문형무소 일대",
-      "startDate": "2026-10-31",
-      "endDate": "2026-11-08",
-      "fee": "무료",
-      "target": "외국인 누구나 사전 신청자에 한해 1회당 60명 한정",
-      "source": {
-        "url": "https://blog.naver.com/yc_mk/224444091971"
       },
       "credit": "서울문화포털"
     },
@@ -2022,22 +1891,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-8e52a09d6363",
-      "title": "SAD BOOK ― 다시 쓰기: 몸으로서의 도시",
-      "region": "서울",
-      "place": "예술가의 집 전관, 마로니에공원, 낙산공원",
-      "startDate": "2026-11-02",
-      "endDate": "2026-11-08",
-      "fee": "무료",
-      "performers": "로나 번, 최찬숙, 플로리안 돔부아, 황민규, 권아람, 로나 심슨",
-      "target": "누구나",
-      "text": "국내외 예술가들과 함께 전시장과 도시를 연결하며, 퍼포먼스·사운드·설치미술·시민 참여 프로그램으로 슬픔의 새로운 가능성을 탐색하는 국제 현대미술 프로젝트.",
-      "source": {
-        "url": "https://www.artinsight.co.kr/news/view2.php?no=82760"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-29e3ee797c19",
       "title": "[교보아트스페이스] 동양화에 기운 Hearts Inclined to Ink",
       "region": "서울",
@@ -2091,20 +1944,6 @@
       "target": "성인 보호자를 동반한 연나이 3~9세 어린이",
       "source": {
         "url": "https://craftmuseum.seoul.go.kr/exhibit/plan/view/199"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-9b70600925aa",
-      "title": "[운현궁] 2026 기획전시 [운현궁, 뿌리展]",
-      "region": "서울",
-      "place": "운현궁 기획전시실",
-      "startDate": "2026-11-03",
-      "endDate": "2026-11-08",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://www.unhyeongung.or.kr/sub/prpgram/exhibition_list.php?abmode=view&no=2017&group=basic&code=B35"
       },
       "credit": "서울문화포털"
     },
@@ -2309,20 +2148,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-67be4f491684",
-      "title": "홍현기 개인전 [환기(換氣): 바람이 지나간 자리]",
-      "region": "서울",
-      "place": "갤러리 지하",
-      "startDate": "2026-11-05",
-      "endDate": "2026-11-08",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://galleryjiha.com/exhibitions/?q=YToxOntzOjEyOiJrZXl3b3JkX3R5cGUiO3M6MzoiYWxsIjt9&bmode=view&idx=175062109&t=board"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-137b8f0b9273",
       "title": "[서울생활사박물관] 육아 가족의 성장",
       "region": "서울",
@@ -2362,34 +2187,6 @@
       "target": "누구나",
       "source": {
         "url": "https://baekjemuseum.seoul.go.kr/module/index.jsp?boardid=SBM0501000000&mmode=content&mpid=SBM0501010000&skin=&pid=23600&cpage=1"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-2024aee71a33",
-      "title": "공연단체 걸작들의 신작 공연 [넘는 몸들]",
-      "region": "서울",
-      "place": "평화문화진지 평화광장",
-      "startDate": "2026-11-06",
-      "endDate": "2026-11-08",
-      "fee": "무료",
-      "target": "전 연령 관람가",
-      "source": {
-        "url": "https://booking.naver.com/booking/5/bizes/1766553/items/8170074"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-ee4a64a1dadf",
-      "title": "제18회 언리미티드 에디션 - 서울아트북페어 2026",
-      "region": "서울",
-      "place": "서울시립 북서울시립미술관",
-      "startDate": "2026-11-06",
-      "endDate": "2026-11-08",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://unlimited-edition.org/"
       },
       "credit": "서울문화포털"
     },
@@ -2439,49 +2236,6 @@
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-b62e474d522b",
-      "title": "제27회 은평구 청강정철호 국악제",
-      "region": "서울",
-      "place": "서울 은평문화예술회관 공연장, 대회의실",
-      "startDate": "2026-11-07",
-      "endDate": "2026-11-08",
-      "fee": "무료",
-      "target": "누구나",
-      "text": "전국의 유능한 국악인재 발굴,양성을 위하여 한문화 중심도시 은평구에서 고법,판소리, 기악 종합대회를 개최합니다(명인부 종합대상 대통령상)",
-      "source": {
-        "url": "https://www.kukak21.com/bbs/board.php?bo_table=news&wr_id=43950"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-8e155576a392",
-      "title": "제2회 호호랑 친구들 - 수집가마켓",
-      "region": "서울",
-      "place": "커먼그라운드 야외광장",
-      "startDate": "2026-11-07",
-      "endDate": "2026-11-08",
-      "fee": "무료 방문",
-      "target": "누구나",
-      "source": {
-        "url": "https://blog.naver.com/vuilder/224443742186"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-027715d0d95f",
-      "title": "[마포구립서강도서관] 11월/어린이메이킹 [행복맘껏time] (두 번째 일요일은 해봄공간 오픈데이)",
-      "region": "서울",
-      "place": "마포구립서강도서관 4층 어린이자료실 해봄",
-      "startDate": "2026-11-08",
-      "endDate": "2026-11-08",
-      "fee": "무료",
-      "target": "초등1-6학년 해봄이와 양육자",
-      "source": {
-        "url": "https://mplib.mapo.go.kr/sglib/PGM3028/eventDetail.do?eventSn=13627"
-      },
-      "credit": "서울문화포털"
-    },
-    {
       "id": "seoul-64939b43178e",
       "title": "[서울시립과학관] 어른이 과학놀이터",
       "region": "서울",
@@ -2492,52 +2246,6 @@
       "target": "성인(성인과 함께하는 어린이)",
       "source": {
         "url": "https://science.seoul.go.kr/sciEdu/experience/read?menuId=70&progMstId=2399"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-9957e44b95af",
-      "title": "[성동 한장] 엽서와 라디오로 성동의 이야기를 모으는 하루",
-      "region": "서울",
-      "place": "어바웃더챕터(북카페), 서울 성동구 서울숲4길 20-1 지하 1층",
-      "startDate": "2026-11-08",
-      "endDate": "2026-11-08",
-      "fee": "무료",
-      "target": "누구나",
-      "text": "성동 엽서 아카이빙(라디오 사연), 한 줄 이어쓰기, 나만의 책갈피 만들기",
-      "source": {
-        "url": "https://ujuseon.mandeun.com/hanjang"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-e6e5f3f0ebee",
-      "title": "2026 삼일로창고극장 [창고포럼 Live Talk : 배우 박정자와 주호성이 함께하는 토크콘서트]",
-      "region": "서울",
-      "place": "삼일로창고극장",
-      "startDate": "2026-11-08",
-      "endDate": "2026-11-08",
-      "fee": "무료",
-      "performers": "배우 박정자, 배우 주호성",
-      "target": "청년예술인, 연극.공연예술 전공자, 그리고 연극을 사랑하는 일반 시민 누구나",
-      "text": "2026 삼일로창고극장 기획사업 '창고포럼 Live Talk' : 배우 박정자와 주호성이 함께하는 토크콘서트",
-      "source": {
-        "url": "https://samilro.com/%EC%B0%BD%EA%B3%A0%ED%8F%AC%EB%9F%BC-Live-Talk/view/6341529"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-2e655671f98e",
-      "title": "상괭이에 관한 짧은 다큐와 추자도 항해기 [기록되지 않았던 바다]",
-      "region": "서울",
-      "place": "노무현시민센터 다목적홀",
-      "startDate": "2026-11-08",
-      "endDate": "2026-11-08",
-      "fee": "무료",
-      "target": "누구나",
-      "text": "해양 다큐멘터리 전문 제작팀 이 촬영한 상괭이 영상을 추자 바다에서 상괭이를 기록해온 과 함께 보며 이야기 나눕니다. 상괭이를 좋아하고 더 알고 싶은 분들, 혹은 이미 잘 알고 계신 모든 분들을 환영합니다!",
-      "source": {
-        "url": "https://greenparan.org/16/?bmode=view&idx=175287659"
       },
       "credit": "서울문화포털"
     },
