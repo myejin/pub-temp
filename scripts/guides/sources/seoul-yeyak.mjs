@@ -1,0 +1,133 @@
+// 서울 열린데이터광장 「서울시 공공서비스예약 정보」(yeyak.seoul.go.kr) — 문화체험·교육강좌 중 무료이고 접수 중인 것.
+// 체육시설·시설대관·진료는 나들이가 아니라 받지 않는다. 인증키는 문화행사와 같은 SEOUL_API_KEY.
+//
+// 서비스 이름과 칸 이름은 열린데이터광장 문서를 보고 맞췄고, 실제 응답으로는 아직 확인하지 못했다 — 첫 dry run
+// 로그의 「받은 N건」과 분류 분포를 보고 고친다.
+
+import { clip, clipText, dayOf, monthDay, plain, source } from "../lib.mjs";
+import { seoulRows } from "./seoul-api.mjs";
+
+export const name = "서울 공공서비스예약";
+export const prefix = "yeyak-";
+export const keyEnv = "SEOUL_API_KEY";
+const CREDIT = "서울시 공공서비스예약";
+
+// [서비스 이름, 시험 응답 파일 이름 앞부분]
+const SERVICES = [
+  ["ListPublicReservationCulture", "yeyak-culture"],
+  ["ListPublicReservationEducation", "yeyak-edu"],
+];
+// 「안내중」(접수 시작 전)·「접수종료」·「예약마감」은 지금 신청할 수 없어 뺀다.
+const OPEN = new Set(["접수중"]);
+// 나들이가 아닌 소분류 — 키즈카페 시간 예약, 청년센터 상담·강의, 자격증·어학·컴퓨터 강좌, 봉사. 첫 dry run(2026-11-04)을 보고 정했다.
+const SKIP_CLASSES = new Set(["서울형키즈카페", "청년정보", "전문/자격증", "정보통신", "교양/어학", "단체봉사"]);
+// 학교·학급 단체만 받는 교육과 참여자·기부자를 뽑는 공고. 문화행사와 달리 여기서는 「참여자 모집」이 대개 청년센터 강의다.
+// 청년센터 프로그램(호신술·자격증 등)은 소분류가 「청년정보」가 아닌 것도 있고, 「정비사업 아카데미」는 재개발 설명회다(2026-11-04 두 번째 dry run).
+const SKIP_TITLE = /학교\s*단체|학급\s*단체|재능\s*기부자|참여자\s*모집|청년\s*센터|정비\s*사업/;
+
+// "09:00"·"0900"·"9:00" → "09:00". 못 읽으면 undefined.
+function hhmm(v) {
+  const m = /^(\d{1,2}):?(\d{2})$/.exec(String(v ?? "").trim());
+  if (!m) return undefined;
+  // 시간을 안 적은 서비스는 「00:00」으로 온다 — 자정 행사는 없다고 보고 비운다.
+  if (Number(m[1]) === 0 && Number(m[2]) === 0) return undefined;
+  const h = Number(m[1]);
+  const min = Number(m[2]);
+  return h <= 24 && min < 60 ? `${String(h).padStart(2, "0")}:${m[2]}` : undefined;
+}
+
+export function timeOf(r) {
+  const from = hhmm(r.V_MIN);
+  const to = hhmm(r.V_MAX);
+  if (!from && !to) return undefined;
+  if (from && to) return from === to ? from : `${from}~${to}`;
+  return from ?? `~${to}`;
+}
+
+// 예약 사이트가 모든 상세 글 앞에 붙이는 공통 머리말(「1. 공공시설 예약서비스 이용시 필수 준수사항 … 2. 시설예약
+// 비회원일 경우 … 3. 상세내용」). 프로그램 소개는 「상세내용」 뒤부터다. 머리말만 있고 표시가 없으면 머리말 문단을 걷는다.
+export function detailOf(html) {
+  const t = plain(html);
+  const m = /(?:^|\s)3\.\s*상세\s*내용\s*/.exec(t);
+  if (m) return tidyDetail(t.slice(m.index + m[0].length));
+  if (/^1\.\s*공공시설\s*예약\s*서비스/.test(t)) return "";
+  return tidyDetail(t);
+}
+
+// 소개 줄 정리 — 「4. 주의사항」 같은 번호 머리는 번호만 떼고(「상세내용」이 비어 번호가 4부터 시작한다), 「>」·「--」 같은 기호뿐인 줄과
+// 「예약사이트 바로가기」 줄(주소는 버튼으로 따로 있다)은 뺀다.
+const SYMBOL_LINE = /^[\s>\-–—·•*=~_.]+$/;
+const LINK_LINE = /^예약\s*사이트\s*바로\s*가기/; // 「예약사이트 바로가기--> https://…」처럼 주소가 한 줄에 붙어 오기도 한다
+function tidyDetail(text) {
+  return text
+    .split("\n")
+    .map((l) => l.replace(/^\s*\d\.\s*(주의\s*사항|유의\s*사항|참고\s*사항)\s*$/, "$1").trim())
+    .filter((l) => l && !SYMBOL_LINE.test(l) && !LINK_LINE.test(l))
+    .join("\n");
+}
+
+// 기관 머리(「[서울공예박물관] 」)를 떼면 「접수 안내」뿐인 제목 — 카드만 보고는 무슨 프로그램인지 알 수 없다.
+const EMPTY_TITLE = /^(접수|예약|신청|이용)\s*(안내|공지)$/;
+export const emptyTitle = (title) => EMPTY_TITLE.test(title.replace(/^\s*(\[[^\]]*\]\s*|\([^)]*\)\s*)+/, "").trim());
+
+// 서비스 ID 는 「S241231…」 같은 영문·숫자라 그대로 id 에 쓴다 — 날마다 같아 앱의 목록 키가 흔들리지 않는다.
+const SAFE_ID = /^[A-Za-z0-9_-]{1,50}$/;
+
+export function toEvent(r) {
+  const title = clip(r.SVCNM, 60);
+  if (!title) return { drop: "제목 없음" };
+  if (String(r.PAYATNM ?? "").trim() !== "무료") return { drop: "유료", title };
+  if (!OPEN.has(String(r.SVCSTATNM ?? "").trim())) return { drop: "접수 중 아님", title };
+  if (SKIP_CLASSES.has(String(r.MINCLASSNM ?? "").trim())) return { drop: "나들이 아닌 분류", title };
+  if (SKIP_TITLE.test(title)) return { drop: "단체·모집", title };
+  if (emptyTitle(title)) return { drop: "제목만 안내", title };
+  const svcId = String(r.SVCID ?? "").trim();
+  if (!SAFE_ID.test(svcId)) return { drop: "id 없음", title };
+
+  // 소개 첫 줄에 접수 기간을 적는다. 앱에는 접수 칸이 없고, 「예약」이라는 말이 들어가 앱이 「사전 신청」을 단다.
+  const rcptFrom = dayOf(r.RCPTBGNDT);
+  const rcptTo = dayOf(r.RCPTENDDT);
+  const receipt =
+    rcptFrom && rcptTo
+      ? `접수 ${monthDay(rcptFrom)}~${monthDay(rcptTo)} (서울시 공공서비스예약)`
+      : "서울시 공공서비스예약에서 신청해요";
+  return {
+    event: {
+      id: `yeyak-${svcId}`,
+      title,
+      region: "서울",
+      place: clip(r.PLACENM, 60),
+      startDate: dayOf(r.SVCOPNBGNDT),
+      endDate: dayOf(r.SVCOPNENDDT),
+      time: timeOf(r),
+      // 접수 마감일(YYYY-MM-DD). 다음 앱 버전이 「접수 마감」 표시와 주말 줄에서 빼는 데 쓴다. 옛 앱은 모르는 칸이라 무시한다.
+      // 소개 첫 줄의 접수 기간은 옛 앱을 위해 남긴다.
+      applyEnd: rcptTo,
+      fee: "무료",
+      target: clip(r.USETGTINFO, 60),
+      text: clipText(`${receipt}\n${detailOf(r.DTLCONT)}`, 600),
+      source: source(r.SVCURL),
+      credit: CREDIT,
+    },
+  };
+}
+
+export async function collect({ fetchJson, key }) {
+  const events = [];
+  const drops = [];
+  const classes = new Map();
+  let received = 0;
+  for (const [service, label] of SERVICES) {
+    const rows = await seoulRows(fetchJson, key, service, label);
+    received += rows.length;
+    for (const r of rows) {
+      const cls = `${r.MAXCLASSNM ?? "?"}/${r.MINCLASSNM ?? "?"}`;
+      classes.set(cls, (classes.get(cls) ?? 0) + 1);
+      const { event, drop, title } = toEvent(r);
+      if (event) events.push(event);
+      else drops.push({ reason: drop, title });
+    }
+  }
+  const dist = [...classes].sort((a, b) => b[1] - a[1]).map(([c, n]) => `${c} ${n}`);
+  return { received, events, drops, notes: dist.length ? [`분류: ${dist.join(", ")}`] : [] };
+}

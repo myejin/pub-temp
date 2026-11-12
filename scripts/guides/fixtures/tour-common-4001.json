@@ -1,0 +1,20 @@
+{
+  "response": {
+    "header": {
+      "resultCode": "0000",
+      "resultMsg": "OK"
+    },
+    "body": {
+      "items": {
+        "item": {
+          "contentid": "4001",
+          "homepage": "www.jarasum.kr",
+          "overview": "자라섬에서 열리는 겨울 축제."
+        }
+      },
+      "numOfRows": 100,
+      "pageNo": 1,
+      "totalCount": 1
+    }
+  }
+}

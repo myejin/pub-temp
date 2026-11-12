@@ -1,0 +1,53 @@
+{
+  "response": {
+    "header": {
+      "resultCode": "0000",
+      "resultMsg": "OK"
+    },
+    "body": {
+      "items": {
+        "item": [
+          {
+            "contentid": "4001",
+            "contenttypeid": "15",
+            "title": "자라섬 겨울 축제",
+            "addr1": "경기도 가평군 가평읍 달전리 1",
+            "eventstartdate": "20261121",
+            "eventenddate": "20261130",
+            "lDongRegnCd": "41"
+          },
+          {
+            "contentid": "4002",
+            "contenttypeid": "15",
+            "title": "수원 성곽 야행",
+            "addr1": "경기도 수원시 팔달구 정조로 825",
+            "eventstartdate": "20261110",
+            "eventenddate": "20261115",
+            "lDongRegnCd": "41"
+          },
+          {
+            "contentid": "4003",
+            "contenttypeid": "15",
+            "title": "봄꽃 축제",
+            "addr1": "경기도 고양시 일산동구 호수로 595",
+            "eventstartdate": "20260501",
+            "eventenddate": "20260505",
+            "lDongRegnCd": "41"
+          },
+          {
+            "contentid": "4004",
+            "contenttypeid": "15",
+            "title": "평화온담",
+            "addr1": "경상북도 경주시 인왕동 839-1",
+            "eventstartdate": "20261107",
+            "eventenddate": "20261107",
+            "lDongRegnCd": "41"
+          }
+        ]
+      },
+      "numOfRows": 100,
+      "pageNo": 1,
+      "totalCount": 4
+    }
+  }
+}

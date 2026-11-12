@@ -1,0 +1,22 @@
+{
+  "response": {
+    "header": {
+      "resultCode": "0000",
+      "resultMsg": "OK"
+    },
+    "body": {
+      "items": {
+        "item": {
+          "contentid": "3001",
+          "usetimefestival": "무료",
+          "playtime": "17:00~22:00",
+          "eventplace": "청계천 일대",
+          "agelimit": "누구나"
+        }
+      },
+      "numOfRows": 100,
+      "pageNo": 1,
+      "totalCount": 1
+    }
+  }
+}

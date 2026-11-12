@@ -1,0 +1,20 @@
+{
+  "response": {
+    "header": {
+      "resultCode": "0000",
+      "resultMsg": "OK"
+    },
+    "body": {
+      "items": {
+        "item": {
+          "contentid": "3001",
+          "homepage": "<a href=\"https://www.seoullantern.kr\" target=\"_blank\" title=\"새창\">www.seoullantern.kr</a>",
+          "overview": "청계천을 밝히는 등불 축제예요."
+        }
+      },
+      "numOfRows": 100,
+      "pageNo": 1,
+      "totalCount": 1
+    }
+  }
+}

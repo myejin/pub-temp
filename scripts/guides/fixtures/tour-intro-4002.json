@@ -1,0 +1,21 @@
+{
+  "response": {
+    "header": {
+      "resultCode": "0000",
+      "resultMsg": "OK"
+    },
+    "body": {
+      "items": {
+        "item": {
+          "contentid": "4002",
+          "usetimefestival": "입장료 10,000원 (체험 무료)",
+          "playtime": "19:00~22:00",
+          "eventplace": "화성행궁"
+        }
+      },
+      "numOfRows": 100,
+      "pageNo": 1,
+      "totalCount": 1
+    }
+  }
+}

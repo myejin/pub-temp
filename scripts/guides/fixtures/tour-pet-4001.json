@@ -1,0 +1,21 @@
+{
+  "response": {
+    "header": {
+      "resultCode": "0000",
+      "resultMsg": "OK"
+    },
+    "body": {
+      "items": {
+        "item": {
+          "contentid": "4001",
+          "acmpyTypeCd": "일부구역 동반가능",
+          "acmpyPsblCpam": "소형견",
+          "acmpyNeedMtr": "목줄 착용, 배변봉투 지참"
+        }
+      },
+      "numOfRows": 100,
+      "pageNo": 1,
+      "totalCount": 1
+    }
+  }
+}
