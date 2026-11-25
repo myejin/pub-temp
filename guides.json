@@ -1,132 +1,122 @@
 {
   "formatVersion": 1,
-  "generatedAt": "2026-11-24T04:41:35.802Z",
+  "generatedAt": "2026-11-25T03:29:48.606Z",
   "events": [
     {
-      "id": "seoul-5f86c323fce2",
-      "title": "[용산문화재단] 팝페라그룹 카르디오와 함께하는 [Falling in Love 용산]",
+      "id": "seoul-106247d02cf6",
+      "title": "[구립증산도서관] 11월 책 읽어주는 사서 [수요일은 책이랑 쑥쑥]",
       "region": "서울",
-      "place": "용산아트홀 대극장 미르",
-      "startDate": "2026-11-24",
-      "endDate": "2026-11-24",
+      "place": "구립증산도서관 3층 가족열람실",
+      "startDate": "2026-11-25",
+      "endDate": "2026-11-25",
       "fee": "무료",
-      "target": "누구나",
+      "target": "4~7세 유아 누구나",
       "source": {
-        "url": "https://yongsanculture.or.kr/site/main/performance/PERFORMANCE/view/233"
+        "url": "https://www.eplib.or.kr/jslib/menu/10457/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=237299&manageCd=MB&searchTarget=&searchStatus=OPEN"
       },
       "credit": "서울문화포털"
     },
     {
-      "id": "seoul-6b15daeb588b",
-      "title": "[서울문화재단] 서울 청년예술창업 페스타 2026",
+      "id": "seoul-a19dfaa747fc",
+      "title": "[구립증산도서관] 개관 시간 연장 지원 사업 [책이랑 뚝딱! 공방] 11월",
       "region": "서울",
-      "place": "청년예술청 SAPY",
-      "startDate": "2026-11-21",
-      "endDate": "2026-11-24",
+      "place": "구립증산도서관 3층 어린이열람실",
+      "startDate": "2026-11-25",
+      "endDate": "2026-11-25",
       "fee": "무료",
-      "target": "청년 예술 창업에 관심이 있는 누구나",
-      "text": "서울문화재단의 청년 예술창업 지원사업인 ‘예술플러스창업’의 성과를 선보이는 자리입니다.",
+      "target": "어린이열람실 이용자 누구나",
       "source": {
-        "url": "https://event-us.kr/atbt/event/139126"
+        "url": "https://www.eplib.or.kr/jslib/menu/10457/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=237297&manageCd=MB&searchTarget=&searchStatus=OPEN"
       },
       "credit": "서울문화포털"
     },
     {
-      "id": "yeyak-S261014163939026108",
-      "title": "[11월 석촌호수 아뜰리에 교육 프로그램] 밸리댄스",
+      "id": "seoul-2ee0bb9a36a4",
+      "title": "[서울갤러리] 런치 스테이지 [싱어송라이터 이훈주]",
       "region": "서울",
-      "place": "석촌호수 아뜰리에",
-      "startDate": "2026-11-03",
-      "endDate": "2026-11-24",
-      "time": "15:50~16:50",
-      "applyEnd": "2026-11-24",
-      "fee": "무료",
-      "target": "성인",
-      "text": "접수 10.16~11.24 (서울시 공공서비스예약)\n[석촌호수 아뜰리에 교육 프로그램]\n화요일 밸리댄스 클래스\n다이어트와 아름다운 바디라인을 만들어주는 밸리댄스를 배워보아요!\n[대상]\n청소년 이상 (여성만 참여가능)\n[모집인원]\n수강생 20명 / 대기자 5명\n(수강신청 후 반드시 본인이 수강생인지 대기자인지 확인해주시길 바랍니다)\n[수업료]\n무료\n[준비물]\n물(개인지참 필수),밸리댄스용 스카프(지참 가능하신 분만 지참)\n[수업 일시]\n11월 3일 ~ 11월 24일 매주 화요일 15:50 ~ 16:50\n1. 입·퇴장 및 이용 수칙\n- 입장: 수업 시작 10분 전 부터 가능합니다. (10분 전 이전 입장 불가)\n- 퇴장: 수업 종료 후 10분 이내 에 완료해 주시기 바랍니다.\n- 물을 제외한 식음료는 반입할 수 없습니다.\n2. 예약 안내\n- 아뜰리에 클래스는 매주 다른 내용으로 진행되며, 한 달 동안 수강하려면 각 주차별로 총 4회 예약 해야 합니다.\n- 수업 당일 예약은 오전 9시까지 가능 합니다.\n- 중복 예약 방지를 위해 한 ID당 각 회차는 1회만 예약 할 수 있습니다.\n- 폐강 안내: 신청 인원이 정원의 절반 미만일 경우 클래스가 폐강될 수 있습니다.…",
-      "source": {
-        "url": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261014163939026108"
-      },
-      "credit": "서울시 공공서비스예약"
-    },
-    {
-      "id": "yeyak-S261014165841503147",
-      "title": "[11월 석촌호수 아뜰리에 교육 프로그램] 코레오그래피",
-      "region": "서울",
-      "place": "석촌호수 아뜰리에",
-      "startDate": "2026-11-03",
-      "endDate": "2026-11-24",
-      "time": "17:00~18:00",
-      "applyEnd": "2026-11-24",
-      "fee": "무료",
-      "target": "성인",
-      "text": "접수 10.16~11.24 (서울시 공공서비스예약)\n[석촌호수 아뜰리에 교육 프로그램]\n화요일 코레오그래피 클래스\n다양한 춤 동작을 배우며 움직임으로 이야기를 표현하는\n안무를 창작해보아요!\n[대상]\n청소년 이상\n[모집인원]\n수강생 15명 / 대기자 5명\n(수강신청 후 반드시 본인이 수강생인지 대기자인지 확인해주시길 바랍니다)\n[수업료]\n무료\n[준비물]\n물(개인지참 필수),편한복장(별도의 탈의 공간X)\n[수업 일시]\n11월 3일 ~ 11월 24일 매주 화요일 17:00 ~ 18:00\n1. 입·퇴장 및 이용 수칙\n- 입장: 수업 시작 10분 전 부터 가능합니다. (10분 전 이전 입장 불가)\n- 퇴장: 수업 종료 후 10분 이내 에 완료해 주시기 바랍니다.\n- 물을 제외한 식음료는 반입할 수 없습니다.\n2. 예약 안내\n- 아뜰리에 클래스는 매주 다른 내용으로 진행되며, 한 달 동안 수강하려면 각 주차별로 총 4회 예약 해야 합니다.\n- 수업 당일 예약은 오전 9시까지 가능 합니다.\n- 중복 예약 방지를 위해 한 ID당 각 회차는 1회만 예약 할 수 있습니다.\n- 폐강 안내: 신청 인원이 정원의 절반 미만일 경우 클래스가 폐강될 수 있습니다.\n(예시: 정원이 1…",
-      "source": {
-        "url": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261014165841503147"
-      },
-      "credit": "서울시 공공서비스예약"
-    },
-    {
-      "id": "yeyak-S261014153413994620",
-      "title": "[11월 석촌호수 아뜰리에 교육 프로그램] 통기타",
-      "region": "서울",
-      "place": "석촌호수 아뜰리에",
-      "startDate": "2026-11-03",
-      "endDate": "2026-11-24",
-      "time": "10:00~11:00",
-      "applyEnd": "2026-11-24",
-      "fee": "무료",
-      "target": "성인, 청소년",
-      "text": "접수 10.16~11.24 (서울시 공공서비스예약)\n[석촌호수 아뜰리에 교육 프로그램]\n화요일 기타 클래스\n[대상]\n청소년 이상\n★통기타 악기를 보유하고 계신 분★\n[모집인원]\n수강생 15명 / 대기자 5명\n(수강신청 후 반드시 본인이 수강생인지 대기자인지 확인해주시길 바랍니다)\n[수업료]\n무료\n[준비물]\n통기타\n(미지참시 공연장측에서 빌려드리지 않습니다.)\n[수업 일시]\n11월 3일 ~ 11월 24일 매주 화요일 10:00 ~ 11:00\n1. 입·퇴장 및 이용 수칙\n- 입장: 수업 시작 10분 전 부터 가능합니다. (10분 전 이전 입장 불가)\n- 퇴장: 수업 종료 후 10분 이내 에 완료해 주시기 바랍니다.\n- 물을 제외한 식음료는 반입할 수 없습니다.\n2. 예약 안내\n- 아뜰리에 클래스는 매주 다른 내용으로 진행되며, 한 달 동안 수강하려면 각 주차별로 총 4회 예약 해야 합니다.\n- 수업 당일 예약은 오전 9시까지 가능 합니다.\n- 중복 예약 방지를 위해 한 ID당 각 회차는 1회만 예약 할 수 있습니다.\n- 폐강 안내: 신청 인원이 정원의 절반 미만일 경우 클래스가 폐강될 수 있습니다.\n(예시: 정원이 15명인 클래스의 신청 인원이 7명 이하일 경…",
-      "source": {
-        "url": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261014153413994620"
-      },
-      "credit": "서울시 공공서비스예약"
-    },
-    {
-      "id": "yeyak-S261014162257150216",
-      "title": "[11월 석촌호수 아뜰리에 교육 프로그램] 판소리",
-      "region": "서울",
-      "place": "석촌호수 아뜰리에",
-      "startDate": "2026-11-03",
-      "endDate": "2026-11-24",
-      "time": "12:00~13:00",
-      "applyEnd": "2026-11-24",
-      "fee": "무료",
-      "target": "성인, 청소년",
-      "text": "접수 10.16~11.24 (서울시 공공서비스예약)\n[석촌호수 아뜰리에 교육 프로그램]\n화요일 판소리 클래스\n우리나라 전통소리의 발성을 통해 이야기가 담겨 있는\n판소리를 함께 배워보아요!\n[대상]\n중학생 이상\n[모집인원]\n수강생 20명 / 대기자 5명\n(수강신청 후 반드시 본인이 수강생인지 대기자인지 확인해주시길 바랍니다)\n[수업료]\n무료\n[준비물]\n개인 지참 물(물 제공 X)\n[수업 일시]\n11월 3일 ~ 11월 24일 매주 화요일 12:00 ~ 13:00\n1. 입·퇴장 및 이용 수칙\n- 입장: 수업 시작 10분 전 부터 가능합니다. (10분 전 이전 입장 불가)\n- 퇴장: 수업 종료 후 10분 이내 에 완료해 주시기 바랍니다.\n- 물을 제외한 식음료는 반입할 수 없습니다.\n2. 예약 안내\n- 아뜰리에 클래스는 매주 다른 내용으로 진행되며, 한 달 동안 수강하려면 각 주차별로 총 4회 예약 해야 합니다.\n- 수업 당일 예약은 오전 9시까지 가능 합니다.\n- 중복 예약 방지를 위해 한 ID당 각 회차는 1회만 예약 할 수 있습니다.\n- 폐강 안내: 신청 인원이 정원의 절반 미만일 경우 클래스가 폐강될 수 있습니다.\n(예시: 정원이 15명인 클래스의 신청 인…",
-      "source": {
-        "url": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261014162257150216"
-      },
-      "credit": "서울시 공공서비스예약"
-    },
-    {
-      "id": "yeyak-S261014162958609201",
-      "title": "[11월 석촌호수 아뜰리에 교육 프로그램] 필라테스",
-      "region": "서울",
-      "place": "석촌호수 아뜰리에",
-      "startDate": "2026-11-03",
-      "endDate": "2026-11-24",
-      "time": "14:00~15:00",
-      "applyEnd": "2026-11-24",
-      "fee": "무료",
-      "target": "성인",
-      "text": "접수 10.16~11.24 (서울시 공공서비스예약)\n[석촌호수 아뜰리에 교육 프로그램]\n화요일 매트 필라테스 클래스\n매트를 이용한 필라테스를 통해 건강하게 나의 몸을 되돌아 보아요 !\n[대상]\n20세 이상\n[모집인원]\n수강생 20명 / 대기자 5명\n(수강신청 후 반드시 본인이 수강생인지 대기자인지 확인해주시길 바랍니다)\n[수업료]\n무료\n[준비물]\n요가매트,세라밴드 혹은 수건(필수준비물, 미지참시 수업 참여 불가능)\n편안한 복장(탈의실X),물(개인지참 필수)\n[수업 일시]\n11월 3일 ~ 11월 24일 매주 화요일 14:00 ~ 15:00\n1. 입·퇴장 및 이용 수칙\n- 입장: 수업 시작 10분 전 부터 가능합니다. (10분 전 이전 입장 불가)\n- 퇴장: 수업 종료 후 10분 이내 에 완료해 주시기 바랍니다.\n- 물을 제외한 식음료는 반입할 수 없습니다.\n2. 예약 안내\n- 아뜰리에 클래스는 매주 다른 내용으로 진행되며, 한 달 동안 수강하려면 각 주차별로 총 4회 예약 해야 합니다.\n- 수업 당일 예약은 오전 9시까지 가능 합니다.\n- 중복 예약 방지를 위해 한 ID당 각 회차는 1회만 예약 할 수 있습니다.\n- 폐강 안내: 신청 인원이 정원의 절반 미만…",
-      "source": {
-        "url": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261014162958609201"
-      },
-      "credit": "서울시 공공서비스예약"
-    },
-    {
-      "id": "seoul-5f3e7f8f637c",
-      "title": "[구립증산도서관] 책 따라 걷는 도서관 - 11월 원화 전시 [쌀알 돌알]",
-      "region": "서울",
-      "place": "구립증산도서관 1층 로비 및 3층 어린이열람실",
-      "startDate": "2026-11-01",
-      "endDate": "2026-11-24",
+      "place": "서울갤러리 지하 1층 공연장",
+      "startDate": "2026-11-25",
+      "endDate": "2026-11-25",
       "fee": "무료",
       "target": "누구나",
       "source": {
-        "url": "https://www.eplib.or.kr/jslib/menu/10457/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=234576&manageCd=MB&searchTarget=&searchStatus=OPEN"
+        "url": "https://www.seoul.go.kr/seoulgallery/www/program/view.do?key=2509020016&prgmSn=192"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-9cbf4e6d9f4b",
+      "title": "[서울로봇인공지능과학관] 강연/라임 콜로키엄 [2026년 제8회_예술가의 인공지능 유랑기]",
+      "region": "서울",
+      "place": "서울로봇인공지능과학관 1층",
+      "startDate": "2026-11-25",
+      "endDate": "2026-11-25",
+      "fee": "무료",
+      "performers": "양민하 작가 : 서울시립대학교 디자인전문대학원 교수이자 미디어아티스트",
+      "target": "로봇과 인공지능에 관심 있는 누구나",
+      "text": "「라임 콜로키엄」로봇·인공지능 기술을 보다 많은 시민들이 이해하고 공감할 수 있도록 다양한 분야의 연사들을 초청하여 여러 관점의 이야기를 나누는 공개 강연 프로그램",
+      "source": {
+        "url": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261103111526799992"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-0ef4496c90a0",
+      "title": "[서초문화원] 서초인문학 아카데미 [전쟁사로 보는 인문학] 임용한 역사학자",
+      "region": "서울",
+      "place": "서초문화예술회관 아트홀",
+      "startDate": "2026-11-25",
+      "endDate": "2026-11-25",
+      "fee": "무료",
+      "performers": "역사학자 임용한 박사",
+      "target": "누구나",
+      "text": "서초문화원에서 운영하는 서초인문학아카데미",
+      "source": {
+        "url": "http://socc.or.kr/bbs/board.php?bo_table=sub04_0204"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-af1192fc30c0",
+      "title": "2026년 국토발전전시관 정기강연 [이 땅 위에 우리 이야기]",
+      "region": "서울",
+      "place": "국토발전전시관 정동국토마루(1층)",
+      "startDate": "2026-11-25",
+      "endDate": "2026-11-25",
+      "fee": "무료",
+      "target": "누구나",
+      "source": {
+        "url": "https://event-us.kr/shininglab01/event/139128"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-27852d5ca4cd",
+      "title": "가야금병창 콘서트 [여기,대목 II]",
+      "region": "서울",
+      "place": "콘텐츠문화광장 스테이지66",
+      "startDate": "2026-11-25",
+      "endDate": "2026-11-25",
+      "fee": "무료",
+      "target": "만7세이상 누구나",
+      "source": {
+        "url": "https://event-us.kr/bloomingnote/event/137730"
+      },
+      "credit": "서울문화포털"
+    },
+    {
+      "id": "seoul-a7550cfa7a93",
+      "title": "제31회 작곡가의방 [서민재]",
+      "region": "서울",
+      "place": "서울예술인지원센터 세미나룸",
+      "startDate": "2026-11-25",
+      "endDate": "2026-11-25",
+      "fee": "0원",
+      "performers": "작곡가 서민재 / 진행 이예진",
+      "target": "누구나",
+      "text": "작곡가 토크 콘서트",
+      "source": {
+        "url": "https://m.booking.naver.com/booking/12/bizes/465843/items/8208878"
       },
       "credit": "서울문화포털"
     },
@@ -2731,6 +2721,20 @@
       "credit": "서울문화포털"
     },
     {
+      "id": "seoul-dbc8cbc9ead9",
+      "title": "[금천문화재단] 10월 문화가 있는 날 [공연에서 살아남기]",
+      "region": "서울",
+      "place": "금천구립금나래도서관",
+      "startDate": "2026-11-25",
+      "endDate": "2026-12-30",
+      "fee": "무료",
+      "target": "누구나",
+      "source": {
+        "url": "https://geumcheonlib.seoul.kr/geumcheonlib/uce/programDetail.do?headerId=&selfId=1090&INST_CD=INST0003&INST_GB=1&idxNo=3842"
+      },
+      "credit": "서울문화포털"
+    },
+    {
       "id": "seoul-a319dd5ccfd0",
       "title": "[서울로봇인공지능과학관] 연장 운영 안내",
       "region": "서울",
@@ -3016,138 +3020,6 @@
       "target": "누구나",
       "source": {
         "url": "https://science.seoul.go.kr/special/special/read?menuId=67&progMstId=2422"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-106247d02cf6",
-      "title": "[구립증산도서관] 11월 책 읽어주는 사서 [수요일은 책이랑 쑥쑥]",
-      "region": "서울",
-      "place": "구립증산도서관 3층 가족열람실",
-      "startDate": "2026-11-25",
-      "endDate": "2026-11-25",
-      "fee": "무료",
-      "target": "4~7세 유아 누구나",
-      "source": {
-        "url": "https://www.eplib.or.kr/jslib/menu/10457/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=237299&manageCd=MB&searchTarget=&searchStatus=OPEN"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-a19dfaa747fc",
-      "title": "[구립증산도서관] 개관 시간 연장 지원 사업 [책이랑 뚝딱! 공방] 11월",
-      "region": "서울",
-      "place": "구립증산도서관 3층 어린이열람실",
-      "startDate": "2026-11-25",
-      "endDate": "2026-11-25",
-      "fee": "무료",
-      "target": "어린이열람실 이용자 누구나",
-      "source": {
-        "url": "https://www.eplib.or.kr/jslib/menu/10457/program/30028/eventLectureDetail.do?currentPageNo=1&lectureIdx=237297&manageCd=MB&searchTarget=&searchStatus=OPEN"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-2ee0bb9a36a4",
-      "title": "[서울갤러리] 런치 스테이지 [싱어송라이터 이훈주]",
-      "region": "서울",
-      "place": "서울갤러리 지하 1층 공연장",
-      "startDate": "2026-11-25",
-      "endDate": "2026-11-25",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://www.seoul.go.kr/seoulgallery/www/program/view.do?key=2509020016&prgmSn=192"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-9cbf4e6d9f4b",
-      "title": "[서울로봇인공지능과학관] 강연/라임 콜로키엄 [2026년 제8회_예술가의 인공지능 유랑기]",
-      "region": "서울",
-      "place": "서울로봇인공지능과학관 1층",
-      "startDate": "2026-11-25",
-      "endDate": "2026-11-25",
-      "fee": "무료",
-      "performers": "양민하 작가 : 서울시립대학교 디자인전문대학원 교수이자 미디어아티스트",
-      "target": "로봇과 인공지능에 관심 있는 누구나",
-      "text": "「라임 콜로키엄」로봇·인공지능 기술을 보다 많은 시민들이 이해하고 공감할 수 있도록 다양한 분야의 연사들을 초청하여 여러 관점의 이야기를 나누는 공개 강연 프로그램",
-      "source": {
-        "url": "https://yeyak.seoul.go.kr/web/reservation/selectReservView.do?rsv_svc_id=S261103111526799992"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-0ef4496c90a0",
-      "title": "[서초문화원] 서초인문학 아카데미 [전쟁사로 보는 인문학] 임용한 역사학자",
-      "region": "서울",
-      "place": "서초문화예술회관 아트홀",
-      "startDate": "2026-11-25",
-      "endDate": "2026-11-25",
-      "fee": "무료",
-      "performers": "역사학자 임용한 박사",
-      "target": "누구나",
-      "text": "서초문화원에서 운영하는 서초인문학아카데미",
-      "source": {
-        "url": "http://socc.or.kr/bbs/board.php?bo_table=sub04_0204"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-af1192fc30c0",
-      "title": "2026년 국토발전전시관 정기강연 [이 땅 위에 우리 이야기]",
-      "region": "서울",
-      "place": "국토발전전시관 정동국토마루(1층)",
-      "startDate": "2026-11-25",
-      "endDate": "2026-11-25",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://event-us.kr/shininglab01/event/139128"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-27852d5ca4cd",
-      "title": "가야금병창 콘서트 [여기,대목 II]",
-      "region": "서울",
-      "place": "콘텐츠문화광장 스테이지66",
-      "startDate": "2026-11-25",
-      "endDate": "2026-11-25",
-      "fee": "무료",
-      "target": "만7세이상 누구나",
-      "source": {
-        "url": "https://event-us.kr/bloomingnote/event/137730"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-a7550cfa7a93",
-      "title": "제31회 작곡가의방 [서민재]",
-      "region": "서울",
-      "place": "서울예술인지원센터 세미나룸",
-      "startDate": "2026-11-25",
-      "endDate": "2026-11-25",
-      "fee": "0원",
-      "performers": "작곡가 서민재 / 진행 이예진",
-      "target": "누구나",
-      "text": "작곡가 토크 콘서트",
-      "source": {
-        "url": "https://m.booking.naver.com/booking/12/bizes/465843/items/8208878"
-      },
-      "credit": "서울문화포털"
-    },
-    {
-      "id": "seoul-dbc8cbc9ead9",
-      "title": "[금천문화재단] 10월 문화가 있는 날 [공연에서 살아남기]",
-      "region": "서울",
-      "place": "금천구립금나래도서관",
-      "startDate": "2026-11-25",
-      "endDate": "2026-12-30",
-      "fee": "무료",
-      "target": "누구나",
-      "source": {
-        "url": "https://geumcheonlib.seoul.kr/geumcheonlib/uce/programDetail.do?headerId=&selfId=1090&INST_CD=INST0003&INST_GB=1&idxNo=3842"
       },
       "credit": "서울문화포털"
     },
